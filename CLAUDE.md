@@ -37,6 +37,7 @@ Todos trabajan en la rama `claude/determined-fermat-0nfy34`. Cada chat solo edit
 | TikTok | `tiktok-shop-lives`, `contenido-tendencias` | `tiktok/`, `contenido/` |
 | Mayoreo y eventos | `ventas-eventos-mayoreo`, `diseno-empaque-cricut` | `ventas/`, `diseno/` |
 | Producción y costos | `produccion-inventario`, `costos-precios`, `documentador-procesos` | `produccion/`, `costos/`, `procesos/`, `negocio/catalogo.md` |
+| Estudio de mercado | `estudio-mercado` | `mercado/` |
 
 Antes de hacer push: `git pull --rebase origin claude/determined-fermat-0nfy34`. Al terminar cada sesión: commit y push, para que los otros chats vean los cambios.
 
