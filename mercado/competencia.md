@@ -1,106 +1,195 @@
 # Competencia: velas navideñas, borregos de la abundancia, velas figura y recuerdos de evento
 
-**Fecha del levantamiento:** 9-oct-2026 · **Autor:** agente estudio-mercado
-**Cómo se levantó:** Mercado Libre México bloquea la descarga directa de páginas (HTTP 403 al intentar abrir `listado.mercadolibre.com.mx` y `/pagina/...`). Por eso los datos de ML vienen de **lo que muestran los resultados de búsqueda** (fragmentos indexados de las páginas). Todo lo de ML está marcado **"visto en resultado de búsqueda, verificar"**: precio, descuento y "vendidos" pueden haber cambiado o ser de una captura vieja. Las tiendas propias (Caravela, Ondine, Alura) sí se abrieron directamente y están **verificadas** a esta fecha.
+**Versión 2 · 9-oct-2026** · Autor: agente estudio-mercado
+**Fuentes de esta versión:**
+- **Mercado Libre:** levantamiento en navegador (Claude en Chrome) el 8-oct-2026, 21:45–22:20 h, CP 37530 (León). 25 publicaciones abiertas una por una. Datos crudos: [`fuentes/2026-10-08-mercadolibre-chrome.md`](fuentes/2026-10-08-mercadolibre-chrome.md).
+- **TikTok:** levantamiento en navegador el 8-oct-2026, hasta las 22:23 h. 14 cuentas mexicanas y 10 videos. Datos crudos: [`fuentes/2026-10-08-tiktok-chrome.md`](fuentes/2026-10-08-tiktok-chrome.md).
+- **Tiendas propias:** páginas abiertas el 9-oct-2026 (versión 1).
 
-> **Pendiente para Noemi o el chat de Mercado Libre (30 min):** abrir en el navegador las URL de la tabla, anotar los "vendidos", la reputación (color) y leer las reseñas de 1 a 3 estrellas. Con eso se confirma o corrige esta tabla y la proyección.
+Esta versión **reemplaza** los datos de ML de la versión 1, que venían de resultados de búsqueda sin verificar.
 
-Leyenda: **V** = verificado (página abierta) · **RB** = visto en resultado de búsqueda, verificar · **s/d** = sin dato visible
+Leyenda: **V** = verificado (página abierta) · **RB** = visto solo en resultado de búsqueda, verificar · **s/d** = sin dato visible
 
----
-
-## 1. Tabla de competidores
-
-### A. Borregos de la Abundancia (Mercado Libre)
-| # | Publicación / vendedor | Precio | Presentación | Ventas / calificación visibles | Diferenciador | Fuente |
-|---|---|---|---|---|---|---|
-| 1 | "Velas Borregos De La Abundancia Aroma A Canela 12pz" | $999 de lista, $829 con 17% de descuento (en otra captura $759 con 24%, o $909 con 9%) | 12 pzs | s/d · envío gratis | Aroma canela, envío gratis, precio inflado con "descuento" | [listado borregos-de-la-abundancia](https://listado.mercadolibre.com.mx/borregos-de-la-abundancia) · RB |
-| 2 | Mismo título, otro vendedor | $495, o $445.50 con 10% de descuento | 12 pzs | s/d | El más barato de 12 pzs encontrado | [listado vela-de-borrego-de-la-abundancia](https://listado.mercadolibre.com.mx/vela-de-borrego-de-la-abundancia) · RB |
-| 3 | "Vela Borregos De La Abundancia Con Portavela De Corral 12pz" | $495, o $435.60 con descuento | 12 pzs + portavelas tipo corral | s/d | Accesorio (corral) que sube el valor percibido | [listado borregos-abundancia](https://listado.mercadolibre.com.mx/borregos-abundancia) · RB |
-| 4 | "12 Velas De Borreguito De La Abundancia" | $660 | 12 pzs | 5 estrellas (2 reseñas) · envío gratis | Precio medio | [listado borregos-de-la-abundancia](https://listado.mercadolibre.com.mx/borregos-de-la-abundancia) · RB |
-| 5 | "12 Velitas Borreguitos De La Abundancia" / "12 Borreguitos ... Vela Aromática Y Decorativa" | $610 / $750 | 12 pzs | s/d | Precio medio | mismo listado · RB |
-| 6 | "12 Pzs- Borrego De La Abundancia Con Semillas" | $720, o $684 con descuento | 12 pzs + semillas | s/d | Agrega semillas (ritual) | mismo listado · RB |
-| 7 | "12 Pzs- Bendición De Borrego Para La Abundancia" / "Linda Bendición Navideña..." | $1,045–$1,235 con descuento (de lista: $1,100–$1,900) | 12 pzs con decoración o bendición | s/d | Gama "premium" decorada | [listado borregos-de-la-abundancia-decorados](https://listado.mercadolibre.com.mx/borregos-de-la-abundancia-decorados) · RB |
-| 8 | "Velas Doceneras 12 Juegos Borreguitos De Abundancia" (fabricante ALOCANDLES) | s/d | Cajas de 12 velas borreguito + portavelas moneda dorada; aroma canela; 3 h de quemado | **"Nuevo, 2 vendidos"** | Caja individual con moneda dorada | [MLM-3502416320](https://articulo.mercadolibre.com.mx/MLM-3502416320-velas-doceneras-12-juegos-borreguitos-de-abundancia-_JM) · RB |
-| 9 | "Borreguito De La Abundancia Vela Regalo Fin De Año 6pzs" / "Navidad 5 Pack" | Aprox. $143–$224 (precios que se ven en el listado) | 5–6 pzs | s/d | Entrada barata, paquete chico | [listado vela-de-la-abundancia](https://listado.mercadolibre.com.mx/vela-de-la-abundancia) · RB |
-| 10 | Puestos físicos (Mercado de Portales, CDMX) | De $35 a $1,500 (velas, cuarzos y borregos en paquete) | Varios | n/a | Referencia del precio de calle | [Milenio](https://www.milenio.com/politica/comunidad/mercado-portales-capitalinos-compran-amuletos-ano) · V (nota periodística) |
-
-### B. Velas navideñas figura y sets (Mercado Libre y Amazon)
-| # | Publicación / vendedor | Precio | Presentación | Ventas / calificación | Diferenciador | Fuente |
-|---|---|---|---|---|---|---|
-| 11 | "Velas navideñas decorativas de pino tipo árbol para regalo" | $160.55 | 5 pzs | **+100 vendidos** | Barato, de importación o industrial (probable, verificar) | [listado velas-navidenas](https://listado.mercadolibre.com.mx/velas-navidenas) · RB |
-| 12 | Set de velas aromáticas "serie navideña" | $288–$298 con 40% de descuento | 16 pzs | **+50 vendidos** | Muchas piezas por poco dinero | [listado velas-aromaticas-navideñas](https://listado.mercadolibre.com.mx/velas-aromaticas-navide%C3%B1as) · RB |
-| 13 | Caja de velas navideñas decorativas | $298, o $199.66 con descuento | 12 pzs | 1 venta | Barato | [listado velas-de-navidad](https://listado.mercadolibre.com.mx/velas-de-navidad) · RB |
-| 14 | Vela con forma de árbol de Navidad (pino) | $186.75 con 25% de descuento; en otra captura $249 | 1 pz | s/d | Pieza individual | [listado velas-en-forma-de-arbol-de-navidad](https://listado.mercadolibre.com.mx/velas-en-forma-de-arbol-de-navidad) · RB |
-| 15 | Paquete de 3 velas navideñas de pino con aroma | $495 · envío gratis | 3 pzs | s/d | **Competidor directo de nuestro "Set 3 navideñas" ($399)** | [listado velas-decorativas-navideñas](https://listado.mercadolibre.com.mx/velas-decorativas-navide%C3%B1as) · RB |
-| 16 | Vela Santa, muñeco de nieve y reno con base cerámica | $1,000 | 1 pz | 1 venta | Pieza de lujo | [listado velas-navidenas](https://listado.mercadolibre.com.mx/velas-navidenas) · RB |
-| 17 | Amazon: "Kit de Velas Navideñas 9 Piezas de Parafina" (Santa, muñeco de nieve, árbol) | $199.19 | 9 pzs | s/d | Precio de importación; el más barato por pieza (~$22) | [Amazon MX B0H9JV6ZVC](https://www.amazon.com.mx/Navide%C3%B1as-Piezas-Parafina-Decorativas-Navidad/dp/B0H9JV6ZVC) · RB |
-
-### C. Recuerdos de evento con vela (Mercado Libre)
-| # | Vendedor / publicación | Precio | Presentación | Ventas / calificación | Diferenciador | Fuente |
-|---|---|---|---|---|---|---|
-| 18 | **Aurem Velas** (tienda en ML con sección de "Recuerditos") | 20 ositos: $390 con 43% de descuento (de $694) · 15 ositos: $639 · 30 angelitos: $899, o ~$566 con 37% · 10 conejitos: ~$459–$530 · 10 virgencitas: ~$318–$450 | 10, 15, 20 y 30 pzs | s/d · envío gratis · 3 meses sin intereses | Surtido amplio de figuras (osito, ángel, conejo, virgen) para bautizo, comunión y baby shower. **El competidor más parecido a nuestro catálogo de eventos** | [mercadolibre.com.mx/pagina/aurem](https://www.mercadolibre.com.mx/pagina/aurem) · RB |
-| 19 | "30 Piezas Velita De Burbujas Recuerdo Bautizo Fiesta De Boda" | $399, o $286.40 con 28% de descuento (~$9.50/pza) | 30 pzs | **MÁS VENDIDO · 4.8 · +500 vendidos** · entrega al día siguiente | Velita de burbujas industrial, envío Full | [listado recuerdos-bautizo](https://listado.mercadolibre.com.mx/recuerdos-bautizo) · RB |
-| 20 | Set de 10 velas de recuerdo de bautizo | s/d | 10 pzs | **+500 vendidos** | s/d | [listado otras-categorias/recuerdos-bautizo](https://listado.mercadolibre.com.mx/otras-categorias/recuerdos-bautizo) · RB |
-| 21 | "Recuerdos Bautizo 30 Velas Primera Comunión Boda Novenario" | $990, o $910.80 con 8% de descuento (~$30/pza) | 30 pzs | 4.9 | Multiuso (bautizo, comunión, boda, novenario) | [listado velas-de-recuerdos-bautizo](https://listado.mercadolibre.com.mx/velas-de-recuerdos-bautizo) · RB |
-| 22 | **Decocraft** (tienda) | 30 velas: 5% de descuento, precio s/d | 25, 30 y 40 pzs (bautizo, comunión, boda, novenario, baby shower) | s/d · envío gratis | Lotes grandes y uso luctuoso | [mercadolibre.com.mx/pagina/decocraft](https://www.mercadolibre.com.mx/pagina/decocraft) · RB |
-| 23 | **clbdgo** (tienda) | s/d | 24 velas para primera comunión, color beige (con diseño de uvas); 24 velas de león para bautizo o baby shower | **4.6 (9 calificaciones)** · envío gratis | Paleta beige, igual que la nuestra | [mercadolibre.com.mx/pagina/clbdgo](https://www.mercadolibre.com.mx/pagina/clbdgo) · RB |
-| 24 | Velas de recuerdo de primera comunión (varios vendedores) | Cirio con imagen y medalla: 24 pzs a $565 · Ángel con aroma y etiqueta: 20 pzs a $360 · Vela bolo: 40 pzs a $545 | 20–40 pzs | 518 resultados en la categoría | Etiqueta y aroma incluidos | [listado velas-de-recuerdo-para-primera-comunion](https://listado.mercadolibre.com.mx/velas-de-recuerdo-para-primera-comunion) · RB |
-| 25 | **gonzalezadolfo** (tienda) | s/d | 20 o 30 velas de angelito, virgen o cruz con aroma y etiqueta | s/d | Etiqueta en rosa, azul o beige | [mercadolibre.com.mx/pagina/gonzalezadolfo](https://www.mercadolibre.com.mx/pagina/gonzalezadolfo) · RB |
-
-### D. Tiendas propias, Instagram y TikTok
-| # | Marca | Precio | Presentación / mínimo | Ventas / reputación | Diferenciador | Fuente |
-|---|---|---|---|---|---|---|
-| 26 | **Caravela Velas Aromáticas** (Guadalajara) · IG y TikTok @caravelamexico | Figuras chicas (ángel, cruz labrada, león, colibrí, caballo, abeja): **$35** · cruz mediana: $55 · ángel grande: $230 | Mínimo s/d · personalizadas | Seguidores s/d (verificar en la app) | Hechas a mano por mujeres jaliscienses; envío a todo México; 5% de descuento si pides con 30 días de anticipación (código 30DIAS). **Precio por pieza más bajo que el nuestro ($45–$87)** | [caravela.mx](https://caravela.mx/) · V |
-| 27 | **Ondine** (tienda en línea y física) | Vela de osito personalizada: **$70/pza**; patito: $50 | **Mínimo 15 pzs** · vela de 6 × 7 cm en caja de acetato de 8 × 8 × 8 · etiqueta con nombre y fecha | Sin reseñas visibles; premios de bodas.com 2014–2017 | Personalización completa (etiqueta y corte en forma de osito); entrega en 7–10 días hábiles; envío gratis desde $2,500 | [ondine.mx](https://ondine.mx/tienda/vela-de-osito-personalizado/) · V |
-| 28 | **Alura Home** (CDMX y Puebla) | Vela de soya: $690 · kit cumpleañero: $950 | Cotización para eventos (bautizos) y empresas | s/d | Gama alta en soya y cera de abeja; tiene sección de regalos navideños; envío gratis desde $1,500 | [alurahome.mx](https://alurahome.mx/es-mx) · V |
-| 29 | Amazon MX: recuerdos de vela para bautizo y boda (varios) | $516–$1,797 | 20, 30, 50 y 70 pzs | Uno con **4.8 y +160 reseñas** | Personalizadas | [Amazon "20 Velas Recuerdos personalizados... Selah"](https://www.amazon.com.mx/Velas-Recuerdos-personalizados-bautizo-Selah/dp/B0813P9TFW) · RB |
-
-**TikTok Shop:** **no encontré** ningún vendedor de velas figura o borregos en TikTok Shop México con datos públicos. Buscadores y TikTok no exponen esos datos (sin resultados indexados). Caravela tiene cuenta de TikTok, pero no se verificó si vende en TikTok Shop. **Pendiente:** buscar en la app "borregos de la abundancia", "velas navideñas" y "recuerdos bautizo" en la pestaña Tienda, y anotar precio, vendidos y número de seguidores de los 5 primeros. Que no aparezcan competidores visibles puede significar **poca competencia en el nicho dentro de TikTok Shop** (oportunidad) o solo que no se pudo ver desde fuera. No se puede concluir sin revisar la app.
-
-**Instagram:** no está indexado en buscadores; no se pudo levantar sin la app. Los perfiles de IG de las tiendas de la sección D son el punto de partida.
+**Límites que siguen abiertos:**
+- ML muestra los vendidos por rangos ("+100", "+1000") **acumulados desde que existe la publicación**, no por mes ni por temporada. Tampoco muestra la antigüedad del vendedor.
+- **TikTok Shop no se ve desde la web en México**: ni la pestaña Tienda ni los precios ni los "vendidos". Hay que revisarlo en la app.
+- **Instagram** sigue sin levantarse.
 
 ---
 
-## 2. Rangos de precio por tipo (con los datos de arriba)
+## 1. Mercado Libre: 25 publicaciones verificadas (V)
 
-| Tipo | Rango observado | Precio por pieza | Nuestro precio (ML propuesto) | Lectura |
+Todas tienen termómetro verde (5/5). "Premium" = muestra meses sin intereses. Las quejas salen de las opiniones de 1 a 3 estrellas con texto.
+
+### A. Borregos de la abundancia
+| # | Título / vendedor | Reputación · ventas totales del vendedor | Precio | Piezas · $/pza | Vendidos | Calificación | Envío | Quejas | URL |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Velas Doceneras De Borrego Para La Abundancia · ANDREA BTA | No MercadoLíder · +1000 | $200 | 12 con portavela · $16.67 | **+100** | 4.5 (26) | Gratis, no Full | Se ven sucios o maltratados; la cera no se consume | [link](https://www.mercadolibre.com.mx/velas-doceneras-de-borrego-para-la-abudancia/up/MLMU891228017) |
+| 2 | Velas Decorativas Aromáticas 12 Borregos · LA CHILAPEÑA | MercadoLíder · +1000 | $999 → $949 | 12 parafina "artesanal" · $79.09 | +5 | sin opiniones | Gratis, no Full | — | [link](https://www.mercadolibre.com.mx/velas-decorativas-aromaticas-12-borregos-de-la-abundancia/up/MLMU470360679) |
+| 3 | Velas De La Abundancia Borrego Docenera Mensual · BCGF CREACIONES | No · +100 | $500 | 12 en caja · $41.67 | **+25** | 4.2 | Gratis, no Full | — · **personaliza mensaje en la tapa sin costo** | [link](https://www.mercadolibre.com.mx/velas-de-la-abundancia-borrego-docenera-mensual-ano-nuevo/up/MLMU464127424) |
+| 4 | 12 Velas Borreguitos De La Abundancia · GURO9235972 | No · +50 | $473 | 12 (la ficha dice 6) · $39.42 | +5 | 3.7 (3) | Gratis, no Full | Muy chiquitos; forma poco definida | [link](https://www.mercadolibre.com.mx/12-velas-borreguitos-de-la-abundancia-velas-ano-nuevo/up/MLMU3898550733) |
+
+**Ananda (propuesto):** Borregos 12 pzs a **$529 ($44/pza)**, pintados a mano, cajita kraft y oración por mes. **Más parecido: #3 (BCGF, $500, caja, +25 vendidos).**
+
+### B. Velas navideñas de figura, pino y árbol
+| # | Título / vendedor | Reputación · ventas totales | Precio | Piezas · $/pza | Vendidos | Calificación | Envío | URL |
+|---|---|---|---|---|---|---|---|---|
+| 5 | Velas Navideñas Decorativas 12 Piezas · CHICONCUAC EXHIBICION | Platinum · +10 mil | $199 | 12 de 6 × 4 cm · $16.58 | +25 | 4.6 | Gratis, no Full | [link](https://www.mercadolibre.com.mx/velas-navidenas-decorativas-12-piezas/up/MLMU1600652343) |
+| 6 | Velasart, Vela Artesanal Set Figuras Navideñas, Caja 4 · VELASART | No · +1000 | $250 | 4 en caja · $62.50 | s/d | sin opiniones | Gratis, no Full | [link](https://www.mercadolibre.com.mx/velasart-vela-artesanal-set-figuras-navidenas-caja-4-velas/up/MLMU5081571953) |
+| 8 | 10 Velas Pinos Navideños Aromáticos Recuerdo · La Belle Matinée | No · +1000 | $699 | 10 de 50 mL · $69.90 | s/d | sin opiniones | Gratis, no Full | [link](https://www.mercadolibre.com.mx/10-velas-pinos-navidenos-aromaticos-recuerdo-regalo-navidad/up/MLMU5423049586) |
+| 9 | Set 5 Velas Navidad Pinos + Caja Decorada · Picky (tienda oficial) | Platinum · +10 mil | $297 | 5 en caja de regalo · $59.40 | **1 vendido** | sin opiniones | Gratis, no Full | [link](https://www.mercadolibre.com.mx/set-5-velas-navidad-pinos--caja-decorada-velanova-picky/up/MLMU2620231112) |
+| 10 | Vela Larga Forma De Árbol De Navidad · HomyMart (**importada, desde China**) | Platinum · +10 mil | $136 → $88 | 1 · $88.23 | s/d | sin opiniones | Full | [link](https://www.mercadolibre.com.mx/vela-larga-con-forma-de-arbol-de-navidad-1-unidad-para-dec/up/MLMU5291876869) |
+| 11 | Vela Aromática Navideña En Caja Regalo · eytechtienda (**importada**) | Gold · +1000 | $398 → $197 (relámpago) | s/d | 1 vendido | sin opiniones | Full | [link](https://articulo.mercadolibre.com.mx/MLM-3034306711-vela-aromatica-navidena-en-caja-regalo-decoracion-navidad-_JM) |
+
+**Ananda (propuesto):** Set 3 navideñas $399 ($133/pza) · Kit 2 árboles $319 ($160/pza) · Nacimiento kit 3 $339 ($113/pza) · Rompecabezas $529. Nuestras figuras son más grandes (≈10 cm vs. 6 × 4 cm) y pintadas a mano, pero **por pieza cobramos el doble que la mediana ($62.50)**.
+
+### C. Recuerdos de evento (bautizo, comunión, baby shower, oso)
+| # | Título / vendedor | Reputación · ventas totales | Precio | Piezas · $/pza | Vendidos | Calificación | Envío | Quejas | URL |
+|---|---|---|---|---|---|---|---|---|---|
+| 12 | Vela Angelito Pastel Bautizo Comunión · Carnavallia (oficial) | Platinum · +500 mil | $105 → $80 | 1 de 6–7 cm · $80.35 | +100 | 5.0 (1) | Full | — | [link](https://www.mercadolibre.com.mx/vela-angelito-pastel-cumpleanos-bautizo-comunion-recuerdo/up/MLMU1547953507) |
+| 13 | 24 Recuerdos Bautizo Comunión Paloma Cruz · TGEXYI (**importada**) | Platinum · +50 mil | $986 → $720 | 24 soya con tarjeta y organza · $29.99 | +50 | 5.0 (3) | Full | — | [link](https://www.mercadolibre.com.mx/24-recuerdos-bautizo-comunion-velas-decorativas-paloma-cruz/up/MLMU4177315062) |
+| 14 | Recuerdos Primera Comunión Bautizo 30 Velas · DECOCRAFT | Platinum · +5 mil | $990 → $891 | 30 "hechas a mano", 4–5 cm · $29.70 | **+1000** | 4.9 (20) | Full | — | [link](https://www.mercadolibre.com.mx/recuerdos-primera-comunion-bautizo-30-velas-boda-novenario/up/MLMU469037313) |
+| 15 | 10 Velas Recuerdos Primera Comunión Bolo Selah · RUTH TINOCO | Gold · +1000 | $278 | 10 en frasco, 4–5 cm · $27.80 | **+1000** | 4.9 (118) | Full | Etiquetas mal puestas o rotas · **no personaliza** | [link](https://www.mercadolibre.com.mx/10-velas-recuerdos-primera-comunion--bolo-selah/up/MLMU3240949947) |
+| 16 | Vela Bolsita Decenario Primera Comunión 12 Pzas · GRUPOMANELIZ | MercadoLíder · +5 mil | $640 → $608 | 12 de 8 × 5 cm con bolsita y decenario · **$50.67** | **+500** | 4.8 (130) | Full | Muy pequeñas; faltaron decenarios; bolsitas maltratadas | [link](https://articulo.mercadolibre.com.mx/MLM-1712964733-vela-bolsita-decenario-primera-comunion-recuerdo-12-pzas-_JM) |
+| 17 | 50pzs Velas Recuerdos Baby Shower Con Bolsa Y Tarjeta · EJ4 (**importada/barata**) | Platinum · +50 mil | $298 → $218 | 50 · $4.35 | +1000 | 4.8 (184) | Gratis mañana | Aplastadas; "como moneda de $2"; faltaron piezas | [link](https://articulo.mercadolibre.com.mx/MLM-3858702190-50pzs-velas-recuerdos-baby-shower-favors-con-bolsa-y-tarjeta-_JM) |
+| 18 | 50pzs Velas Recuerdos Baby Shower Con Bolígrafos · SH474T | Platinum · +10 mil | $399 | 50 sets · $7.98 | +1000 | 4.8 (26) | Full | — | [link](https://www.mercadolibre.com.mx/50pzs-velas-recuerdos-baby-shower-favors-con-boligrafos/up/MLMU2964288245) |
+| 19 | 10 Velas Baby Shower Recuerdos · UKALCROCHET | MercadoLíder · +1000 | $115 | 10 · $11.50 | +100 | 4.8 (16) | Full | — | [link](https://www.mercadolibre.com.mx/10-velas-baby-shower-recuerdos/up/MLMU3652635986) |
+| 20 | Velita Osito Baby Shower 20 Piezas · pepa | MercadoLíder · +1000 | $330 | 20 soya sin aroma · $16.50 | +100 | sin opiniones | Gratis, no Full | — | [link](https://www.mercadolibre.com.mx/velita-osito-baby-shower-20-piezas-bautizo-recuerdo/up/MLMU3299746504) |
+| 21 | 60 Pza Vela Osito Aromática Recuerditos · MACETITASWEET | No · +500 | $595 → $565 | 60 de 5 × 3 cm "artesanal" · $9.42 | +100 | 4.7 (55) | Gratis, no Full | Colores distintos a los pedidos; muy pequeñas | [link](https://www.mercadolibre.com.mx/60-pza-vela-osito-aromatica-colores-recuerditos-baby-shower/up/MLMU2779247144) |
+| 22 | 20 Velas Osito Recuerdo Baby Shower Bautizo · RECUERDOSYDETALLITOS | Gold · +5 mil | $240 | 20 de 4–5 cm "manos mexicanas" · $12.00 | +50 | 5.0 (1) | Gratis, no Full | — | [link](https://www.mercadolibre.com.mx/20-velas-osito-oso-para-recuerdo-baby-shower-bautizo/up/MLMU4112165949) |
+
+**Ananda (propuesto):** 10 recuerdos Lume mini con etiqueta personalizada a **$649 ($65/pza)** y Kit 2 Oso Teddy $329. **Por pieza, el recuerdo de Ananda cuesta 4 veces la mediana de ML ($16.50).** El único recuerdo arriba de $50/pza que vende mucho es #16 (+500), que agrega bolsita y decenario.
+
+### D. Soya en lata o contenedor
+| # | Título / vendedor | Reputación · ventas totales | Precio | Piezas · $/pza | Vendidos | Calificación | Envío | Quejas | URL |
+|---|---|---|---|---|---|---|---|---|---|
+| 7 | 6 Piezas Velas Aromáticas Cera De Soja · CasaNuviaMX | Gold · +1000 | $298 → $247 | 6 latas de 100 mL · $41.22 | +500 | 4.6 (64) | Full | **No huelen encendidas** (4 reseñas) | [link](https://www.mercadolibre.com.mx/6-piezas-velas-aromaticasvelas-perfumadas-de-cera-de-soja-vela-aromatica-decorativa/p/MLM41765664) |
+| 23 | Pack de 4 Velas de Soya en Lata · Giphtpoeet (**importada**) | MercadoLíder · +500 | $282 → $204 | 4 latas · $51.07 | +5 | 5.0 (1) | Full | — | [link](https://www.mercadolibre.com.mx/pack-de-4-velas-aromaticas-de-soya-en-lata-con-aromas-de-salvia-ambar-eucalipto-y-cedro-para/p/MLM76513478) |
+| 24 | Set Regalo 6 Velas Navideñas Lata Soya · Baozao Dayao (**importada, desde China**) | No · +50 | $550 | 6 según título (la descripción dice 2) · $91.70 | s/d | sin opiniones | Llega 17-oct a 2-nov | — | [link](https://www.mercadolibre.com.mx/set-regalo-6-velas-navidenas-lata-cera-soya-decoracion/p/MLM2109767469) |
+| 25 | Velas Navideña 16 Piezas Cera De Soja · HETIE (**importada**) | Platinum · +100 mil | $433 → $299 | 16 latas de 3 oz · $18.67 | **+1000** | 4.9 (487) | Full | **No huelen encendidas** (6 reseñas); muy pequeñas | [link](https://www.mercadolibre.com.mx/velas-navidena-16-piezas-velas-aromaticas-de-cera-de-soja/up/MLMU566120222) |
+
+**Ananda (propuesto):** Kit 2 velas soya lata dorada **$329 ($165/pza)**. Contra $46/pza de mediana es muy alto para un producto que el comprador compara con importados.
+
+---
+
+## 2. Tiendas propias e Instagram (V, versión 1)
+
+| # | Marca | Precio | Presentación / mínimo | Diferenciador | Fuente |
+|---|---|---|---|---|---|
+| 26 | **Caravela Velas Aromáticas** (Guadalajara) · IG y TikTok @caravelamexico | Figuras chicas (ángel, cruz, león, colibrí): **$35** · cruz mediana $55 · ángel grande $230 | Personalizadas | Hechas a mano por mujeres jaliscienses; 5% de descuento pidiendo con 30 días | [caravela.mx](https://caravela.mx/) · V |
+| 27 | **Ondine** | Osito personalizado **$70/pza**; patito $50 | **Mínimo 15 pzs** · 6 × 7 cm en caja de acetato · etiqueta con nombre y fecha | Personalización completa; entrega 7–10 días hábiles | [ondine.mx](https://ondine.mx/tienda/vela-de-osito-personalizado/) · V |
+| 28 | **Alura Home** (CDMX y Puebla) | Vela de soya $690 · kit cumpleañero $950 | Cotiza eventos y empresas | Gama alta en soya y cera de abeja | [alurahome.mx](https://alurahome.mx/es-mx) · V |
+
+Otras referencias de la versión 1 **sin verificar (RB)**: Aurem Velas en ML (surtido de recuerditos de 10–30 pzs a $318–$899), Amazon MX (kit navideño de 9 pzs a $199; recuerdos de 20–70 pzs a $516–$1,797). Mercado de Portales CDMX: borregos y velas de $35 a $1,500 ([Milenio](https://www.milenio.com/politica/comunidad/mercado-portales-capitalinos-compran-amuletos-ano)).
+
+---
+
+## 3. TikTok México: 14 cuentas que venden velas (V, vista web)
+
+Ninguna muestra pestaña de Tienda en la web. Tres aparecen marcadas como vendedoras de TikTok Shop en los datos del perfil: **@velasnavidad2026mx, @cambelcandle y @matina.deco** (revisar sus tiendas en la app).
+
+| # | @usuario | Seguidores (likes) | Videos/30 días | Mejor video | Personaliza / mayoreo | A dónde manda la venta |
+|---|---|---|---|---|---|---|
+| 1 | [velasnavidad2026mx](https://www.tiktok.com/@velasnavidad2026mx) (Velas Marely, Colima) | 221.2K (3.6M) | 36 | 4.6M | Sí: boda, bautizo, centros de mesa | Shopify propia ("100 ositos con celofán") · marcada vendedora TikTok Shop |
+| 2 | [luzdedos_mx](https://www.tiktok.com/@luzdedos_mx) | 267.8K (6M) | 5 | **13.9M** | Sí: baby shower, cumpleaños; "Cotiza aquí" | luzdedosmx.com e IG |
+| 3 | [cambelcandle](https://www.tiktok.com/@cambelcandle) (Hermosillo) | 187K (2.2M) | 11 | 3M | Sí: "Velas para eventos"; envía a MX/US/CA | WhatsApp y cambelcandle.com · marcada vendedora |
+| 4 | [aromatik.mty](https://www.tiktok.com/@aromatik.mty) | 36.1K (196K) | 13 | 412.6K | s/d | s/d |
+| 5 | [aoshin.candle](https://www.tiktok.com/@aoshin.candle) | 13K (55.9K) | 0 | 383K (**borregos de la abundancia**, dic-2024) | Bautizo | Instagram |
+| 6 | [fabricaderecuerdos.95](https://www.tiktok.com/@fabricaderecuerdos.95) | 15.1K (126.2K) | 18 | 405.1K | Sí: recuerdos de eventos | WhatsApp ("Cotizaciones al…") |
+| 7 | [luserna.velas](https://www.tiktok.com/@luserna.velas) | 6,771 (39.9K) | 8 | 137.6K | Bautizo | IG y lusernavelas.com |
+| 8 | [velassanmiguelarcangel](https://www.tiktok.com/@velassanmiguelarcangel) | 5,927 (30.5K) | 17 | 25.2K | Cruz grabada para bautizo | s/d |
+| 9 | [velas_victoria_](https://www.tiktok.com/@velas_victoria_) | 2,319 (134.2K) | 6 | **2.2M** con 2.3K seguidores | Sí | Teléfono en bio |
+| 10 | [sweet.candles.mex](https://www.tiktok.com/@sweet.candles.mex) | 2,003 (11.5K) | 0 | 384.2K | Borreguitos, edición navideña | IG |
+| 11 | [velisimabyamerica](https://www.tiktok.com/@velisimabyamerica) | 1,968 (19.4K) | 22 | 27.8K | Eventos; vende plantillas | s/d |
+| 12 | [amc.souvenirs](https://www.tiktok.com/@amc.souvenirs) (Puebla) | 1,419 (16.3K) | 5 | 969.3K | Sí: comunión, baby shower | s/d |
+| 13 | [aromelia_mx](https://www.tiktok.com/@aromelia_mx) (**León, Gto: competencia local directa**) | 1,269 (7,132) | 7 | 109.4K | Sí: recuerdos, centros de mesa | WhatsApp |
+| 14 | [matina.deco](https://www.tiktok.com/@matina.deco) | 421 (3,642) | 3 | 18.7K | Eventos | WhatsApp e IG · marcada vendedora |
+
+### Videos más vistos (cuentas de México)
+| # | Cuenta | Vistas | Formato | Gancho | URL |
+|---|---|---|---|---|---|
+| 1 | luzdedos_mx | 13.9M (feb-2026) | Proceso, 75 s | "Preparando velas para baby shower" | [video](https://www.tiktok.com/@luzdedos_mx/video/7611335205529357589) |
+| 2 | luzdedos_mx | 12.8M | Proceso, 62 s | "Velas de princesa para cumple de 3 años" | [video](https://www.tiktok.com/@luzdedos_mx/video/7557908966672551175) |
+| 3 | luzdedos_mx | 8.9M | Proceso, 53 s | Vierte cera en la jarra | [video](https://www.tiktok.com/@luzdedos_mx/video/7511532991181540615) |
+| 4 | velasnavidad2026mx | 4.6M | Resultado montado en el evento | Mesa de bautizo con vela ángel | [video](https://www.tiktok.com/@velasnavidad2026mx/video/7437619960769187128) |
+| 5 | velasnavidad2026mx | 3.8M | Storytime con cliente | "Mala experiencia para ella y para mí" | [video](https://www.tiktok.com/@velasnavidad2026mx/video/7206574273912261894) |
+| 6 | velasnavidad2026mx | 3.3M | Producción en volumen | Decenas de latas para recuerdos de boda | [video](https://www.tiktok.com/@velasnavidad2026mx/video/7257369404403436806) |
+| 7 | cambelcandle | 3M | Revelado de figura, 13 s | "50 jirafitas para Matías" | [video](https://www.tiktok.com/@cambelcandle/video/7241787945324203269) |
+| 8 | cambelcandle | 2.5M | Revelado + canción en tendencia | "Los invitados quedarán 😱" | [video](https://www.tiktok.com/@cambelcandle/video/7422773260321934598) |
+| 9 | velas_victoria_ | 2.2M | Hecho a mano (Día de Muertos) | "Cuando digo que es hecho a mano… me refiero a esto" | [video](https://www.tiktok.com/@velas_victoria_/video/7556110383941995784) |
+| 10 | cambelcandle | 1.7M (jul-2026) | Unboxing | Saca angelitos rosas de una bolsa | [video](https://www.tiktok.com/@cambelcandle/video/7660290149850320148) |
+
+**Ninguno de los 10 tiene producto etiquetado (carrito naranja).** Las cuentas que más venden mandan a WhatsApp, a su web o a Instagram para cotizar.
+
+Formatos que más se repiten: (1) "Preparando velas para [evento]" de 50–75 s; (2) revelado o desmolde de una figura en 13–20 s; (3) producción en volumen o empaque de pedido grande; (4) resultado montado en el evento real; (5) storytime o texto emocional en pantalla. Las ideas de guion para Ananda están en la fuente cruda y se pasan al chat de TikTok.
+
+---
+
+## 4. Rangos de precio: Ananda contra el mercado (ML verificado)
+
+| Categoría | Mercado ML: kit mín / mediana / máx | Por pieza: mín / mediana / máx | Ananda propuesto | Lectura |
 |---|---|---|---|---|
-| Borregos 12 pzs (ML) | $435–$1,235 con descuento (moda: $610–$830) | $36–$103 | **$529** ($44/pza) | Estamos en la parte baja y media. Hay espacio para subir a $599–$649 si las fotos muestran el pintado a mano. Verificar con el simulador de costos. |
-| Borregos paquete chico (5–6 pzs) | $143–$224 | ~$30–$37 | No tenemos | Oportunidad: kit de 6 como "entrada" o para intercambio (revisar el costo fijo de ML en productos de menos de $299). |
-| Velas navideñas industriales o importadas | $160–$300 por 5–16 pzs | **$12–$32** | n/a | No competir por precio contra esto. |
-| Set de 3 navideñas aromáticas | $495 | $165 | **$399** | Estamos $96 abajo. Se puede subir a $449. |
-| Pieza navideña individual | $187–$249 (lujo: $1,000) | — | Rompecabezas: $529 | El rompecabezas apilable es diferente; no vi equivalente directo. |
-| Recuerdos de evento (ML) | $286–$910 por 20–40 pzs | **$9.50–$30** (industrial) · $45–$68 (con más acabado) | Lume mini 10 pzs: $649 ($65/pza) | Estamos en la gama alta. Para competir en ML hay que justificar con personalización (etiqueta con nombre, Cricut) y fotos de calidad. |
-| Recuerdos de evento (tienda propia) | $35–$70/pza (Caravela, Ondine) | $35–$70 | Mayoreo $36–$78 | En línea con el mercado. Ondine cobra $70 con etiqueta y caja y pide mínimo 15 pzs. |
+| Borregos 12 pzs | $200 / $487 / $949 | $16.67 / $40.55 / $79.09 | $529 · $44/pza | **En la mediana.** No hay espacio para subir sin mostrar el pintado a mano. El más parecido (BCGF, $500, caja) lleva +25 vendidos. |
+| Navideñas figura/pino | $88 / $225 / $699 | $16.58 / $62.50 / $88.23 | $319–$399 · $113–$160/pza | **Por pieza, el doble del mercado.** Se justifica solo con tamaño (10 cm) y pintado a mano en fotos y título. **No subir el Set 3 a $449** (la v1 lo sugería con un dato sin verificar). |
+| Recuerdos de evento | $80 / $330 / $891 | $4.35 / $16.50 / $80.35 | Lume mini 10 pzs $649 · $65/pza | **4 veces la mediana.** En ML compite solo si la personalización (nombre y fecha con Cricut) se ve en la foto 1. El canal natural de este producto es WhatsApp/mayoreo. |
+| Soya en lata | $204 / $273 / $550 | $18.67 / $46.14 / $91.70 | Kit 2 latas $329 · $165/pza | **Muy alto** contra importados con Full. Considerar kit de 4 o sacarlo de ML. |
+| Recuerdos en tienda propia | — | $35–$70 (Caravela, Ondine) | Mayoreo $36–$78 | En línea con el mercado. |
+
+> Ojo: el precio de ML de Ananda incluye el envío (~$90, estimado) y la comisión. Por eso el $/pza se ve alto. Cualquier ajuste de precio pasa por `costos/README.md` y lo decide el chat de Mercado Libre.
 
 ---
 
-## 3. Volumen: top-seller vs. vendedor promedio (alimenta la proyección)
+## 5. Volumen real: ¿cuánto vende un artesanal en ML? (alimenta la proyección)
 
-| Perfil | Evidencia | Interpretación (estimación) |
+| Perfil | Evidencia verificada | Lectura (estimación) |
 |---|---|---|
-| **Top-seller de recuerdos** | Velita de burbujas de 30 pzs: "+500 vendidos", "MÁS VENDIDO"; set de 10 velas de bautizo: "+500 vendidos" (RB) | ML muestra "+500" cuando van entre 500 y 999 ventas acumuladas por publicación. No sabemos desde cuándo existe la publicación. Si tiene 1–2 años, son **~20–80 ventas/mes por publicación**. Son productos industriales baratos con envío Full. |
-| **Top-seller navideño** | Pino de 5 pzs: "+100 vendidos"; set de 16 pzs: "+50 vendidos" (RB) | Aun los más vendidos en navideños acumulan **cientos, no miles**. Es temporada corta. |
-| **Vendedor promedio de borregos o figura artesanal** | "2 vendidos" (ALOCANDLES), "1 venta" en varios, 2 reseñas en otro (RB) | La mayoría de las publicaciones artesanales vende **0–10 unidades por temporada**. |
-| **Conclusión para Ananda** | — | Una cuenta nueva sin reputación debe planear como **vendedor promedio a medio camino del top**: 5–50 pedidos/mes en temporada en el escenario base, y 100–150 solo si invierte en Product Ads, logra reputación verde rápido y tiene 8 o más publicaciones activas. Esto es lo que usa `mercado/proyeccion-realista.md`. |
+| Importado o industrial con Full y Platinum | HETIE +1000 (487 opiniones), EJ4 +1000, SH474T +1000 | Miles acumulados. No es nuestro mercado. |
+| Recuerdo mexicano bien posicionado | DECOCRAFT +1000, Selah +1000 (118 opiniones), GRUPOMANELIZ +500 (130) | Cientos a miles acumulados, **con Full** y de $28 a $51 por pieza. Demuestra que hay demanda de recuerdos todo el año. |
+| **Artesanal navideño o de borregos (lo más parecido a Ananda)** | BCGF +25, ANDREA +100 (a $200), CHICONCUAC +25, LA CHILAPEÑA +5, GURO +5, **Picky 1 vendido** (siendo Platinum), Velasart y La Belle Matinée s/d | **Decenas acumuladas, no cientos.** Ni una tienda Platinum garantiza ventas en navideño. |
+
+**Conclusión para la proyección:** el escenario base de ML (8 publicaciones nuevas) se baja a **~24 pedidos en noviembre y ~40 en diciembre** (antes 30 y 50), es decir, 8 a 10 pedidos por publicación en la temporada: como un BCGF en su primer año. El optimista se limita a **60 y 105 pedidos** (antes 90 y 157), porque ningún artesanal verificado vende a ese ritmo. Ver `proyeccion-realista.md`.
 
 ---
 
-## 4. Quejas frecuentes y oportunidades
+## 6. Lo que tienen en común los que más venden en ML
 
-**Dato duro: no se pudieron leer reseñas de ML.** Las páginas de producto están bloqueadas para descarga y ninguna búsqueda devolvió reseñas de velas figura con quejas. Lo siguiente son **hipótesis por verificar** leyendo las reseñas de 1 a 3 estrellas de los competidores 1, 4, 18, 19 y 23:
+1. **MercadoLíder Platinum** (los 8 vendedores con más ventas).
+2. **Envío Full y "llega mañana"** (los 4 primeros).
+3. **Precio tachado** de 23 a 31%.
+4. **Video en la galería** y 18 a 21 fotos.
+5. **Título que empieza con el número de piezas** ("50pzs", "24 Recuerdos") y acumula ocasiones (bautizo, comunión, boda, novenario, baby shower).
+6. **Packs grandes** de 16 a 50 piezas.
 
-| Queja probable (hipótesis) | Por qué es probable | Oportunidad para Ananda |
-|---|---|---|
-| Llegó rota, despostillada o deformada por calor | La parafina figura es frágil y se deforma con calor (nuestro propio checklist de ML ya lo advierte) | Empaque rígido con burbuja y foto del empaque en la publicación: "llega completa o te la reponemos". |
-| No huele o huele poco | Común en velas baratas (los competidores con "aroma" lo ponen en el título como diferenciador) | Especificar el aroma y su intensidad; ofrecer variación de aroma. |
-| Se ve distinta a la foto (color, tamaño) | Fotos de catálogo vs. pieza real | Foto en la mano para mostrar escala y medidas en cm en el título y los atributos. |
-| No llegó a tiempo para el evento | El recuerdo tiene fecha fija | Publicar "fecha límite para recibir antes de tu evento" y tener stock listo en lo más vendido. |
-| La personalización tarda o tiene errores | Ondine pide 7–10 días hábiles | Cricut: prueba digital de la etiqueta por WhatsApp antes de producir. |
-| Otra referencia (no es de ML) | En Trustpilot, Misscandleshop tiene 4/5 con 26 opiniones; la queja de 1 estrella es por demora en entrega exprés ([Trustpilot](https://es.trustpilot.com/review/misscandleshop.com)) | La puntualidad es la queja número 1 en velas en línea. |
+Ananda arranca sin reputación ni Full. Lo que sí puede copiar desde el día 1: video, título con número de piezas y ocasiones, medidas en la foto.
 
-**Oportunidades de posicionamiento (estimación con base en la tabla):**
-1. **Borregos "hechos y pintados a mano" con historia y oración por mes.** Los competidores de ML compiten por precio y "aroma canela"; casi ninguno destaca el trabajo artesanal ni el empaque de regalo. Podemos cobrar $549–$649.
-2. **Recuerdos con estética beige/minimalista y etiqueta personalizada en ML.** Solo clbdgo trabaja beige en ML, y la mayoría vende lotes genéricos. Nuestra paleta y la Cricut nos diferencian; no hay que competir con la velita de burbujas de $9.50.
-3. **Mayoreo corporativo con logo.** Ningún competidor de ML lo ofrece en sus títulos. En tiendas propias, Alura lo cotiza pero en gama alta ($690 por vela). Hay un hueco de **$45–$78 por pieza con logo**.
+---
+
+## 7. Quejas en reseñas = oportunidades (verificado en ML)
+
+| # | Queja | Publicaciones | Oportunidad para Ananda |
+|---|---|---|---|
+| 1 | **No huelen encendidas** | #7, #25 (10+ reseñas) | Carga de fragancia probada en caliente; decir "aroma al encender" y mostrar en video la vela encendida (con la advertencia de uso en pantalla). |
+| 2 | **Más pequeñas de lo esperado** | #4, #16, #17, #21, #25 | Medidas en cm en la foto 1 o 2, con mano o moneda de referencia. Nuestras figuras de 10 cm son una ventaja: hay que enseñarla. |
+| 3 | **Llegan rotas, aplastadas o sucias** | #1, #17 | Empaque individual protegido y foto del empaque de envío. |
+| 4 | **Acabado descuidado** (etiquetas mal puestas, forma poco definida) | #4, #15, #17 | El acabado a mano y la etiqueta Cricut bien aplicada son el diferencial. |
+| 5 | **Pedido incompleto o color distinto** | #16, #17, #21 | Confirmar color y cantidad por mensaje; mostrar en la ficha qué incluye. |
+
+**Hueco claro:** casi nadie personaliza en ML. Solo BCGF (mensaje en la tapa) y Selah lo niega por escrito. **Nombre y fecha en el recuerdo es el diferencial de Ananda.**
+
+---
+
+## 8. Lecturas para TikTok
+
+1. **El contenido de recuerdos para eventos es el que más vistas tiene** (35M+ en los 3 videos de Luz de Dos). Lo navideño y los borregos tienen alcance menor (383K el mejor).
+2. **Las cuentas que más venden no usan el carrito de TikTok Shop**: mandan a WhatsApp, web o IG para cotizar. Para Ananda, TikTok es primero **embudo hacia WhatsApp y mayoreo de eventos**, y después tienda.
+3. **No hace falta tener muchos seguidores para un video viral**: @velas_victoria_ tiene 2.3K seguidores y un video de 2.2M; @amc.souvenirs, 1.4K seguidores y 969K vistas.
+4. **@aromelia_mx está en León**: es competencia local directa en recuerdos y centros de mesa.
+5. **Pendiente en la app:** revisar las tiendas de TikTok Shop de @velasnavidad2026mx, @cambelcandle y @matina.deco (productos, precios, vendidos) y buscar en la pestaña Tienda "borregos de la abundancia" y "velas navideñas".
+
+---
+
+## 9. Tres recomendaciones
+
+1. **Recuerdos de evento: venderlos por WhatsApp, TikTok y mayoreo, no por precio en ML.** En ML, publicar el kit Lume solo con la personalización visible en la foto 1 ("con nombre y fecha") y usarlo como escaparate. El volumen viene del formato "Preparando velas para [evento]" en TikTok que manda a WhatsApp.
+2. **En los kits navideños de ML, vender tamaño y pintado a mano, no precio.** Foto con medida en cm, video de 10–15 s del pintado, título con número de piezas y "pintado a mano". No subir precios hasta tener las primeras 10 ventas; revisar el Kit 2 latas de soya ($165/pza), que difícilmente compite.
+3. **Terminar el levantamiento en las apps** (30 min): tiendas TikTok Shop de las 3 cuentas vendedoras e Instagram de Caravela, Luz de Dos, Cambel y Aromelia. Con eso se valida el canal TikTok Shop de la proyección, que hoy no tiene ninguna evidencia de competidores.
