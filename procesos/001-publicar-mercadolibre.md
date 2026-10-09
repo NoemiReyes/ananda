@@ -3,7 +3,7 @@
 | Campo | Valor |
 |---|---|
 | Área | Mercado Libre |
-| Responsable | Dueña / agente `mercadolibre` |
+| Responsable | Noemi / agente `mercadolibre` |
 | Frecuencia | Cada producto o kit nuevo |
 | Tiempo estimado | 20–30 min por publicación |
 | Versión / fecha | v1 · 2026-10-09 |

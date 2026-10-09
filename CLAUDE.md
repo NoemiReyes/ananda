@@ -5,7 +5,7 @@
 - **Qué hacemos:** velas artesanales hechas a mano en México. Velas figura en parafina y velas en contenedor de cera de soya.
 - **Enfoque:** (1) recuerdos para **eventos** (baby shower, bautizo, primera comunión, bodas, XV años, cumpleaños) y (2) **temporada navideña** (regalo, decoración, regalos corporativos).
 - **Estética de marca:** neutra, minimalista, tonos beige/topo/café (catálogo de eventos); rojo, verde salvia y dorado (catálogo navideño).
-- **Equipo de producción:** la fundadora fabrica todo a mano. Cuenta con una **Cricut Maker 3** (etiquetas, tags y empaques personalizados).
+- **Equipo de producción:** Noemi fabrica todo a mano. Cuenta con una **Cricut Maker 3** (etiquetas, tags y empaques personalizados).
 
 ## Canales
 | Canal | Estado (oct-2026) |
@@ -23,9 +23,22 @@
 ## Fuentes de verdad (léelas antes de trabajar)
 - Catálogo, medidas, precios y mayoreo: `negocio/catalogo.md`
 - Plan y metas por canal: `negocio/plan-90-dias.md`
-- Costos y márgenes: `costos/` (los costos unitarios reales los captura la dueña; si faltan, márcalos como **estimado**)
+- Costos y márgenes: `costos/` (los costos unitarios reales los captura Noemi; si faltan, márcalos como **estimado**)
 - Procesos documentados (SOPs): `procesos/`
 - Publicaciones de Mercado Libre: `mercadolibre/`
+
+## Chats de trabajo y qué archivos edita cada uno
+Todos trabajan en la rama `claude/determined-fermat-0nfy34`. Cada chat solo edita sus carpetas; las demás las lee.
+
+| Chat | Agentes | Carpetas que edita |
+|---|---|---|
+| Dirección | `director-estrategia`, `finanzas-fiscal` | `negocio/plan-90-dias.md`, `direccion/`, `finanzas/` |
+| Mercado Libre | `mercadolibre`, `servicio-cliente` | `mercadolibre/`, `servicio/` |
+| TikTok | `tiktok-shop-lives`, `contenido-tendencias` | `tiktok/`, `contenido/` |
+| Mayoreo y eventos | `ventas-eventos-mayoreo`, `diseno-empaque-cricut` | `ventas/`, `diseno/` |
+| Producción y costos | `produccion-inventario`, `costos-precios`, `documentador-procesos` | `produccion/`, `costos/`, `procesos/`, `negocio/catalogo.md` |
+
+Antes de hacer push: `git pull --rebase origin claude/determined-fermat-0nfy34`. Al terminar cada sesión: commit y push, para que los otros chats vean los cambios.
 
 ## Reglas para todos los agentes
 1. Escribe en **español de México**, claro y accionable. Nada de relleno.
