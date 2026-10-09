@@ -163,3 +163,93 @@ Extra (ene–mar): **+10 cotizaciones de evento al mes** × 30% × $1,500 = **+$
 6. **RFC y régimen fiscal** para TikTok Shop y Buen Fin (persona física; a revisar con el chat de Finanzas).
 
 > Toda vela que se venda debe llevar la advertencia: no dejar encendida sin supervisión; poner sobre superficie resistente al calor, lejos de niños, mascotas y material inflamable; no exponer la parafina al sol.
+
+---
+
+## 9. Angélica de tiempo completo (desde el 11-oct): qué cambia
+
+Fuente: `direccion/semana-2026-10-12.md` (v2). Angélica aprende producción con supervisión, graba contenido, busca tendencias y empaca pedidos. Así Noemi puede pasar más tiempo vendiendo. **Su horario y su pago todavía no están definidos** (pregunta 2 de Dirección).
+
+**1. Capacidad (sigue siendo hipotética, porque no hay datos medidos).** Se usa el ejemplo de `produccion/calculadora-capacidad.md`:
+
+| Supuesto (hipotético) | Velas buenas al mes |
+|---|---|
+| Noemi sola, 6 h/día de producción | ~1,370 |
+| Noemi + Angélica (6 h de producción c/u), **con los moldes del ejemplo** | ~1,900 (manda el **molde**: en el ejemplo los moldes dan ~84 velas/día) |
+| Noemi + Angélica, **con moldes duplicados** de borrego, árbol y pino | ~2,900 (manda la mano de obra: 720 min/día) |
+
+- Octubre y noviembre cuentan **a medias**: Angélica está aprendiendo, sus piezas pasan revisión de Noemi y parte de su día se va en contenido y empaque.
+- **Lectura:** con Angélica, la capacidad deja de frenar el escenario base (máximo ~900 velas al mes) y probablemente tampoco el optimista (~1,900 en diciembre), **si se compran moldes duplicados**. En 2026 el límite pasa a ser **la demanda**, es decir, vender.
+
+**2. Ventas.** No se suben los números del base porque todavía no hay ventas reales que lo justifiquen. Lo que sí cambia es la **probabilidad**:
+- Noemi libera horas para la palanca número 1: **20 propuestas corporativas por semana** (sección 6).
+- Los lives de TikTok dejan de competir con la producción (ver sección 10).
+- Con esto, cumplir el base es más probable y el optimista ya no está bloqueado por la capacidad.
+
+**3. Costo.** El sueldo de Angélica es un **costo fijo** que hay que cubrir cada mes, se venda o no.
+```
+Ventas extra para cubrir el sueldo = sueldo mensual ÷ margen de contribución
+(ejemplo con margen de 45%: cada $1,000 de sueldo pide ~$2,200 de ventas)
+```
+El margen real sale de `costos/plantilla-costeo.csv`, que todavía está vacía.
+
+**4. No incluido en la proyección:** el lanzamiento de Día de Muertos (`direccion/dia-de-muertos-2026.md`, veladora personalizada en vaso). Es venta adicional de octubre, pero no hay datos de precio ni de volumen para estimarla.
+
+---
+
+## 10. TikTok Shop y lives como escaparate: experimento de noviembre
+
+**Por qué sí tiene sentido (a pesar de que los competidores no usan el carrito):**
+- Los competidores grandes venden productos **a la medida** ("50 jirafitas para Matías"), que necesitan cotización y por eso los mandan a WhatsApp (`competencia.md` §8).
+- Los **kits navideños de Ananda tienen precio fijo** (Borregos 12, Rompecabezas, Set 3, Nacimiento) y sí caben en un carrito. **Casi no se ve competencia de velas artesanales navideñas con lives en TikTok Shop México.**
+- Con Angélica en el taller, un live puede ser **producción en vivo** (pintar, empacar) sin parar la fabricación.
+
+**Diseño del experimento (1 al 30 de noviembre):**
+
+| Qué | Cuánto |
+|---|---|
+| Catálogo en TikTok Shop | Solo kits de precio fijo. Los recuerdos personalizados siguen por WhatsApp |
+| Videos | 1 al día con los formatos que funcionan: "preparando 30 borregos", desmolde, empaque de pedido |
+| Lives | 2 o 3 por semana, de 1 a 2 h, mientras se pinta o empaca |
+| Seguridad | Cada vez que salga una vela encendida, en pantalla: no dejar sin supervisión, lejos de niños, mascotas y material inflamable |
+
+**Regla de decisión al 30 de noviembre** (umbrales estimados):
+
+| Pedidos por live en promedio | Decisión para diciembre |
+|---|---|
+| 5 o más | Funciona: lives diarios en diciembre |
+| De 1 a 4 | Seguir, pero usar TikTok sobre todo como embudo hacia WhatsApp y eventos |
+| Casi ninguno | Dejar solo videos y pasar esas horas a corporativo |
+
+- **Cuánto puede mover:** si TikTok se comporta como el optimista, suma **+$39k en diciembre** sobre el base ($54,950 en vez de $15,750). El total de diciembre quedaría en ~$94k.
+- **Referencia:** con un ticket de ~$350, hacen falta ~10 pedidos por live y 12 lives al mes para llegar a ~$42k/mes en TikTok.
+- **Riesgos:** la verificación de la cuenta sigue pendiente (cada semana de retraso en noviembre cuesta ~$1,900 en el base); los primeros lives de una cuenta nueva suelen tener poco público (E); la parafina es frágil en paquetería; la comisión y las políticas de TikTok Shop hay que **verificarlas** en Seller Center.
+
+---
+
+## 11. Después de marzo de 2027 (año 2): estimación
+
+Supuestos (E): se cumple el base en el primer ciclo; ya hay reputación en ML (más de 50 ventas), audiencia en TikTok, clientes corporativos que repiten y recomendaciones de eventos; Angélica sigue de tiempo completo.
+
+| Periodo | Qué se vende | Base | Optimista |
+|---|---|---|---|
+| Abr–may 2027 | Primeras comuniones y Día de las Madres | $45k–$60k/mes | $90k–$120k |
+| Jun–sep 2027 | Bodas, bautizos, XV años, baby showers | $35k–$50k/mes | $70k–$90k |
+| Oct–dic 2027 | Segunda Navidad, con reputación y corporativos que repiten | $80k–$120k/mes | $150k–$250k |
+| **Promedio año 2** | | **~$50k–$60k/mes (~$650k al año)** | ~$100k/mes |
+
+**$200k en un mes** se vuelve posible en **diciembre de 2027**, con tres condiciones: moldes duplicados, Angélica ya entrenada más ayuda temporal en temporada, y 15–20 clientes corporativos. Son unas 2,700 velas en el mes.
+
+**Ventas no es lo que queda.** Utilidad estimada de 25–35% de las ventas, **sin verificar** porque no hay costos capturados:
+
+| Ventas al mes | Utilidad estimada |
+|---|---|
+| $50k | ~$12k–$18k |
+| $100k | ~$25k–$35k |
+| $200k | ~$50k–$70k, menos sueldos de ayuda extra |
+
+El mayoreo y el corporativo dejan más margen que los marketplaces, porque no pagan comisión ni envío por pieza.
+
+**Decisiones nuevas para Noemi:**
+7. Horario y pago de Angélica (ya lo pide Dirección); con eso se calcula el punto de equilibrio.
+8. ¿Se hace el experimento de TikTok Shop en noviembre (sección 10), y quién conduce los lives?
