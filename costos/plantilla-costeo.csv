@@ -1,19 +1,19 @@
-sku,producto,cera_g,costo_cera,fragancia_g,costo_fragancia,colorante,mecha,contenedor_o_base,etiqueta,empaque,mano_obra,merma_5pct,costo_unitario,precio_menudeo,margen_menudeo_pct
-EV-OSO,Oso de Ternura,,,,,,,,,,,,,87,
-EV-JIR,Jirafa Africana,,,,,,,,,,,,,45,
-EV-ELE,Elefante Safari,,,,,,,,,,,,,57,
-EV-DIN,Dino T-Rex,,,,,,,,,,,,,57,
-EV-ANG,Ángeles Divinos,,,,,,,,,,,,,57,
-EV-FLO,Flowers On,,,,,,,,,,,,,77,
-EV-BUN,Bunny Happy,,,,,,,,,,,,,87,
-EV-GLO,Glowing Glass,,,,,,,,,,,,,74,
-EV-LMM,Lume Soja Mini,,,,,,,,,,,,,52,
-EV-LMS,Lume Soja,,,,,,,,,,,,,88,
-EV-PRE,Paquete Recuerdos,,,,,,,,,,,,,115,
-NV-VEN,Venado,,,,,,,,,,,,,78,
-NV-NAC,Nacimiento,,,,,,,,,,,,,65,
-NV-PIN,Pino,,,,,,,,,,,,,87,
-NV-ARB,Árbol Navideño,,,,,,,,,,,,,85,
-NV-BOR,Borrego,,,,,,,,,,,,,57,
-NV-B12,Borregos de la Abundancia 12 pzs,,,,,,,,,,,,,385,
-NV-ROM,Rompecabezas Navideño,,,,,,,,,,,,,375,
+sku,producto,cera_g,costo_cera,fragancia_g,costo_fragancia,colorante,mecha,contenedor_o_base,etiqueta,empaque,mano_obra,merma_5pct,costo_unitario,precio_menudeo,margen_menudeo_pct,estatus
+EV-OSO,Oso de Ternura,188,19.74,15.04,13.54,2.82,1.70,0.00,0.75,1.40,8.00,2.40,50.34,87,42.13,ESTIMADO
+EV-JIR,Jirafa Africana,39,4.09,3.12,2.81,0.58,1.70,0.00,0.75,1.40,6.67,0.90,18.90,45,57.99,ESTIMADO
+EV-ELE,Elefante Safari,108,11.34,8.64,7.78,1.62,1.70,0.00,0.75,1.40,6.67,1.56,32.82,57,42.43,ESTIMADO
+EV-DIN,Dino T-Rex,94,9.87,7.52,6.77,1.41,1.70,0.00,0.75,1.40,6.67,1.43,29.99,57,47.38,ESTIMADO
+EV-ANG,Ángeles Divinos,60,6.30,4.80,4.32,0.90,1.70,0.00,0.75,1.40,6.67,1.10,23.14,57,59.41,ESTIMADO
+EV-FLO,Flowers On,95,9.97,7.60,6.84,1.43,1.70,0.00,0.75,1.40,8.00,1.50,31.59,77,58.97,ESTIMADO
+EV-BUN,Bunny Happy,126,13.23,10.08,9.07,1.89,1.70,0.00,0.75,1.40,8.00,1.80,37.84,87,56.50,ESTIMADO
+EV-GLO,Glowing Glass,126,17.54,10.08,9.07,0.00,1.70,18.00,1.50,0.00,5.33,2.66,55.80,74,24.59,ESTIMADO
+EV-LMM,Lume Soja Mini,43,5.99,3.44,3.10,0.00,1.70,12.00,1.50,0.00,5.33,1.48,31.10,52,40.20,ESTIMADO
+EV-LMS,Lume Soja,95,13.22,7.60,6.84,0.00,1.70,14.00,1.50,0.00,5.33,2.13,44.73,88,49.17,ESTIMADO
+EV-PRE,Paquete Recuerdos,43,5.99,3.44,3.10,0.00,1.70,20.85,1.50,2.00,10.00,2.26,47.39,115,58.79,ESTIMADO
+NV-VEN,Venado,103,10.81,8.24,7.42,1.54,1.70,0.00,0.75,1.90,8.00,1.61,33.73,78,56.75,ESTIMADO
+NV-NAC,Nacimiento,38,3.99,3.04,2.74,0.57,1.70,0.00,0.75,1.40,6.67,0.89,18.70,65,71.23,ESTIMADO
+NV-PIN,Pino,98,10.29,7.84,7.06,1.47,1.70,0.45,0.75,1.40,8.00,1.56,32.67,87,62.45,ESTIMADO
+NV-ARB,Árbol Navideño,50,5.25,4.00,3.60,0.75,1.70,0.45,0.75,1.40,6.67,1.03,21.59,85,74.59,ESTIMADO
+NV-BOR,Borrego,46,4.83,3.68,3.31,0.69,1.70,1.50,0.75,1.40,10.00,1.21,25.39,57,55.45,ESTIMADO
+NV-B12,Borregos de la Abundancia 12 pzs,552,57.96,44.16,39.74,8.28,20.40,18.00,6.75,10.00,138.00,14.96,314.09,385,18.42,ESTIMADO
+NV-ROM,Rompecabezas Navideño,361,37.91,28.88,25.99,5.42,1.70,6.00,0.75,10.00,40.00,6.39,134.15,375,64.23,ESTIMADO
