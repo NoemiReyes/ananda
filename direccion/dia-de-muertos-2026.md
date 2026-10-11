@@ -60,6 +60,12 @@ El chat Estudio de mercado debe actualizar su tabla con este cambio.
 3. **Fecha límite de pedidos:** con envío por paquetería, **sáb 24-oct**; con entrega local, **mié 28-oct**. Tiempos de paquetería y de Mercado Libre: **verificar** antes de anunciar.
 4. Las prioridades de la semana (ML navideño publicado, costos, capacidad, prospección corporativa) **no se mueven**.
 
+## 5b. Calidad de la veladora (recomendación de `maestro-velas`, 11-oct)
+
+- **Ninguna veladora se entrega sin pasar al menos la prueba de mecha.** Protocolo: `produccion/formulas/pruebas-quemado.md`.
+- Con las fechas del lanzamiento no alcanza una prueba completa en vaso alto ni el curado ideal de la soya (1–2 semanas). Por eso se recomienda **vaso corto de ~6 cm de diámetro**, con las velas de prueba vertidas el **lun 12-oct**.
+- Fórmula de partida y mecha por diámetro: `produccion/formulas/punto-de-partida-soya.md`.
+
 ## 6. Cómo se toma un pedido (flujo propuesto; lo documenta `documentador-procesos`)
 
 1. El cliente escribe por WhatsApp, IG o FB y elige producto y aroma.
