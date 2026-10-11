@@ -2,7 +2,7 @@
 
 Índice de todo lo que ya existe, por chat y por agente. Lo mantiene el chat Dirección y se actualiza en cada corte semanal. Todo está guardado en la rama `claude/determined-fermat-0nfy34`.
 
-Las definiciones de los 13 agentes están en `.claude/agents/`.
+Las definiciones de los 14 agentes están en `.claude/agents/`.
 
 ## Equipo humano
 - **Noemi:** dueña, producción, ventas y redes.
@@ -22,6 +22,7 @@ Las definiciones de los 13 agentes están en `.claude/agents/`.
 | | `diseno-empaque-cricut` | `diseno/sistema-etiquetas.md` (Imprimir y cortar), `diseno/empaque-envio.md` | Plantillas de veladora con foto y de papel picado con nombre (mar 13) |
 | **Producción y costos** | `produccion-inventario` | `produccion/inventario.md`, `produccion/cuestionario-capacidad.md`, `produccion/calculadora-capacidad.md` | Día cronometrado (mar 13) → capacidad y compra de moldes (jue 15 y vie 16) |
 | | `costos-precios` | `costos/README.md` (fórmula), `costos/insumos-referencia.md`, `costos/margenes-por-canal.md`, `costos/plantilla-costeo.csv`, `costos/calculo_costos.py` | Costos reales de Noemi (lun 12 → mié 14). Precios de Día de Muertos (mar 13) |
+| | `maestro-velas` (nuevo, 11-oct) | Todavía no hay archivos | Fichas de fórmula de los best sellers, protocolo de pruebas de quemado y guía de defectos en `produccion/formulas/` |
 | | `documentador-procesos` | `procesos/001-publicar-mercadolibre.md`, `procesos/002-surtir-enviar-mercadolibre.md`, `procesos/cuestionario-fabricacion.md`, `procesos/pendientes.md`, `procesos/plantilla-sop.md` | Checklist de capacitación y seguridad de Angélica (sáb 10). SOP de fabricación (vie 16). SOP de pedido personalizado de Día de Muertos |
 | **Estudio de mercado** | `estudio-mercado` | `mercado/competencia.md`, `mercado/demanda-y-temporalidad.md`, `mercado/proyeccion-realista.md` (ya incluye a Angélica), `mercado/fuentes/` | Corregir Día de Muertos en la temporalidad: ya hay producto (vie 16) |
 | **Sin chat asignado** | `tienda-online` | Todavía no hay archivos | Catálogo de WhatsApp Business. Falta que Noemi decida en qué chat corre |
