@@ -2,6 +2,10 @@
 
 Decisiones que se tomaron platicando con Noemi y que no están en otro archivo. La más reciente va arriba.
 
+## 15-oct-2026: Día de Muertos simplificado
+
+Solo **Veladora Ofrenda**, **Vela de Cempasúchil** y **Set Ofrenda**. Todo con **etiqueta imprimible** (papel adhesivo mate + laminado en la veladora, y opalina o adhesivo para el tag). Sin vinil de corte, sin vinil holográfico y sin papel picado como producto. Motivo: menos opciones de paquete, no diversificarse y no aumentar el gasto. Plan v2: `direccion/dia-de-muertos-2026.md`.
+
 ## 15-oct-2026: impresora elegida, Epson EcoTank L3560
 
 Noemi eligió la **Epson EcoTank L3560** (Amazon México, $4,199 en oferta el 11-oct, tienda oficial Epson) porque le gustó más su calidad de impresión que la de la Canon. **Reemplaza la recomendación de la L3251 (abajo).** Las reglas de papel, laminado y sublimación siguen igual.
