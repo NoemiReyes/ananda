@@ -1,40 +1,46 @@
-# Lanzamiento Día de Muertos 2026: veladora personalizada y vela de cempasúchil
+# Lanzamiento Día de Muertos 2026: veladoras, papel picado y vela de cempasúchil
 
-Responsable: chat Dirección (`director-estrategia`). **Versión 2: 15-oct-2026** (reemplaza la v1 del 9-oct).
+Responsable: chat Dirección (`director-estrategia`). **Versión 3: 15-oct-2026** (reemplaza la v1 del 9-oct y la v2 de esta mañana).
 
-## Cambios de la versión 2 (decisión de Noemi, 15-oct)
-- **Solo 2 productos y 1 set.** Se agrega la **vela de cempasúchil**. Se quitan el papel picado como producto, el papel picado con rostro y la "veladora con papel picado de nombre".
-- **Todo con etiqueta imprimible** hecha en la Epson L3560 y recortada con la Cricut ("Imprimir y cortar"). **Sin vinil de corte, sin vinil holográfico.** Un solo tipo de material: menos opciones, menos compras y menos errores.
-- El papel picado sigue presente, pero **como diseño impreso dentro de la etiqueta**.
+## Decisiones de Noemi (15-oct)
+- **Se agrega la vela de cempasúchil.** Noemi ya tiene el molde y los aromas.
+- **La veladora es de parafina, en vaso.**
+- **Sigue en pie todo lo de papel picado**: la veladora con papel picado de nombre, el papel picado personalizado (con nombre y con rostro) y los sets.
+- **Todo con etiqueta imprimible** hecha en la Epson L3560 y recortada con la Cricut ("Imprimir y cortar"). **Sin vinil de corte ni vinil holográfico.** El papel picado se imprime en opalina blanca y la Cricut recorta los huecos.
+- El laminado ya está comprado. La vela de cempasúchil lleva tag.
 - Fechas nuevas: las de la v1 (lanzamiento el 14-oct) ya pasaron.
 
 ## 1. Productos (nombres provisionales; los precios los fija `costos-precios`)
 
 | # | Producto | Qué lleva | Personalización |
 |---|---|---|---|
-| **DM-1** | **Veladora Ofrenda** | Vaso corto (~6 cm de diámetro) con vela, aroma de ofrenda, etiqueta envolvente impresa con diseño de papel picado y cempasúchil | Foto y nombre, o solo nombre. **Versión mascota:** mismo producto con diseño de huellas |
-| **DM-2** | **Vela de Cempasúchil** | Vela figura de flor de cempasúchil en parafina naranja o amarillo, en bolsa de celofán con tag impreso | Tag con nombre o frase ("Para iluminar tu camino"). Opcional |
-| **DM-3** | **Set Ofrenda** | 1 Veladora Ofrenda + 2 Velas de Cempasúchil | La veladora, como DM-1 |
+| **DM-1** | **Veladora Ofrenda con foto** | Vaso corto (~6 cm de diámetro) con vela de parafina, aroma de ofrenda y etiqueta envolvente impresa | Foto y nombre. **Versión mascota:** diseño de huellas |
+| **DM-2** | **Veladora Papel Picado** | La misma veladora, con etiqueta envolvente impresa con diseño de papel picado y el nombre (el estilo del anuncio de PassionRosa, pero impreso) | Nombre |
+| **DM-3** | **Papel picado personalizado** | Opalina blanca de 225 g impresa a color y recortada con la Cricut | Con nombre (chico 14 × 10 cm o mediano 19 × 14 cm). **Con rostro** solo como premium y con cupo diario |
+| **DM-4** | **Vela de Cempasúchil** | Vela figura en parafina naranja o amarilla, en bolsa de celofán con tag impreso | Tag con nombre o frase |
+| **DM-5** | **Set Recuerdo** | 1 veladora (DM-1 o DM-2) + 1 papel picado mediano del mismo nombre | Ambos con el mismo nombre |
+| **DM-6** | **Set Ofrenda** | 1 veladora + 2 velas de cempasúchil + 1 papel picado | Para Mercado Libre, si el precio llega a $299 o más con margen de 45% o más |
 
-- **Mercado Libre:** solo el Set Ofrenda, y solo si su precio queda en $299 o más con margen de 45% o más. Si no, Día de Muertos se vende solo por WhatsApp, IG y FB, con entrega local o paquetería.
-- **Aroma:** el aroma de cempasúchil y el de copal **no están** en la lista de 38 aromas: **verificar** con el proveedor hoy. Si no hay, usar nardo, canela o vainilla, y vender la vela de cempasúchil por su forma, no por su aroma.
+- **El papel picado no se vende suelto en Mercado Libre** (cargo fijo por unidad debajo de $299). Suelto, solo por WhatsApp, IG y FB, o dentro de un set.
+- **Papel picado grande (27 × 19 cm): no se ofrece.** No cabe en el área de "Imprimir y cortar" (17.1 × 23.5 cm en hoja carta).
+- **Papel picado con rostro:** convertir la foto en dibujo de línea toma tiempo de diseño. Se ofrece solo cuando se cronometre el primero, con un cupo diario.
 
 ## 2. Material único: etiqueta imprimible
 
 | Para | Material | Nota |
 |---|---|---|
-| Etiqueta de la veladora | **Papel adhesivo imprimible mate, tamaño carta** + laminado transparente en frío | El laminado protege del agua y de la cera (la tinta de la L3560 se corre con agua). Se laminan solo las etiquetas y se dejan sin cubrir las marcas de corte |
-| Tag de la vela de cempasúchil | **Opalina de 225 g** o el mismo papel adhesivo | Va por fuera del celofán, así que no necesita laminado |
+| Etiqueta de veladora (DM-1, DM-2) | **Papel adhesivo imprimible mate, tamaño carta** + laminado transparente (ya comprado) | Se laminan solo las etiquetas y se dejan sin cubrir las marcas de corte |
+| Papel picado (DM-3) | **Opalina blanca de 225 g** | Se imprime a color y la Cricut recorta los huecos. Diseños de huecos medianos: los muy finos tardan y se rompen |
+| Tag de cempasúchil (DM-4) | **Opalina de 225 g** | Va por fuera del celofán, no necesita laminado |
 
-- **Tamaño:** en hoja carta, "Imprimir y cortar" da como máximo 17.1 × 23.5 cm. La etiqueta envolvente de un vaso de 6 cm mide ~19 cm de largo: se acomoda a lo largo de la hoja, y caben **2 etiquetas por hoja** de 8–9 cm de alto. Mide el vaso real antes de diseñar.
-- **Decisión pendiente:** si no quieres comprar laminado, la alternativa es barniz transparente en aerosol. Sin ninguna de las dos, la etiqueta de la veladora se puede manchar con agua o cera.
+- **Tamaño de la etiqueta de veladora:** la de un vaso de 6 cm mide ~19 cm de largo. Se acomoda a lo largo de la hoja, y caben **2 etiquetas por hoja** de 8–9 cm de alto. Mide el vaso real antes de diseñar.
 
 ## 3. Calendario nuevo (hoy es jue 15-oct)
 
 | Fecha | Qué pasa |
 |---|---|
-| **Jue 15** | Noemi confirma molde de cempasúchil, aroma y vaso. Arrancan las plantillas (diseño), los precios (costos) y los guiones (contenido) |
-| **Vie 16** | Muestras: 2 veladoras (una con foto y una mascota) y 3 velas de cempasúchil. Fotos y video de proceso (Angélica) |
+| **Jue 15** | Noemi confirmó molde, aromas, parafina en vaso y laminado. Arrancan las plantillas (diseño), los precios (costos) y los guiones (contenido) |
+| **Vie 16** | Muestras: 2 veladoras (una con foto y una de papel picado), 2 papeles picados y 3 velas de cempasúchil. Fotos y video de proceso (Angélica) |
 | **Sáb 17** | **Lanzamiento** en IG, FB, TikTok y WhatsApp, como **preventa**: entregas a partir del jue 22 |
 | Lun 19 a vie 23 | Producción de pedidos (máximo 10 veladoras al día) |
 | **Sáb 24** | **Último pedido con paquetería** (tiempos de envío: **verificar**) |
@@ -44,7 +50,7 @@ Responsable: chat Dirección (`director-estrategia`). **Versión 2: 15-oct-2026*
 **La preventa existe por la calidad:** ninguna veladora se entrega sin pasar la prueba de mecha (`produccion/formulas/pruebas-quemado.md`). Si las velas de prueba no se vaciaron el lun 12, se vacían **hoy**, y la entrega del jue 22 depende de que pasen.
 
 ## 4. Límites para que Día de Muertos no frene la Navidad
-1. **Máximo 10 veladoras personalizadas al día**, hasta cronometrar cuánto tarda una etiqueta. La vela de cempasúchil queda limitada por el molde (cuántas piezas salen por colada: **dato pendiente**).
+1. **Máximo 10 veladoras y 10 papeles picados personalizados al día**, hasta cronometrar cuánto tarda cada pieza. La vela de cempasúchil queda limitada por el molde (cuántas piezas salen por colada: **dato pendiente**).
 2. **Pago del 100% por adelantado** en personalizados.
 3. Las prioridades de Navidad y corporativo **no se mueven**. El molde de cempasúchil no debe ocupar el tiempo de los moldes navideños.
 
@@ -53,7 +59,7 @@ Responsable: chat Dirección (`director-estrategia`). **Versión 2: 15-oct-2026*
 2. Manda la foto (de frente, buena resolución) y el nombre.
 3. Se arma la etiqueta en la plantilla y se le manda la **prueba digital** (1 ronda de cambios incluida).
 4. Paga el 100%.
-5. Se imprime, se lamina, se corta con la Cricut, se pega en el vaso **con la vela ya fría** y se empaca.
+5. Se imprime, se lamina (solo la etiqueta de la veladora), se corta con la Cricut, se pega en el vaso **con la vela ya fría** y se empaca.
 
 **Fotos de clientes:** son fotos de familiares fallecidos. No se publican sin su permiso por escrito.
 
@@ -90,21 +96,20 @@ Conclusiones:
 
 | # | Tarea | Responsable | Fecha límite | Resultado esperado |
 |---|---|---|---|---|
-| DM-a | Confirmar molde de cempasúchil (¿lo tienes?, piezas por colada), aroma y vaso. Comprar papel adhesivo mate, laminado y opalina 225 g | Noemi | jue 15-oct | Respuestas a la sección 9 y compra hecha |
-| DM-b | Plantillas: etiqueta envolvente de veladora (con foto y nombre, solo nombre, y mascota) y tag de cempasúchil, listas para Imprimir y cortar en la L3560 | Mayoreo · `diseno-empaque-cricut` | vie 16-oct | Archivos en `diseno/` y tiempo de diseño por pieza |
-| DM-c | Costo y precio de DM-1, DM-2 y DM-3 con la fórmula de `costos/README.md` (incluye tiempo de diseño), y si el set pasa de $299 en ML | Producción · `costos-precios` | vie 16-oct | Precios por producto y canal con margen de 45% o más |
-| DM-d | Fórmula y prueba de mecha de la veladora en vaso corto, y fórmula de la vela de cempasúchil | Producción · `maestro-velas` | vie 16-oct (prueba de mecha en curso) | Aprobado o ajuste de mecha antes del jue 22 |
-| DM-e | Muestras, fotos y video de proceso. Juntar 10 precios de veladoras personalizadas de la competencia | Angélica, con revisión de Noemi | vie 16-oct | 2 veladoras y 3 cempasúchil fotografiadas, y la lista de precios |
-| DM-f | Guiones: video de proceso (pegar la etiqueta y vaciar el cempasúchil), "dale luz a quien extrañas", versión mascota y cómo pedir | TikTok · `contenido-tendencias` | vie 16-oct | Guiones en `contenido/`, con aviso de seguridad |
+| DM-a | Comprar papel adhesivo mate y opalina blanca de 225 g, si falta | Noemi | jue 15-oct | Material en el taller |
+| DM-b | Plantillas listas para Imprimir y cortar en la L3560: etiqueta de veladora con foto, de papel picado con nombre y de mascota; papel picado chico y mediano con nombre; tag de cempasúchil | Mayoreo · `diseno-empaque-cricut` | vie 16-oct | Archivos en `diseno/` y tiempo de diseño por pieza |
+| DM-c | Costo y precio de DM-1 a DM-6 con la fórmula de `costos/README.md` (incluye tiempo de diseño), y si el Set Ofrenda llega a $299 en ML | Producción · `costos-precios` | vie 16-oct | Precios por producto y canal con margen de 45% o más |
+| DM-d | Fórmula y prueba de mecha de la veladora de **parafina en vaso corto**, y fórmula de la vela de cempasúchil | Producción · `maestro-velas` | vie 16-oct (prueba de mecha en curso) | Aprobado o ajuste de mecha antes del jue 22 |
+| DM-e | Muestras, fotos y video de proceso. Juntar 10 precios de veladoras y papel picado personalizados de la competencia | Angélica, con revisión de Noemi | vie 16-oct | Muestras fotografiadas y lista de precios |
+| DM-f | Guiones: proceso (pegar la etiqueta, la Cricut recortando el papel picado, vaciar el cempasúchil), "dale luz a quien extrañas", versión mascota y cómo pedir | TikTok · `contenido-tendencias` | vie 16-oct | Guiones en `contenido/`, con aviso de seguridad |
 | DM-g | Lanzamiento en preventa: publicación con precios, estado de WhatsApp y mensaje a contactos | Noemi | sáb 17-oct | Lanzado en IG, FB, TikTok y WhatsApp |
 | DM-h | Publicar el Set Ofrenda en Mercado Libre, solo si DM-c lo aprueba | ML · `mercadolibre` | sáb 17-oct | Publicación activa, o decisión de no publicar |
 | DM-i | SOP de pedido personalizado (sección 5) | Producción · `documentador-procesos` | lun 19-oct | SOP en `procesos/` |
 | DM-j | Actualizar el estudio de temporalidad: ya hay producto de Día de Muertos | Estudio de mercado · `estudio-mercado` | lun 19-oct | `mercado/demanda-y-temporalidad.md` corregido |
 
-## 9. Preguntas para Noemi (hoy)
-1. **Vela de cempasúchil:** ¿ya tienes el molde? ¿Cuántos moldes y cuántas piezas por colada? ¿Medida de la vela?
-2. **Aroma:** ¿tu proveedor tiene aroma de cempasúchil o de copal? Si no, ¿cuál usamos?
-3. **Veladora:** ¿parafina o soya? ¿Ya tienes los vasos (medida y si son aptos para calor)? ¿Se vaciaron las velas de prueba el lunes?
-4. **Laminado:** ¿lo compramos, o prefieres barniz en aerosol?
-5. ¿La vela de cempasúchil lleva tag con nombre (personalizada) o tag fijo de la marca? Fijo es más rápido.
-6. ¿Tienes una foto de mascota o de alguien del equipo para las muestras y los videos?
+## 9. Preguntas pendientes para Noemi
+1. **Molde de cempasúchil:** ¿cuántos moldes tienes y cuántas piezas salen por colada? ¿Cuánto mide la vela?
+2. **Aromas:** ¿cuál usas para la veladora y cuál para el cempasúchil?
+3. **Vaso:** ¿qué medida tiene (diámetro y alto) y es apto para calor? ¿Se vaciaron las velas de prueba el lunes?
+4. **Tag de cempasúchil:** ¿con el nombre de cada cliente o un tag fijo de la marca? El fijo es más rápido.
+5. ¿Tienes una foto de mascota o de alguien del equipo para las muestras y los videos?
