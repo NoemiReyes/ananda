@@ -2,6 +2,12 @@
 
 Decisiones que se tomaron platicando con Noemi y que no están en otro archivo. La más reciente va arriba.
 
+## 15-oct-2026: impresora elegida, Epson EcoTank L3560
+
+Noemi eligió la **Epson EcoTank L3560** (Amazon México, $4,199 en oferta el 11-oct, tienda oficial Epson) porque le gustó más su calidad de impresión que la de la Canon. **Reemplaza la recomendación de la L3251 (abajo).** Las reglas de papel, laminado y sublimación siguen igual.
+
+Opalina: hasta ~225–250 g/m², hoja por hoja (gramaje máximo oficial: **verificar** en el manual de la L3560).
+
 ## 9-oct-2026: impresora para etiquetas (reemplazo de la Canon G3160, que se descompuso)
 
 **Decisión recomendada:** comprar la **Epson EcoTank L3251** en Amazon México ($3,949 con precio exclusivo de Prime, precio de lista $4,699, visto el 9-oct). Es solo para etiquetas. Pendiente: que Noemi confirme la compra y el precio que pagó.
