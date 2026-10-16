@@ -4,7 +4,7 @@ Decisiones que se tomaron platicando con Noemi y que no están en otro archivo. 
 
 ## 15-oct-2026: Día de Muertos con un solo material
 
-Productos: veladora de parafina en vaso (con foto o con papel picado de nombre), papel picado personalizado, vela de cempasúchil con tag, Set Recuerdo y Set Ofrenda. Todo con **etiqueta imprimible**: papel adhesivo mate + laminado (ya comprado) en la veladora, y opalina blanca de 225 g para el papel picado y el tag. **Sin vinil de corte ni vinil holográfico.** Motivo: no diversificarse ni aumentar el gasto. Plan v2: `direccion/dia-de-muertos-2026.md`.
+Productos: veladora de parafina en vaso (con foto o con papel picado de nombre), papel picado personalizado, vela de cempasúchil (tag solo si va en bolsa de celofán), Set Recuerdo y Set Ofrenda. Todo con **etiqueta imprimible**: papel adhesivo mate + laminado (ya comprado) en la veladora, y opalina blanca de 225 g para el papel picado y el tag. **Sin vinil de corte ni vinil holográfico.** Motivo: no diversificarse ni aumentar el gasto. Plan v3: `direccion/dia-de-muertos-2026.md`.
 
 ## 15-oct-2026: impresora elegida, Epson EcoTank L3560
 
