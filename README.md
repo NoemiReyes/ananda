@@ -28,6 +28,27 @@ Velas artesanales para eventos y Navidad. Meta: **$50,000 MXN/mes mínimo → $2
 | `servicio-cliente` | Respuestas, reclamos, reseñas |
 | `finanzas-fiscal` | Corte semanal, flujo de caja, SAT/RESICO, retenciones |
 
+### Accesos directos (escribe `/` en el chat)
+| Comando | Agente |
+|---|---|
+| `/director` | `director-estrategia` |
+| `/finanzas` | `finanzas-fiscal` |
+| `/mercadolibre` | `mercadolibre` |
+| `/servicio` | `servicio-cliente` |
+| `/tiktok` | `tiktok-shop-lives` |
+| `/contenido` | `contenido-tendencias` |
+| `/tienda` | `tienda-online` |
+| `/ventas` | `ventas-eventos-mayoreo` |
+| `/diseno` | `diseno-empaque-cricut` |
+| `/tecnico` | `tecnico-cricut` |
+| `/produccion` | `produccion-inventario` |
+| `/costos` | `costos-precios` |
+| `/maestro` | `maestro-velas` |
+| `/procesos` | `documentador-procesos` |
+| `/mercado` | `estudio-mercado` |
+
+Ejemplo: `/maestro mi vela de soya no huele prendida, ¿qué hago?`
+
 ### Cómo usarlos
 En Claude Code, dentro de esta carpeta, pide por nombre:
 - "Usa el agente `mercadolibre` para preparar la publicación del kit de ángeles."
