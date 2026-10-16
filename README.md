@@ -21,6 +21,7 @@ Velas artesanales para eventos y Navidad. Meta: **$50,000 MXN/mes mínimo → $2
 | `estudio-mercado` | Competencia, tendencias, temporadas, qué moldes comprar |
 | `costos-precios` | Costo unitario, precio por canal, márgenes |
 | `contenido-tendencias` | Calendario de contenido, guiones, tendencias, fotos |
+| `tecnico-cricut` | Técnico del taller: cortes en Cricut, Imprimir y cortar, Design Space, impresora Epson L3560 y Canva |
 | `maestro-velas` | Maestro cerero: fórmulas de soya y parafina, fragancia, mechas, pruebas de quemado, defectos y calidad de aroma |
 | `produccion-inventario` | Capacidad, plan de producción, inventario, ayudantes |
 | `diseno-empaque-cricut` | Etiquetas personalizadas, Cricut, empaque de envío |

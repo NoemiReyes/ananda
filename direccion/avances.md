@@ -2,7 +2,7 @@
 
 Índice de todo lo que ya existe, por chat y por agente. Lo mantiene el chat Dirección y se actualiza en cada corte semanal. Todo está guardado en la rama `claude/determined-fermat-0nfy34`.
 
-Las definiciones de los 14 agentes están en `.claude/agents/`.
+Las definiciones de los 15 agentes están en `.claude/agents/`.
 
 ## Equipo humano
 - **Noemi:** dueña, producción, ventas y redes.
@@ -20,6 +20,7 @@ Las definiciones de los 14 agentes están en `.claude/agents/`.
 | | `contenido-tendencias` | `contenido/calendario.md` (10 al 23 oct), `contenido/guiones-semana-1.md`, `contenido/guia-fotos.md` | Guía de grabación para Angélica (sáb 10). Guiones de Día de Muertos (mar 13) |
 | **Mayoreo y eventos** | `ventas-eventos-mayoreo` | `ventas/propuesta-corporativa-navidad.md`, `ventas/mensajes-prospeccion.md`, `ventas/plantilla-cotizacion.md`, `ventas/pipeline.md` | Lista de 100 empresas (mar 13). 30 contactos (mié 14 a vie 16) |
 | | `diseno-empaque-cricut` | `diseno/sistema-etiquetas.md` (Imprimir y cortar), `diseno/empaque-envio.md` | Plantillas de veladora con foto y de papel picado con nombre (mar 13) |
+| | `tecnico-cricut` (nuevo, 16-oct) | Todavía no hay archivos | Ajustes por material, guía de Imprimir y cortar y flujo Canva → Epson → Cricut en `diseno/tecnico/` |
 | **Producción y costos** | `produccion-inventario` | `produccion/inventario.md`, `produccion/cuestionario-capacidad.md`, `produccion/calculadora-capacidad.md` | Día cronometrado (mar 13) → capacidad y compra de moldes (jue 15 y vie 16) |
 | | `costos-precios` | `costos/README.md` (fórmula), `costos/insumos-referencia.md`, `costos/margenes-por-canal.md`, `costos/plantilla-costeo.csv`, `costos/calculo_costos.py` | Costos reales de Noemi (lun 12 → mié 14). Precios de Día de Muertos (mar 13) |
 | | `maestro-velas` (nuevo, 11-oct) | Todavía no hay archivos | Fichas de fórmula de los best sellers, protocolo de pruebas de quemado y guía de defectos en `produccion/formulas/` |

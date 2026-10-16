@@ -35,7 +35,7 @@ Todos trabajan en la rama `claude/determined-fermat-0nfy34`. Cada chat solo edit
 | Dirección | `director-estrategia`, `finanzas-fiscal` | `negocio/plan-90-dias.md`, `direccion/`, `finanzas/` |
 | Mercado Libre | `mercadolibre`, `servicio-cliente` | `mercadolibre/`, `servicio/` |
 | TikTok | `tiktok-shop-lives`, `contenido-tendencias` | `tiktok/`, `contenido/` |
-| Mayoreo y eventos | `ventas-eventos-mayoreo`, `diseno-empaque-cricut` | `ventas/`, `diseno/` |
+| Mayoreo y eventos | `ventas-eventos-mayoreo`, `diseno-empaque-cricut`, `tecnico-cricut` | `ventas/`, `diseno/` (guías técnicas en `diseno/tecnico/`) |
 | Producción y costos | `produccion-inventario`, `costos-precios`, `documentador-procesos`, `maestro-velas` | `produccion/` (fórmulas en `produccion/formulas/`), `costos/`, `procesos/`, `negocio/catalogo.md` |
 | Estudio de mercado | `estudio-mercado` | `mercado/` |
 
