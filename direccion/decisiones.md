@@ -2,6 +2,13 @@
 
 Decisiones que se tomaron platicando con Noemi y que no están en otro archivo. La más reciente va arriba.
 
+## 17-oct-2026: precios y ajustes de Día de Muertos
+- Veladora con foto: **se compra hecha a $21** y se vende en **$79** (margen objetivo 35%, excepción solo para Día de Muertos).
+- Vela de cempasúchil: **$75, o 3 por $200**.
+- Veladora con papel picado: **en pausa**.
+- Papel picado: **solo grande, 26 × 19 cm**, personalizado y genérico, **en opalina de color, solo corte en Cricut, nada impreso**. Precio sugerido: genérico $35, personalizado $45 (por confirmar con el tiempo real).
+- Set Ofrenda **no va a Mercado Libre** (pierde dinero).
+
 ## 15-oct-2026: Día de Muertos con un solo material
 
 Productos: veladora de parafina en vaso (con foto o con papel picado de nombre), papel picado personalizado, vela de cempasúchil (tag solo si va en bolsa de celofán), Set Recuerdo y Set Ofrenda. Todo con **etiqueta imprimible**: papel adhesivo mate + laminado (ya comprado) en la veladora, y opalina blanca de 225 g para el papel picado y el tag. **Sin vinil de corte ni vinil holográfico.** Motivo: no diversificarse ni aumentar el gasto. Plan v3: `direccion/dia-de-muertos-2026.md`.
