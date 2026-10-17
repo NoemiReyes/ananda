@@ -18,10 +18,10 @@ Responsable: chat Dirección (`director-estrategia`). **Versión 3: 15-oct-2026*
 | ~~DM-2~~ | ~~Veladora Papel Picado~~ | **En pausa (decisión de Noemi, 17-oct).** | — |
 | **DM-3** | **Papel picado grande (26 × 19 cm)** | Opalina de color recortada con la Cricut, sin impresión | **Personalizado** (con nombre) o **genérico** (diseño fijo). Solo tamaño grande por ahora |
 | **DM-4** | **Vela de Cempasúchil** | Vela figura en parafina naranja o amarilla. **El tag impreso va solo cuando se entrega en bolsa de celofán** | Sin personalización (el tag, si va, es de la marca) |
-| **DM-5** | **Set Recuerdo** | 1 veladora con foto + 1 papel picado grande con el mismo nombre | Ambos con el mismo nombre |
+| **DM-5** | **Set Recuerdo** | 1 veladora con foto + 1 papel picado grande con el mismo nombre ($119) | Ambos con el mismo nombre |
 | **DM-6** | **Set Ofrenda** | 1 veladora + 2 velas de cempasúchil + 1 papel picado | Para Mercado Libre, si el precio llega a $299 o más con margen de 45% o más |
 
-- **Precios (17-oct, `costos/dia-de-muertos-2026.md`):** **veladora con foto $79** (veladora comprada a $21; margen objetivo 35%, excepción solo para Día de Muertos) · **vela de cempasúchil $75 / 3 por $200** · papel picado grande: precio pendiente · sets: pendientes de recalcular. Envío por paquetería aparte; sin envío gratis. Actualizado el 17-oct por la tarde.
+- **Precios (17-oct, `costos/dia-de-muertos-2026.md`):** **veladora con foto $79** (veladora comprada a $21; margen objetivo 35%, excepción solo para Día de Muertos) · **vela de cempasúchil $75 / 3 por $200** · papel picado grande genérico $35 / con nombre $45 · **Set Recuerdo $119** (veladora con foto + papel picado con nombre) · **Set Ofrenda $259** (veladora con foto + 2 cempasúchil + papel picado con nombre). El cempasúchil y el Set Ofrenda solo llegan a 35% si se hacen 6 velas de cempasúchil por hora (a 3 por hora quedan en ~26%). Envío por paquetería aparte; sin envío gratis. Actualizado el 17-oct por la tarde.
 - **Mercado Libre: no se publica el Set Ofrenda.** A $299 pierde dinero; necesitaría ~$742 para 45% de margen (decisión de costos, 17-oct).
 - **El papel picado no se vende suelto en Mercado Libre** (cargo fijo por unidad debajo de $299). Suelto, solo por WhatsApp, IG y FB, o dentro de un set.
 - **Papel picado: solo grande, 26 × 19 cm.** No cabe en el área de "Imprimir y cortar" (17.1 × 23.5 cm en hoja carta), así que se hace **solo con corte, en opalina de color, sin impresión** (decisión de Noemi, 17-oct). El nombre queda calado en los huecos.

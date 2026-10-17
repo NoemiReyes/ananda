@@ -6,7 +6,9 @@ Decisiones que se tomaron platicando con Noemi y que no están en otro archivo. 
 - Veladora con foto: **se compra hecha a $21** y se vende en **$79** (margen objetivo 35%, excepción solo para Día de Muertos).
 - Vela de cempasúchil: **$75, o 3 por $200**.
 - Veladora con papel picado: **en pausa**.
-- Papel picado: **solo grande, 26 × 19 cm**, personalizado y genérico, **en opalina de color, solo corte en Cricut, nada impreso**. Precio sugerido: genérico $35, personalizado $45 (por confirmar con el tiempo real).
+- Papel picado: **solo grande, 26 × 19 cm**, personalizado y genérico, **en opalina de color, solo corte en Cricut, nada impreso**. Genérico $35, personalizado $45.
+- Sets: **Set Recuerdo $119**, **Set Ofrenda $259**.
+- Margen objetivo de 35% (excepción a la regla de 45%) para toda la línea de Día de Muertos 2026. Para que el cempasúchil y el Set Ofrenda lleguen a 35%, hay que producir 6 velas de cempasúchil por hora.
 - Set Ofrenda **no va a Mercado Libre** (pierde dinero).
 
 ## 15-oct-2026: Día de Muertos con un solo material
