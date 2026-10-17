@@ -4,9 +4,10 @@ Responsable: Producción y costos · `costos-precios`. **Versión 3: sáb 17-oct
 Fórmula y reglas: `costos/README.md` (margen bruto ≥ 45% en menudeo). Cálculo reproducible: script en el anexo al final de este archivo.
 
 > **Decisiones y datos reales de Noemi (17-oct) incluidos en la v3**
-> - **Cempasúchil:** aroma 6 g a $50/30 ml, colorante ¼ de sobre de $5, **3 velas por hora**. Precio **fijo por decisión de Noemi: $75 la pieza y 3 por $200**. A 3 velas por hora deja 26% y 17%: **abajo de 45%** (sección 1).
-> - **Veladoras DM-1/DM-2:** se **compran ya hechas a $21** (vaso, cera y mecha); papel adhesivo $6/hoja con 4 etiquetas. La mano de obra es solo personalizar y empacar.
+> - **Cempasúchil:** aroma 6 g a $50/30 ml, colorante ¼ de sobre de $5, **3 velas por hora**. Precio vigente **$75 la pieza y 3 por $200** (decisión de Noemi), **por confirmar**: Noemi escribió después "$47". A $75 y 3 velas por hora deja 26% y 17%; **a $47 sería negativo** (sección 1).
+> - **Veladoras DM-1/DM-2:** se **compran ya hechas a $21** (vaso, cera y mecha); papel adhesivo $6/hoja con 4 etiquetas. La mano de obra es solo personalizar y empacar. **Decisión final: DM-1 con foto a $79.**
 > - **Excepción de margen:** Noemi fija **35% como objetivo en las veladoras DM-1 y DM-2, solo esta temporada** (la regla general sigue en 45%). Referencia que dio: veladoras chicas sin personalizar a ~$50.
+> - **Papel picado DM-3:** opalina **$3 por hoja (real)**. Precios propuestos a 35%: chico $25, mediano $35, agregado a una veladora $29 (sección 3).
 
 ---
 
@@ -23,7 +24,7 @@ Fórmula y reglas: `costos/README.md` (margen bruto ≥ 45% en menudeo). Cálcul
 | Pabilo | 3 m = $25 → $0.083/cm | **REAL** |
 | Colorante, cempasúchil | **$1.25 por vela** (máximo: "ni una cuarta parte" de un sobre de $5) | **REAL como tope**. Si el cuarto de sobre rinde para una tanda de varias velas, el costo por vela baja (pregunta 1) |
 | Bolsa de celofán / listón de cierre | $0.90 / $0.50 | **estimado** (`insumos-referencia.md`); medida de bolsa del cempasúchil: **verificar** |
-| Opalina blanca 225 g, carta | $2.00/hoja | **estimado** con referencia: 100 hojas Copamex $151–155 en Cyberpuerta, $168–245 en ML (búsqueda del 17-oct, **verificar**) + envío |
+| Opalina blanca 225 g, carta | **$3.00/hoja** | **REAL** (Noemi, 17-oct). Reemplaza el estimado de $2 |
 | Papel adhesivo, carta | **$6.00/hoja, 4 etiquetas por hoja → $1.50 por etiqueta** | **REAL** (Noemi, 17-oct) |
 | Laminado transparente en frío, carta | $4.00/hoja | **estimado** (ya comprado: falta el precio real) |
 | Tinta Epson L3560 | $2.50/hoja cobertura alta · $1.00/hoja cobertura baja (tag) | **estimado** |
@@ -35,7 +36,7 @@ Fórmula y reglas: `costos/README.md` (margen bruto ≥ 45% en menudeo). Cálcul
 | Caja kraft + viruta (Set Ofrenda) | $10.00 | **estimado** |
 | Empaque de envío por paquetería (caja + burbuja + relleno + cinta) | $15 una pieza · $25 un set | **estimado** |
 | Pago | Transferencia o efectivo: 0%. Link de pago o terminal: ~4.2% (3.6% + IVA, **verificar** con tu proveedor) | Se muestra el margen en ambos casos |
-| **Margen objetivo** | **45%** en todo (README) · **excepción: 35% en veladoras DM-1 y DM-2, solo temporada Día de Muertos 2026** | **Decisión de Noemi (17-oct)**. Referencia que dio: veladoras más chicas sin personalizar a ~$50 en el mercado (**verificar** con 3 precios) |
+| **Margen objetivo** | **45%** en todo (README) · **excepción: 35% en veladoras DM-1 y DM-2 (y papel picado DM-3, según los precios propuestos), solo temporada Día de Muertos 2026** | **Decisión de Noemi (17-oct)**. Referencia que dio: veladoras más chicas sin personalizar a ~$50 en el mercado (**verificar** con 3 precios) |
 | Impuestos | Márgenes **antes** de ISR/IVA. Si Noemi factura con IVA trasladado, el margen baja ~13.8 puntos | Revisar con `finanzas-fiscal` |
 
 ### Tiempos de mano de obra
@@ -44,7 +45,7 @@ Fórmula y reglas: `costos/README.md` (margen bruto ≥ 45% en menudeo). Cálcul
 |---|---|---|
 | **Vela de cempasúchil (vaciar, desmoldar y empacar)** | **20 (3 por hora por persona)** · escenario 10 (6 por hora, colada en varios moldes a la vez) | **REAL** (Noemi, 17-oct) · el de 6/h es escenario |
 | **Veladora comprada: solo personalizar y empacar** (atención + prueba digital, diseño, imprimir, laminar, cortar, pegar etiqueta, embolsar) | **DM-1 con foto: 15 min · DM-2 con nombre: 10 min** (supuesto de trabajo con plantillas de Canva y por lotes) · pieza por pieza sin plantilla: ~22 min | **estimado**: cronometrar los primeros 5 pedidos |
-| Papel picado del set (mismo nombre, adaptar + cortar + desbarbar) | 9 | estimado |
+| Papel picado DM-3 (cambiar el nombre en la plantilla + corte + retirar recortes) | **5 o 10 min** (se calculan los dos); en sets y agregado se usa 5 min porque el nombre ya está capturado | estimado: cronometrar |
 
 En el cempasúchil, los 20 min incluyen el empacado; en el Set Ofrenda la vela va sin bolsa, pero se dejan los mismos 20 min (acomodar en la caja), para no quedarse cortos.
 
@@ -65,39 +66,38 @@ En el cempasúchil, los 20 min incluyen el empacado; en el Set Ofrenda la vela v
 | Colorante (¼ de sobre de $5) | REAL, tope | $1.25 | $1.25 | $1.25 | $1.25 |
 | **Subtotal insumos reales** | | **$24.19** | **$24.19** | **$24.19** | **$24.19** |
 | Sticker de advertencias en la base | estimado | $0.40 | — | $0.40 | — |
-| Bolsa de celofán + listón + tag en opalina | estimado | — | $1.81 | — | $1.81 |
+| Bolsa de celofán $0.90 + listón $0.50 + tag en opalina $0.55 | bolsa y listón estimado; opalina REAL | — | $1.95 | — | $1.95 |
 | **Mano de obra** (20 min a 3/h · 10 min a 6/h) | REAL (3/h) · escenario (6/h) | **$26.67** | **$26.67** | $13.33 | $13.33 |
-| Merma 5% | | $2.56 | $2.63 | $1.90 | $1.97 |
-| **Costo unitario** | | **$53.82** | **$55.30** | **$39.82** | **$41.30** |
+| Merma 5% | | $2.56 | $2.64 | $1.90 | $1.97 |
+| **Costo unitario** | | **$53.82** | **$55.45** | **$39.82** | **$41.45** |
 | Peso de la mano de obra en el costo | | 52% | 51% | 35% | 34% |
-| Precio mínimo para 45% (venta directa, transferencia) | | $98 | **$101** | $73 | **$76** |
+| Precio mínimo para 45% | | $98 | $101 | $73 | $76 |
 
 **Lectura:**
-- **La mano de obra domina el costo: $26.67 de $55.30 (51%).** Todos los insumos juntos suman $24.19; el aroma real ($10.00) es el insumo más caro, más que la soya.
-- **A $75 la vela ya no llega a 45%:** con 3 por hora deja **26.3%** (22% con link de pago). Costos lo marcó como rechazado por la regla de 45% y propuso $105; **Noemi decidió quedarse en $75** (siguiente tabla).
-- **Colada en varios moldes a la vez (6 por hora)** baja el costo $14 por vela ($55.30 → $41.30). Es la palanca más grande de todo el catálogo de Día de Muertos: vale más que cualquier ahorro en insumos. Cada molde extra se paga solo con unas 20 velas (ahorro de $14 por vela; precio del molde: **verificar**).
-- Con 6 por hora, $75 queda en 44.9%: tampoco pasa. El precio mínimo es $76.
+- **La mano de obra domina el costo: $26.67 de $55.45 (51%).** Todos los insumos juntos suman $24.19; el aroma ($10.00) es el insumo más caro.
+- **Colada en varios moldes a la vez (6 por hora)** baja el costo $14 por vela. Es la palanca más grande de todo Día de Muertos. Cada molde extra se paga con unas 20 velas (precio del molde: **verificar**).
 
-### Precio del cempasúchil: **decisión de Noemi (17-oct): $75 la pieza y 3 por $200** (reemplaza "2 por $139")
+### Precio del cempasúchil: **$75 la pieza y 3 por $200** (decisión de Noemi; **por confirmar**)
 
-Precio fijo: no se cambia en este documento. Aquí solo se muestra su margen real. 3 por $200 = $66.67 por vela.
+Noemi escribió después "$47". **No se cambia hasta que confirme**; se deja $75 / 3 por $200. 3 por $200 = $66.67 por vela.
 
 | Precio | Productividad | Empaque | Costo | Margen transferencia | Con link de pago | Si absorbes empaque de envío ($15) | ¿Llega a 45%? |
 |---|---|---|---|---|---|---|---|
 | $75 (1 pieza) | 3 por hora | sin bolsa | $53.82 | **28.2%** | 24.1% | 8.2% | **NO ⚠️** |
-| $75 (1 pieza) | 3 por hora | con bolsa + tag | $55.30 | **26.3%** | 22.1% | 6.3% | **NO ⚠️** |
+| $75 (1 pieza) | 3 por hora | con bolsa + tag | $55.45 | **26.1%** | 21.9% | 6.1% | **NO ⚠️** |
 | $75 (1 pieza) | 6 por hora | sin bolsa | $39.82 | 46.9% | 42.7% ⚠️ | 26.9% ⚠️ | Sí (solo con transferencia) |
-| $75 (1 pieza) | 6 por hora | con bolsa + tag | $41.30 | **44.9%** | 40.8% | 24.9% | **NO ⚠️** (por 0.1 puntos) |
+| $75 (1 pieza) | 6 por hora | con bolsa + tag | $41.45 | **44.7%** | 40.6% | 24.7% | **NO ⚠️** (por 0.3 puntos) |
 | 3 por $200 | 3 por hora | sin bolsa | $161.46 | **19.3%** | 15.1% | 11.8% | **NO ⚠️** |
-| 3 por $200 | 3 por hora | con bolsa + tag | $165.90 | **17.1%** | 12.9% | 9.6% | **NO ⚠️** |
+| 3 por $200 | 3 por hora | con bolsa + tag | $166.35 | **16.8%** | 12.6% | 9.3% | **NO ⚠️** |
 | 3 por $200 | 6 por hora | sin bolsa | $119.46 | **40.3%** | 36.1% | 32.8% | **NO ⚠️** |
-| 3 por $200 | 6 por hora | con bolsa + tag | $123.90 | **38.1%** | 33.9% | 30.6% | **NO ⚠️** |
+| 3 por $200 | 6 por hora | con bolsa + tag | $124.35 | **37.8%** | 33.6% | 30.3% | **NO ⚠️** |
+
+> ⚠️ **Nota sobre "$47":** a $47 por pieza el margen sería **NEGATIVO a 3 velas por hora: −18.0% en bolsa (pierdes $8.45 por vela) y −14.5% sin bolsa**. A 6 por hora quedaría en 11.8% (bolsa) / 15.3% (sin bolsa): positivo pero muy abajo de 35% y 45%. Costos **rechaza $47** (regla 3 de CLAUDE.md: nunca vender con margen negativo).
 
 **Lectura de costos (para Dirección):**
-- **Con la productividad real de hoy (3 por hora), el cempasúchil a $75 deja 26% y el 3 por $200 deja 17%.** Ninguno pasa la regla de 45% del README. No hay pérdida (margen positivo), pero cada vela paga la hora de Noemi y casi nada más.
-- **Con colada en varios moldes (6 por hora), $75 queda en el límite (44.9% en bolsa, 46.9% sin bolsa)**; el 3 por $200 sigue abajo (38%).
-- Para que estos precios funcionen, **pasar a 6 por hora es obligatorio**, no opcional. Precios que sí llegarían a 45% como referencia: 1 pieza $101 (3/h) o $76 (6/h); 3 piezas $302 (3/h) o $226 (6/h).
-- Por la regla del README, vender abajo de 45% requiere **aprobación escrita de Dirección**: dejar registrada la decisión de Noemi en `direccion/`.
+- A 3 velas por hora, $75 deja 26% y 3 por $200 deja 17%: margen positivo, pero abajo de 45% (y de 35%). Precios que sí llegarían a 45%: 1 pieza $101 (3/h) o $76 (6/h); 3 piezas $302 (3/h) o $226 (6/h).
+- Para que $75 funcione, **pasar a 6 por hora es obligatorio**, no opcional.
+- Vender abajo de 45% requiere **aprobación escrita de Dirección**: dejar registrada la decisión de Noemi en `direccion/`.
 - No cobrar con link de pago ni absorber envío en el cempasúchil: baja a 6–24%.
 
 ---
@@ -132,34 +132,47 @@ Lectura: la veladora comprada deja los materiales en $26.54; **la mano de obra e
 | **DM-2 Veladora papel picado con nombre** | 10 | $41.86 | **$69** | **39.3%** | 35.2% | 17.6% ⚠️ | Sí | No |
 | DM-2 si tarda 15 min | 15 | $48.86 | $69 | **29.2% ⚠️** | 25.0% | 7.4% | **No** | No |
 
-**Recomendación: DM-1 a $79 y DM-2 a $69.** Cumplen el 35% de Noemi con 15 y 10 min. Condición: **cronometrar los primeros 5 pedidos**. Si DM-1 pasa de ~17 min o DM-2 pasa de ~12 min, el margen cae abajo de 35% (DM-1 a 22 min deja 25.7%); en ese caso subir a DM-1 $89 / DM-2 $79. Comparado con la referencia de ~$50 por una veladora chica sin personalizar, $69–$79 cobra $19–$29 por la personalización.
+**Decisión final de Noemi: DM-1 a $79.** Recomendación de costos para DM-2: **$69**. Cumplen el 35% de Noemi con 15 y 10 min. Condición: **cronometrar los primeros 5 pedidos**. Si DM-1 pasa de ~17 min o DM-2 pasa de ~12 min, el margen cae abajo de 35% (DM-1 a 22 min deja 25.7%); en ese caso subir a DM-1 $89 / DM-2 $79. Comparado con la referencia de ~$50 por una veladora chica sin personalizar, $69–$79 cobra $19–$29 por la personalización.
 
 ---
 
-## 3. DM-3 Papel picado (sin cambios desde la v1)
+## 3. DM-3 Papel picado personalizado (opalina 225 g, $3 por hoja REAL)
 
-Opalina 225 g.
+Caben **2 chicos (14 × 10 cm)** o **1 mediano (19 × 14 cm)** por hoja carta en el área de Imprimir y cortar (17.1 × 23.5 cm). Mano de obra: cambiar el nombre en la plantilla + corte + retirar recortes, calculada con **5 y 10 min** a $80/h.
 
-Caben **2 chicos (14 × 10 cm)** o **1 mediano (19 × 14 cm)** por hoja en el área de Imprimir y cortar (17.1 × 23.5 cm).
+| Concepto | Chico (2 por hoja) | Mediano (1 por hoja) | Mediano agregado a una veladora | Estatus |
+|---|---|---|---|---|
+| Opalina | $1.50 | $3.00 | $3.00 | **REAL** |
+| Tinta cobertura alta | $1.25 | $2.50 | $2.50 | estimado |
+| +10% reimpresión (papel + tinta) | $0.28 | $0.55 | $0.55 | estimado |
+| Cuchilla y tapete | $0.25 | $0.50 | $0.50 | estimado |
+| Sobre de celofán plano | $0.90 | $0.90 | $0.90 | estimado |
+| **Materiales** | **$4.18** | **$7.45** | **$7.45** | |
+| Costo con 5 min ($6.67 + merma 5%) | **$11.38** | **$14.82** | **$14.82** | |
+| Costo con 10 min ($13.33 + merma 5%) | **$18.38** | **$21.82** | **$21.82** | |
+| Precio mínimo 35% (5 min · 10 min) | $18 · $28 | $23 · $34 | $23 · $34 | |
+| Precio mínimo 45% (5 min · 10 min) | $21 · $33 | $27 · $40 | $27 · $40 | |
 
-| Concepto | Chico suelto | Mediano suelto | Mediano agregado a una veladora (mismo nombre) |
-|---|---|---|---|
-| Opalina + tinta alta, +10% reimpresión | $2.48 | $4.95 | $4.95 |
-| Cuchilla y tapete | $0.25 | $0.50 | $0.50 |
-| Sobre de celofán plano | $0.90 | $0.90 | $0.90 |
-| Mano de obra | $17.33 (13 min) | $20.00 (15 min) | $10.67 (8 min: el diseño ya está hecho) |
-| Merma 5% | $1.05 | $1.32 | $0.85 |
-| **Costo unitario** | **$22.01** | **$27.67** | **$17.87** |
-| Precio mínimo 45% | $40 | $50 | $32 |
+### Precios propuestos (35%) y comparación con Pixé Design
 
-El material cuesta menos de $6: **lo caro es el tiempo** (atender, diseñar y desbarbar). Con nuestro costo no podemos igualar a Pixé Design ($10 chico, $22 mediano) sin perder dinero.
+| Producto | Precio | Margen con 5 min | Margen con 10 min | Pasa 35% hasta… | Pixé Design | Margen nuestro al precio de Pixé (5 min · 10 min) |
+|---|---|---|---|---|---|---|
+| **Chico 14 × 10** | **$25** | 54.5% | **26.5% ⚠️** | ~8.5 min | $10 | **−13.8% · −83.8%** (pérdida) |
+| **Mediano 19 × 14** | **$35** | 57.7% | 37.7% | ~10.5 min | $22 | 32.6% · 0.8% |
+| **Mediano agregado a una veladora** | **$29** | 48.9% | **24.8% ⚠️** | ~8 min | — | — |
+| Agregado a $25 (alternativa) | $25 | 40.7% | **12.7% ⚠️** | ~6 min | — | — |
 
+**Confirmación de los precios propuestos:**
+- **Mediano $35: confirmado** con 5 y con 10 min (57.7% / 37.7%).
+- **Chico $25 y agregado $29: confirmados solo si el corte toma ≤8 min.** Con 10 min caen a 26.5% y 24.8%. El agregado se calcula con 5 min porque el nombre ya está en la plantilla de la veladora: ahí deja 48.9%.
+- **Agregado a $25:** con 5 min deja 40.7% (sí pasa 35%); con 10 min deja 12.7%. La cifra de "~27%" que traía la propuesta corresponde a ~8–9 min; con nuestros supuestos depende totalmente del tiempo. Mantener **$29**.
+- **Pixé:** el chico a $10 nos hace perder dinero aunque se haga en 5 min (el material solo cuesta $4.18). No competimos en precio suelto; el papel picado se vende como complemento de la veladora y en sets.
 
 ---
 
-## 4. Sets DM-5 y DM-6 (recalculados con la veladora comprada)
+## 4. Sets DM-5 y DM-6 (recalculados)
 
-Precios por separado: DM-1 $79 · DM-2 $69 · papel picado agregado $35 · cempasúchil $75 (decisión de Noemi).
+Precios por separado: DM-1 $79 · DM-2 $69 · papel picado agregado $29 · cempasúchil $75 (por confirmar). Papel picado del set con 5 min (mismo nombre de la veladora).
 
 ### Costeo
 
@@ -167,30 +180,31 @@ Precios por separado: DM-1 $79 · DM-2 $69 · papel picado agregado $35 · cempa
 |---|---|---|---|---|---|---|
 | Veladora comprada + etiqueta + sticker (+ bolsa en DM-5) | $26.54 | $26.54 | $24.84 (sin bolsa, va en caja) | $24.84 | $24.84 | $24.84 |
 | Mano de obra veladora (15 min foto · 10 min nombre) | $20.00 | $13.33 | $20.00 | $13.33 | $20.00 | $13.33 |
-| Papel picado mediano, mismo nombre (materiales) | $5.45 | $5.45 | $5.45 | $5.45 | $5.45 | $5.45 |
-| Mano de obra papel picado (9 min) | $12.00 | $12.00 | $12.00 | $12.00 | $12.00 | $12.00 |
+| Papel picado mediano (opalina $3 + tinta + cuchilla, sin sobre) | $6.55 | $6.55 | $6.55 | $6.55 | $6.55 | $6.55 |
+| Mano de obra papel picado (5 min) | $6.67 | $6.67 | $6.67 | $6.67 | $6.67 | $6.67 |
 | 2 velas de cempasúchil sin bolsa (con su mano de obra) | — | — | $101.72 | $101.72 | $75.05 | $75.05 |
-| Caja kraft + viruta + tag del set | — | — | $10.41 | $10.41 | $10.41 | $10.41 |
-| Merma 5% | $3.20 | $2.87 | $8.72 | $8.39 | $7.39 | $7.05 |
-| **Costo del set** | **$67.19** | **$60.19** | **$183.13** | **$176.13** | **$155.13** | **$148.13** |
-| Precio mínimo 35% | $103 | $93 | $282 | $271 | $239 | $228 |
+| Caja kraft + viruta + tag del set | — | — | $10.55 | $10.55 | $10.55 | $10.55 |
+| Merma 5% | $2.98 | $2.65 | $8.50 | $8.17 | $7.17 | $6.84 |
+| **Costo del set** | **$62.74** | **$55.74** | **$178.83** | **$171.83** | **$150.83** | **$143.83** |
+| Precio mínimo 35% | $97 | $86 | $275 | $264 | $232 | $221 |
 
 ### Precio
 
 | Set | Por separado | Precio del set | Ahorro | Margen transferencia | Con link | Si absorbes empaque | Decisión |
 |---|---|---|---|---|---|---|---|
-| **DM-5 Set Recuerdo con foto** | $79 + $35 = $114 | **$104** | $10 | **35.4%** | 31.2% ⚠️ | 21.0% ⚠️ | **Recomendado** |
-| DM-5 con foto, ahorro $15 | $114 | $99 | $15 | 32.1% ⚠️ | 28.0% | 17.0% | Abajo de 35% (positivo) |
-| **DM-5 Set Recuerdo con nombre** | $69 + $35 = $104 | **$94** | $10 | **36.0%** | 31.8% ⚠️ | 20.0% ⚠️ | **Recomendado** |
-| DM-5 con nombre, ahorro $15 | $104 | $89 | $15 | 32.4% ⚠️ | 28.2% | 15.5% | Abajo de 35% (positivo) |
-| **DM-6 Set Ofrenda con foto** | $79 + 2 × $75 + $35 = $264 | **$249** | $15 | **26.5% ⚠️ (3/h)** · 37.7% (6/h) | 22.3% · 33.5% | 16.4% · 27.7% | Recomendado; pasa 35% solo a 6/h |
-| **DM-6 Set Ofrenda con nombre** | $69 + 2 × $75 + $35 = $254 | **$239** | $15 | **26.3% ⚠️ (3/h)** · 38.0% (6/h) | 22.1% · 33.8% | 15.8% · 27.6% | Recomendado; pasa 35% solo a 6/h |
+| **DM-5 Set Recuerdo con foto** | $79 + $29 = $108 | **$99** | $9 | **36.6%** | 32.4% ⚠️ | 21.5% ⚠️ | **Recomendado** |
+| **DM-5 Set Recuerdo con nombre** | $69 + $29 = $98 | **$89** | $9 | **37.4%** | 33.2% ⚠️ | 20.5% ⚠️ | **Recomendado** |
+| DM-5 con ahorro de $15 ($93 / $83) | $108 / $98 | $93 / $83 | $15 | 32.5% / 32.8% ⚠️ | 28.4% / 28.7% | 16.4% / 14.8% | Abajo de 35% (positivo) |
+| **DM-6 Set Ofrenda con foto** | $79 + 2 × $75 + $29 = $258 | **$249** | $9 | **28.2% ⚠️ (3/h)** · 39.4% (6/h) | 24.0% · 35.2% | 18.1% · 29.4% | Recomendado; pasa 35% solo a 6/h |
+| **DM-6 Set Ofrenda con nombre** | $69 + 2 × $75 + $29 = $248 | **$239** | $9 | **28.1% ⚠️ (3/h)** · 39.8% (6/h) | 23.9% · 35.6% | 17.6% · 29.4% | Recomendado; pasa 35% solo a 6/h |
+| DM-6 con ahorro de $15 ($243 / $233) | $258 / $248 | $243 / $233 | $15 | 26.4% / 26.3% (3/h) · 37.9% / 38.3% (6/h) | | | Número poco redondo; 3/h abajo de 35% |
 
 **Lectura:**
-- **Set Recuerdo:** con ahorro de $15 queda en 32%; propongo **ahorro de $10 ($104 / $94)** para quedar arriba de 35%. Si Noemi prefiere el número redondo ($99 / $89), el margen es positivo (32%) pero abajo de su propio objetivo.
-- **Set Ofrenda:** a $249 / $239 conserva el ahorro de $15 y pasa 35% **solo si el cempasúchil se hace a 6 por hora**. A 3 por hora deja 26% (positivo, pero abajo de 35% y de 45%): el cempasúchil a $75 es lo que jala el margen hacia abajo. A 3 por hora no hay precio que pase 35% y siga siendo más barato que las piezas sueltas ($282 > $264).
-- Todos los sets: **margen positivo en todos los escenarios**, pero ninguno llega al 45% del README. Al aplicar el 35% de la excepción a los sets se extiende la decisión de Noemi: confirmarlo (pregunta 3).
-- Cobrar los sets **solo por transferencia o efectivo** y **envío aparte**: con link o con envío absorbido bajan a 16–33%.
+- Con el papel picado agregado a $29, **todos los sets quedan $9 más baratos** que por separado y en números redondos ($99 / $89 / $249 / $239). Con ahorro de $15 el Set Recuerdo baja a 32%, abajo del 35% de Noemi.
+- **Set Ofrenda:** pasa 35% **solo si el cempasúchil se hace a 6 por hora**; a 3 por hora deja 28% (positivo). A 3 por hora no hay precio que pase 35% y siga siendo más barato que las piezas sueltas ($275 > $258).
+- **Si el cempasúchil baja a $47:** por separado el Set Ofrenda sumaría $202 / $192 y el set tendría que costar menos que eso, **por debajo de su costo de $172–$179 a 3/h: margen negativo**. Recalcular el set en cuanto Noemi confirme el precio.
+- Ningún set llega al 45% del README; el 35% de la excepción se está aplicando a los sets (pregunta 3).
+- Cobrar los sets **solo por transferencia o efectivo** y **envío aparte**.
 
 ---
 
@@ -200,9 +214,9 @@ Supuestos (todos **verificar en el simulador de costos de la publicación**): ML
 
 | Escenario | Precio $249 | Precio $299 | Precio $349 | Precio mínimo para 45% |
 |---|---|---|---|---|
-| DM-6 con foto (3/h, costo $183.13), ML Clásica | −33.1% ⚠️ | −13.8% ⚠️ | 0.0% ⚠️ | **$766** |
-| DM-6 con foto (3/h), ML Premium | −38.3% ⚠️ | −19.0% ⚠️ | −5.2% ⚠️ | **$889** |
-| Kit genérico sin personalizar (costo $162.13), ML Clásica | −24.7% ⚠️ | −6.7% ⚠️ | 6.1% ⚠️ | **$710** |
+| DM-6 con foto (3/h, costo $178.83), ML Clásica | −31.4% ⚠️ | −12.3% ⚠️ | 1.3% ⚠️ | **$755** |
+| DM-6 con foto (3/h), ML Premium | −36.6% ⚠️ | −17.5% ⚠️ | −3.9% ⚠️ | **$876** |
+| Kit genérico sin personalizar (costo $163.43), ML Clásica | −25.2% ⚠️ | −7.2% ⚠️ | 5.7% ⚠️ | **$714** |
 
 **Decisión de costos: RECHAZADO para ML** (pierde dinero a $249–$299). Vender el Set Ofrenda **solo por WhatsApp/IG/FB**.
 
@@ -210,48 +224,50 @@ Supuestos (todos **verificar en el simulador de costos de la publicación**): ML
 
 ## 6. Precios para los estados de WhatsApp (listos para copiar)
 
-Margen con pago por transferencia/efectivo y envío por paquetería cobrado aparte. Veladoras con 15 min (foto) y 10 min (nombre); cempasúchil a 3 velas por hora (real) y a 6 por hora (escenario).
+Margen con pago por transferencia/efectivo y envío por paquetería cobrado aparte. Veladoras con 15 min (foto) y 10 min (nombre); papel picado con 5 min; cempasúchil a 3 velas por hora (real) y 6 por hora (escenario).
 
 | Producto | Texto para el estado | Costo | Margen | Objetivo | ¿Cumple? |
 |---|---|---|---|---|---|
-| Veladora con foto (DM-1) y versión mascota | **$79** | $48.86 | 38.2% | 35% (decisión de Noemi) | Sí |
-| Veladora papel picado con nombre (DM-2) | **$69** | $41.86 | 39.3% | 35% (decisión de Noemi) | Sí |
+| Veladora con foto (DM-1) y versión mascota | **$79** (decisión final de Noemi) | $48.86 | 38.2% | 35% (decisión de Noemi) | Sí |
+| Veladora papel picado con nombre (DM-2) | **$69** | $41.86 | 39.3% | 35% | Sí |
 | "Desde [precio]" (estado del sáb 17, 14:00) | **Desde $69** | — | — | — | — |
-| Papel picado con nombre (DM-3) | **Desde $45** (chico $45 · mediano $55 · agrégalo a tu veladora por $35) | $22.01 · $27.67 · $17.87 | 51.1% · 49.7% · 48.9% | 45% | Sí |
-| Vela de cempasúchil (DM-4), en bolsa con tag | **$75** · **3 por $200** (decisión de Noemi) | $55.30 (3/h) · $41.30 (6/h) | **26.3% · 17.1% ⚠️ (3/h)** · 44.9% · 38.1% (6/h) | 45% | **No** (precio fijo por decisión de Noemi) |
-| Set Recuerdo (DM-5) | **Desde $94** (con nombre $94 · con foto $104) | $60.19 · $67.19 | 36.0% · 35.4% | 35% | Sí |
-| Set Ofrenda (DM-6) | **Desde $239** (con nombre $239 · con foto $249) | $176.13 · $183.13 (3/h) · $148.13 · $155.13 (6/h) | **26.3% · 26.5% ⚠️ (3/h)** · 38.0% · 37.7% (6/h) | 35% | Solo a 6/h |
+| Papel picado con nombre (DM-3) | **Desde $25** (chico $25 · mediano $35 · agrégalo a tu veladora por $29) | $11.38 · $14.82 · $14.82 | 54.5% · 57.7% · 48.9% (con 10 min: 26.5% ⚠️ · 37.7% · 24.8% ⚠️) | 35% | Sí con ≤8 min |
+| Vela de cempasúchil (DM-4), en bolsa con tag | **$75** · **3 por $200** (**por confirmar**; a $47 sería margen negativo) | $55.45 (3/h) · $41.45 (6/h) | **26.1% · 16.8% ⚠️ (3/h)** · 44.7% · 37.8% (6/h) | 45% | **No** (decisión de Noemi) |
+| Set Recuerdo (DM-5) | **Desde $89** (con nombre $89 · con foto $99) | $55.74 · $62.74 | 37.4% · 36.6% | 35% | Sí |
+| Set Ofrenda (DM-6) | **Desde $239** (con nombre $239 · con foto $249) | $171.83 · $178.83 (3/h) · $143.83 · $150.83 (6/h) | **28.1% · 28.2% ⚠️ (3/h)** · 39.8% · 39.4% (6/h) | 35% | Solo a 6/h |
 | Nota para todos | Envío por paquetería: se cobra aparte (guía + empaque). Pago 100% por adelantado en personalizados. Pago por transferencia o efectivo | | | | |
+
+**No publicar el cempasúchil ni el Set Ofrenda hasta que Noemi confirme el precio del cempasúchil** ($75 o $47).
 
 ---
 
 ## 7. Validación rápida
-- **Ningún precio tiene margen negativo** en ningún escenario calculado (el más bajo: cempasúchil 3 por $200 a 3/h, 17.1%).
-- Cumplen 45% (README): papel picado DM-3. Cumplen la excepción de 35%: DM-1 $79 (15 min), DM-2 $69 (10 min), Set Recuerdo $104 / $94.
-- ⚠️ **Abajo del objetivo por decisión de Noemi:** cempasúchil $75 (26.3% a 3/h) y 3 por $200 (17.1% a 3/h). Set Ofrenda $249 / $239: 26% a 3/h, 38% a 6/h.
-- ⚠️ La excepción de 35% es **solo para la temporada de Día de Muertos 2026** (decisión de Noemi, 17-oct). No usar estos precios como base para Navidad ni mayoreo. Avisar a `documentador-procesos` / anotar en `direccion/`.
-- ⚠️ Con link de pago, DM-1 baja a 34.0% y los sets a 22–34%: pedir transferencia.
-- ⚠️ No ofrecer "envío gratis": todo baja a 7–28%.
-- Recalcular si: la personalización tarda más de 15 min (foto) / 10 min (nombre), el colorante resulta ser por tanda (baja ~$1.20 por vela) o el laminado/tinta real difiere del estimado.
+- **Ningún precio vigente tiene margen negativo** (el más bajo: cempasúchil 3 por $200 a 3/h, 16.8%). **$47 por cempasúchil: rechazado, margen negativo a 3/h (−18.0%).**
+- Cumplen la excepción de 35%: DM-1 $79 (15 min), DM-2 $69 (10 min), papel picado $25 / $35 / $29 (con ≤8 min), Set Recuerdo $99 / $89.
+- ⚠️ **Abajo del objetivo por decisión de Noemi:** cempasúchil $75 (26.1% a 3/h) y 3 por $200 (16.8% a 3/h). Set Ofrenda $249 / $239: 28% a 3/h, 39–40% a 6/h.
+- ⚠️ La excepción de 35% es **solo para Día de Muertos 2026** (decisión de Noemi, 17-oct). No usar estos precios para Navidad ni mayoreo. Anotar en `direccion/` y avisar a `documentador-procesos`.
+- ⚠️ Con link de pago, DM-1 baja a 34.0% y los sets a 24–35%: pedir transferencia.
+- ⚠️ No ofrecer "envío gratis": las piezas sueltas bajan a 6–28%.
+- Recalcular si: la personalización tarda más de 15 min (foto) / 10 min (nombre), el papel picado tarda más de 8 min, el colorante resulta ser por tanda, o cambia el precio del cempasúchil.
 
 ---
 
 ## 8. Preguntas para Noemi (en orden de impacto)
 
-1. **Cempasúchil, moldes y colorante:** ¿cuántos moldes tienes y puedes colar varios a la vez para sacar 6 por hora? A $75 eso separa 26% de 45% de margen, y hace que el Set Ofrenda pase de 26% a 38%. El cuarto de sobre de colorante, ¿es para una vela o para toda la tanda?
-2. **Tiempo real de personalización:** cronometra 5 veladoras con foto y 5 con nombre (prueba digital, diseño, imprimir, laminar, cortar, pegar, embolsar). Los precios de $79 / $69 aguantan hasta ~17 y ~12 min.
-3. **Sets:** ¿el 35% también aplica a los sets? Si sí, Set Recuerdo $104 / $94 (ahorro $10); si prefieres el ahorro de $15 ($99 / $89), queda en 32%.
+1. **Precio del cempasúchil:** ¿se queda en $75 / 3 por $200 o es $47? A $47 pierdes $8.45 por vela con 3 velas por hora. Y ¿puedes colar en varios moldes para sacar 6 por hora? (eso sube el Set Ofrenda de 28% a 39%).
+2. **Tiempos reales:** cronometra 5 veladoras con foto, 5 con nombre y 5 papeles picados (cambiar nombre + corte + retirar recortes). Los precios aguantan hasta ~17 min (foto), ~12 min (nombre) y ~8 min (papel picado chico o agregado).
+3. **Sets:** ¿aceptas ahorro de $9 ($99 / $89 / $249 / $239) para quedar arriba de 35%, o prefieres ahorro de $15 con 32% en el Set Recuerdo?
 
-Pendientes que siguen abiertos (menor impacto): precio real del laminado, la tinta, la opalina y la bolsa de celofán; densidad del aroma; costo de paquetería y entrega local.
+Pendientes abiertos (menor impacto): precio real del laminado, la tinta y la bolsa de celofán; colorante por vela o por tanda; densidad del aroma; costo de paquetería y entrega local.
 
 ---
 
 ## Anexo: script del cálculo (reproducible, v3)
 
-Copiar a un archivo `.py` y ejecutar con `python3`. Cambiar los valores de la parte de arriba cuando Noemi mande datos reales. Los costos de DM-3 vienen de la v1 (sin cambios).
+Copiar a un archivo `.py` y ejecutar con `python3`. Cambiar los valores de la parte de arriba cuando Noemi mande datos reales.
 
 ```python
-# Costeo Dia de Muertos 2026 v3 - Ananda Velas (17-oct-2026, datos reales de Noemi)
+# Costeo Dia de Muertos 2026 v3 - Ananda Velas (17-oct-2026, datos reales y decisiones de Noemi)
 MO_H = 80.0; MERMA = 0.05
 SOYA = 0.150; PARAF = 0.080                      # REAL $/g
 AROMA = 50/30                                    # REAL $50 por 30 ml = $1.667/ml; densidad 1 g/ml: verificar
@@ -264,11 +280,20 @@ MIN_FOTO_SIN_LOTES = 22                          # estimado si se hace pieza por
 MARGEN_VEL = 0.35                                # decision de Noemi (17-oct): objetivo 35% en veladoras DM, solo esta temporada
 ADH = 6.00; ETQ_POR_HOJA = 4                     # REAL: papel adhesivo $6/hoja, 4 etiquetas por hoja
 CELOFAN = 0.90; LISTON = 0.50                    # estimado
-OPALINA = 2.00; LAMINADO = 4.00; TINTA_ALTA = 2.50; TINTA_BAJA = 1.00; DESP = 1.10  # estimado
+# OPALINA $3/hoja: REAL (Noemi, 17-oct)
+OPALINA = 3.00; LAMINADO = 4.00; TINTA_ALTA = 2.50; TINTA_BAJA = 1.00; DESP = 1.10  # estimado
 TAG = (OPALINA + TINTA_BAJA)/8*DESP
 ETIQUETA = (ADH + TINTA_ALTA + LAMINADO)/ETQ_POR_HOJA*DESP   # $3.44
 PP_MAT = (OPALINA + TINTA_ALTA)*DESP + 0.50      # papel picado mediano sin sobre (materiales)
-PRECIO_CEMPA = 75; PRECIO_CEMPA_3 = 200          # decision de Noemi (fijo)
+CUCHILLA = 0.50                                  # desgaste cuchilla+tapete por hoja, estimado
+MIN_PP_SET = 5                                   # papel picado con el mismo nombre de la veladora: cambiar nombre + corte + retirar recortes
+
+def picado(por_hoja, minutos, sobre=True):
+    d = {'opalina + tinta alta +10%': (OPALINA + TINTA_ALTA)/por_hoja*DESP, 'cuchilla': CUCHILLA/por_hoja,
+         'mano de obra': mo(minutos)}
+    if sobre: d['sobre celofan'] = CELOFAN
+    return d
+PRECIO_CEMPA = 75; PRECIO_CEMPA_3 = 200          # decision de Noemi; POR CONFIRMAR (escribio $47)
 def mo(minutos): return MO_H*minutos/60
 def costo(d): return round(sum(d.values())*(1+MERMA), 2)
 def mg(p, c, com=0.0): return (p*(1-com) - c)/p*100
@@ -287,11 +312,11 @@ def veladora(minutos, bolsa=True):
     return d
 
 def set_recuerdo(min_vel):
-    d = veladora(min_vel); d['papel picado mat'] = PP_MAT; d['mo papel picado 9 min'] = mo(9); return d
+    d = veladora(min_vel); d['papel picado mat'] = PP_MAT; d['mo papel picado'] = mo(MIN_PP_SET); return d
 
 def set_ofrenda(min_vel, vel_hora):
     d = veladora(min_vel, bolsa=False); c = cempa(vel_hora, False); c.pop('sticker base')
-    d.update({'2 cempasuchil': 2*sum(c.values()), 'papel picado mat': PP_MAT, 'mo papel picado 9 min': mo(9),
+    d.update({'2 cempasuchil': 2*sum(c.values()), 'papel picado mat': PP_MAT, 'mo papel picado': mo(MIN_PP_SET),
               'caja kraft + viruta': 10.00, 'tag set': TAG})
     return d
 
@@ -305,20 +330,24 @@ if __name__ == '__main__':
         d = veladora(m); c = costo(d)
         print(f'veladora {m} min: costo {c:.2f} MO {d["mano de obra"]:.2f} ({d["mano de obra"]*1.05/c*100:.0f}%) min35 {c/(1-MARGEN_VEL):.2f} min45 {c/0.55:.2f} '
               + ' '.join(f'${p}:{mg(p,c):.1f}%' for p in (69, 75, 79, 89, 99)))
-    PV1, PV2, PP_AGR = 79, 69, 35
+    PV1, PV2, PP_AGR = 79, 69, 29
     F = [('DM-1 foto 15 min', costo(veladora(15)), PV1, 15), ('DM-1 foto 10 min', costo(veladora(10)), PV1, 15),
          ('DM-1 foto 22 min (sin lotes)', costo(veladora(22)), PV1, 15),
          ('DM-2 nombre 10 min', costo(veladora(10)), PV2, 15), ('DM-2 nombre 15 min', costo(veladora(15)), PV2, 15),
-         ('DM-3 agregado', 17.87, PP_AGR, 0),
+         ('DM-4 en bolsa 3/h a $47 (no confirmado)', costo(cempa(3, True)), 47, 15),
          ('DM-4 en bolsa 3/h', costo(cempa(3, True)), PRECIO_CEMPA, 15), ('DM-4 3x200 en bolsa 3/h', 3*costo(cempa(3, True)), PRECIO_CEMPA_3, 15),
          ('DM-4 en bolsa 6/h', costo(cempa(6, True)), PRECIO_CEMPA, 15), ('DM-4 3x200 en bolsa 6/h', 3*costo(cempa(6, True)), PRECIO_CEMPA_3, 15)]
+    for m in (5, 10):
+        F += [(f'DM-3 chico {m} min', costo(picado(2, m)), 25, 0), (f'DM-3 chico {m} min vs Pixe', costo(picado(2, m)), 10, 0),
+              (f'DM-3 mediano {m} min', costo(picado(1, m)), 35, 0), (f'DM-3 mediano {m} min vs Pixe', costo(picado(1, m)), 22, 0),
+              (f'DM-3 agregado {m} min', costo(picado(1, m)), PP_AGR, 0), (f'DM-3 agregado {m} min a $25', costo(picado(1, m)), 25, 0)]
     sep5f, sep5n = PV1 + PP_AGR, PV2 + PP_AGR
     sep6f, sep6n = PV1 + 2*PRECIO_CEMPA + PP_AGR, PV2 + 2*PRECIO_CEMPA + PP_AGR
     print('por separado: DM-5 foto', sep5f, 'nombre', sep5n, '| DM-6 foto', sep6f, 'nombre', sep6n)
-    F += [('DM-5 foto', costo(set_recuerdo(MIN_FOTO)), sep5f - 15, 15), ('DM-5 nombre', costo(set_recuerdo(MIN_NOMBRE)), sep5n - 15, 15)]
+    F += [('DM-5 foto', costo(set_recuerdo(MIN_FOTO)), sep5f - 9, 15), ('DM-5 nombre', costo(set_recuerdo(MIN_NOMBRE)), sep5n - 9, 15)]
     for v in (3, 6):
-        F += [(f'DM-6 foto {v}/h', costo(set_ofrenda(MIN_FOTO, v)), sep6f - 15, 25),
-              (f'DM-6 nombre {v}/h', costo(set_ofrenda(MIN_NOMBRE, v)), sep6n - 15, 25)]
+        F += [(f'DM-6 foto {v}/h', costo(set_ofrenda(MIN_FOTO, v)), sep6f - 9, 25),
+              (f'DM-6 nombre {v}/h', costo(set_ofrenda(MIN_NOMBRE, v)), sep6n - 9, 25)]
     print('producto | costo | precio | transferencia | link 4.2% | empaque absorbido | min45')
     for n, c, p, emp in F:
         print(f'| {n} | ${c:.2f} | ${p} | {mg(p,c):.1f}% | {mg(p,c,0.0418):.1f}% | {mg(p,c+emp):.1f}% | min35 ${c/0.65:.0f} | min45 ${c/0.55:.0f} |')
