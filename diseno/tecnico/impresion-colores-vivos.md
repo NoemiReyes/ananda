@@ -152,5 +152,5 @@ Calidad **Alta** y tipo de papel fotográfico gastan **más tinta** por hoja que
 
 ## Diagnóstico confirmado (17-oct-2026)
 - Noemi imprime desde **Windows** con Design Space, y **nunca se abrió la ventana de Epson** con "Tipo de papel" y "Calidad". Se confirma la causa 1: la impresora usaba sus ajustes por omisión (papel normal, calidad estándar).
-- Tiene **Canva Pro**. Su papel glossy es **tamaño carta**.
-- Solución: activar "Usar diálogo del sistema" en Design Space y, además, dejar la Epson configurada por omisión en Windows (Configuración → Bluetooth y dispositivos → Impresoras y escáneres → Epson L3560 → Preferencias de impresión). Los nombres exactos de los menús: **verificar** en su equipo.
+- Tiene **Canva Pro**. Su papel glossy es **tamaño A4** (Design Space también en A4).
+- En su versión de Design Space no hay interruptor de "Usar diálogo del sistema": la ventana de impresión de Windows se abre sola al dar Imprimir, pero queda detrás de Design Space (hay que minimizarlo). Solución: elegir ahí tipo de papel y calidad alta y, además, dejar la Epson configurada por omisión en Windows (Configuración → Bluetooth y dispositivos → Impresoras y escáneres → Epson L3560 → Preferencias de impresión). Los nombres exactos de los menús: **verificar** en su equipo.
