@@ -147,3 +147,10 @@ Calidad **Alta** y tipo de papel fotográfico gastan **más tinta** por hoja que
 - Cricut, mejores resultados con Imprimir y cortar (el diálogo del sistema puede quedar escondido): [cricut.com/blog](https://cricut.com/blog/gb/?p=206443).
 - Nombres de tipo de papel en controladores Epson (modelo L355, de referencia): [manualslib.mx](https://manualslib.mx/manual/7984/Epson-L355.html?page=32). Para la L3560: **verificar** en el manual oficial.
 - "Papel normal" limita la tinta en EcoTank (guía de terceros sobre la L3250, no oficial): [ferax.com.br](https://ferax.com.br/blog/impressora/guia-de-impressoras/papel-fotografico-l3250-configuracoes-cores-perfeitas/).
+
+---
+
+## Diagnóstico confirmado (17-oct-2026)
+- Noemi imprime desde **Windows** con Design Space, y **nunca se abrió la ventana de Epson** con "Tipo de papel" y "Calidad". Se confirma la causa 1: la impresora usaba sus ajustes por omisión (papel normal, calidad estándar).
+- Tiene **Canva Pro**. Su papel glossy es **tamaño carta**.
+- Solución: activar "Usar diálogo del sistema" en Design Space y, además, dejar la Epson configurada por omisión en Windows (Configuración → Bluetooth y dispositivos → Impresoras y escáneres → Epson L3560 → Preferencias de impresión). Los nombres exactos de los menús: **verificar** en su equipo.
