@@ -4,7 +4,7 @@ Responsable: chat Dirección (`director-estrategia`). **Versión 3: 15-oct-2026*
 
 ## Decisiones de Noemi (15-oct)
 - **Se agrega la vela de cempasúchil.** Noemi ya tiene el molde y los aromas.
-- **La veladora es de parafina, en vaso.**
+- **La veladora se compra ya hecha** (vaso con cera de parafina y mecha, $21 c/u). Nosotros solo la personalizamos con la etiqueta. No se fabrica ni se vacía.
 - **Sigue en pie todo lo de papel picado**: la veladora con papel picado de nombre, el papel picado personalizado (con nombre y con rostro) y los sets.
 - **Todo con etiqueta imprimible** hecha en la Epson L3560 y recortada con la Cricut ("Imprimir y cortar"). **Sin vinil de corte ni vinil holográfico.** El papel picado se imprime en opalina blanca y la Cricut recorta los huecos.
 - El laminado ya está comprado. La vela de cempasúchil lleva tag **solo si va en bolsa de celofán**.
@@ -49,7 +49,7 @@ Responsable: chat Dirección (`director-estrategia`). **Versión 3: 15-oct-2026*
 | **Mié 28** | **Último pedido con entrega local** |
 | Jue 29 a sáb 31 | Últimas entregas locales |
 
-**La preventa existe por la calidad:** ninguna veladora se entrega sin pasar la prueba de mecha (`produccion/formulas/pruebas-quemado.md`). Si las velas de prueba no se vaciaron el lun 12, se vacían **hoy**, y la entrega del jue 22 depende de que pasen.
+**Calidad de la veladora comprada:** antes de vender, **encender 1 veladora del proveedor ya con la etiqueta pegada** y dejarla quemar con supervisión hasta el final, para revisar que la flama no caliente ni queme la etiqueta y que el vaso aguante. Protocolo: `produccion/formulas/pruebas-quemado.md`. La vela de cempasúchil sí la fabricamos y sigue la prueba normal.
 
 ## 4. Límites para que Día de Muertos no frene la Navidad
 1. **Máximo 10 veladoras y 10 papeles picados personalizados al día**, hasta cronometrar cuánto tarda cada pieza. La vela de cempasúchil queda limitada por el molde (cuántas piezas salen por colada: **dato pendiente**).
