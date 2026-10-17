@@ -7,7 +7,7 @@ Decisiones que se tomaron platicando con Noemi y que no están en otro archivo. 
 - Vela de cempasúchil: **$75, o 3 por $200**.
 - Veladora con papel picado: **en pausa**.
 - Papel picado: **solo grande, 26 × 19 cm**, personalizado y genérico, **en opalina de color, solo corte en Cricut, nada impreso**. Noemi los fijó en **personalizado $35** (margen ~25% con 15 min) y **genérico $19** (con 10 min de trabajo el margen sale negativo, −1%; solo conviene si el genérico se hace en 5 min o menos, cortando por lote → ~34%). Pendiente: confirmar tiempo real. Set Recuerdo: con el papel picado a $35 hay que bajarlo de $119 (propuesta: $109).
-- Sets: **Set Recuerdo $119**, **Set Ofrenda $259**.
+- Sets: **Set Recuerdo** = veladora con foto + papel picado personalizado, propuesta **$109** (por confirmar). **Set Ofrenda** = veladora con foto + papel picado personalizado + **3 velas de cempasúchil**: Noemi lo fijó en **$245** (por separado $314). Costo ~$249 a 3 velas/h (**margen −2%**) y ~$207 a 6 velas/h (**~16%**): solo deja ganancia si el cempasúchil se hace a 6 por hora.
 - Margen objetivo de 35% (excepción a la regla de 45%) para toda la línea de Día de Muertos 2026. Para que el cempasúchil y el Set Ofrenda lleguen a 35%, hay que producir 6 velas de cempasúchil por hora.
 - Set Ofrenda **no va a Mercado Libre** (pierde dinero).
 
