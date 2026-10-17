@@ -15,24 +15,24 @@ Responsable: chat Dirección (`director-estrategia`). **Versión 3: 15-oct-2026*
 | # | Producto | Qué lleva | Personalización |
 |---|---|---|---|
 | **DM-1** | **Veladora Ofrenda con foto** | Vaso corto (~6 cm de diámetro) con vela de parafina, aroma de ofrenda y etiqueta envolvente impresa | Foto y nombre. **Versión mascota:** diseño de huellas |
-| **DM-2** | **Veladora Papel Picado** | La misma veladora, con etiqueta envolvente impresa con diseño de papel picado y el nombre (el estilo del anuncio de PassionRosa, pero impreso) | Nombre |
-| **DM-3** | **Papel picado personalizado** | Opalina blanca de 225 g impresa a color y recortada con la Cricut | Con nombre (chico 14 × 10 cm o mediano 19 × 14 cm). **Con rostro** solo como premium y con cupo diario |
+| ~~DM-2~~ | ~~Veladora Papel Picado~~ | **En pausa (decisión de Noemi, 17-oct).** | — |
+| **DM-3** | **Papel picado grande (26 × 19 cm)** | Opalina recortada con la Cricut (ver sección 2) | **Personalizado** (con nombre) o **genérico** (diseño fijo). Solo tamaño grande por ahora |
 | **DM-4** | **Vela de Cempasúchil** | Vela figura en parafina naranja o amarilla. **El tag impreso va solo cuando se entrega en bolsa de celofán** | Sin personalización (el tag, si va, es de la marca) |
-| **DM-5** | **Set Recuerdo** | 1 veladora (DM-1 o DM-2) + 1 papel picado mediano del mismo nombre | Ambos con el mismo nombre |
+| **DM-5** | **Set Recuerdo** | 1 veladora con foto + 1 papel picado grande con el mismo nombre | Ambos con el mismo nombre |
 | **DM-6** | **Set Ofrenda** | 1 veladora + 2 velas de cempasúchil + 1 papel picado | Para Mercado Libre, si el precio llega a $299 o más con margen de 45% o más |
 
-- **Precios (17-oct, `costos/dia-de-muertos-2026.md`):** veladora con foto $199 · veladora papel picado $179 · papel picado chico $45 / mediano $55 / agregado a veladora $35 · vela de cempasúchil $75 (2 por $139) · Set Recuerdo $199–$219 · Set Ofrenda $349. Envío por paquetería aparte; sin envío gratis. Solo el cempasúchil tiene costo real; el resto es estimado.
+- **Precios (17-oct, `costos/dia-de-muertos-2026.md`):** **veladora con foto $79** (veladora comprada a $21; margen objetivo 35%, excepción solo para Día de Muertos) · **vela de cempasúchil $75 / 3 por $200** · papel picado grande: precio pendiente · sets: pendientes de recalcular. Envío por paquetería aparte; sin envío gratis. Actualizado el 17-oct por la tarde.
 - **Mercado Libre: no se publica el Set Ofrenda.** A $299 pierde dinero; necesitaría ~$742 para 45% de margen (decisión de costos, 17-oct).
 - **El papel picado no se vende suelto en Mercado Libre** (cargo fijo por unidad debajo de $299). Suelto, solo por WhatsApp, IG y FB, o dentro de un set.
-- **Papel picado grande (27 × 19 cm): no se ofrece.** No cabe en el área de "Imprimir y cortar" (17.1 × 23.5 cm en hoja carta).
+- **Papel picado: solo grande, 26 × 19 cm.** No cabe en el área de "Imprimir y cortar" (17.1 × 23.5 cm en hoja carta), así que se hace **solo con corte** (sin marcas de registro): opalina de color, o opalina blanca impresa a color parejo en toda la hoja y luego cortada. Decisión pendiente de Noemi.
 - **Papel picado con rostro:** convertir la foto en dibujo de línea toma tiempo de diseño. Se ofrece solo cuando se cronometre el primero, con un cupo diario.
 
 ## 2. Material único: etiqueta imprimible
 
 | Para | Material | Nota |
 |---|---|---|
-| Etiqueta de veladora (DM-1, DM-2) | **Papel adhesivo imprimible mate, tamaño carta** + laminado transparente (ya comprado) | Se laminan solo las etiquetas y se dejan sin cubrir las marcas de corte |
-| Papel picado (DM-3) | **Opalina blanca de 225 g** | Se imprime a color y la Cricut recorta los huecos. Diseños de huecos medianos: los muy finos tardan y se rompen |
+| Etiqueta de veladora (DM-1) | **Papel adhesivo imprimible mate, tamaño carta** + laminado transparente (ya comprado) | Se laminan solo las etiquetas y se dejan sin cubrir las marcas de corte |
+| Papel picado grande (DM-3) | **Opalina de 225 g, tamaño carta** ($3 la hoja) | Solo corte en la Cricut (26 × 19 cm sí cabe en hoja carta y en el tapete). De color, o blanca impresa a color parejo. Huecos medianos: los muy finos tardan y se rompen |
 | Tag de cempasúchil (DM-4), solo si va en bolsa de celofán | **Opalina de 225 g** | Va por fuera del celofán, no necesita laminado |
 
 - **Tamaño de la etiqueta de veladora:** la de un vaso de 6 cm mide ~19 cm de largo. Se acomoda a lo largo de la hoja, y caben **2 etiquetas por hoja** de 8–9 cm de alto. Mide el vaso real antes de diseñar.
