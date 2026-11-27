@@ -1,23 +1,23 @@
 # Insumos: precios de referencia (México, oct-2026)
 
 > **Estatus: REFERENCIA / ESTIMADO.** Precios tomados de anuncios en línea consultados el **09-oct-2026** (vía resultados de búsqueda; Mercado Libre bloquea la lectura directa, así que **verifica cada precio abriendo el anuncio**). Los anuncios cambian a diario, las promociones vencen y varios precios no indican si incluyen IVA o envío.
-> **Actualización 27-nov-2026:** la columna "Precio real Noemi" ya trae los precios que Noemi dio el 17-oct (`costos/dia-de-muertos-2026.md`) y `calculo_costos.py` v2 ya los usa. Lo demás sigue estimado.
+> **Actualización 27-nov-2026 (v3):** la columna "Precio real Noemi" trae los precios del 17-oct (`costos/dia-de-muertos-2026.md`). Los precios del pizarrón del proveedor (27-nov) están en la sección "Pizarrón del proveedor". `calculo_costos.py` v3 ya usa los dos. Lo demás sigue estimado.
 > **Noemi:** llena la columna "Precio real Noemi" con lo que pagas tú (ticket o factura, con envío incluido) y avísale a `costos-precios` para recalcular (`python3 costos/calculo_costos.py`).
 
 ## Tabla de insumos
 
 | Insumo | Presentación | Precio | Precio por unidad útil | Fuente (URL) | Fecha consulta | Valor usado en el costeo | Precio real Noemi |
 |---|---|---|---|---|---|---|---|
-| Parafina (Malasia Plus) | 10 kg | $1,049 | $105/kg = **$0.105/g** | [ML listado parafina](https://listado.mercadolibre.com.mx/cera-de-parafina) | 09-oct-2026 | v1 $0.105/g → **v2 usa el real $0.080/g** | **$80/kg parafina china** (17-oct). Confirmar si es la misma de figuras |
+| Parafina (Malasia Plus) | 10 kg | $1,049 | $105/kg = **$0.105/g** | [ML listado parafina](https://listado.mercadolibre.com.mx/cera-de-parafina) | 09-oct-2026 | v3: figuras usan la mezcla real (Malasia $106) = $0.114/g; ver "Pizarrón del proveedor" | **$80/kg parafina china** (17-oct). Confirmar si es la misma de figuras |
 | Parafina China 58/60 | 5 kg | $449 | $90/kg = $0.090/g | [ML listado parafina](https://listado.mercadolibre.com.mx/cera-de-parafina) | 09-oct-2026 | (escenario optimista ~$0.085/g en 25 kg: **verificar**) | |
 | Parafina Malasia | 1 kg | $143 | $143/kg = $0.143/g | [ML Para Velas](https://www.mercadolibre.com.mx/pagina/paravelas) | 09-oct-2026 | escenario pesimista | |
-| Cera de soya (Parafinas Tonalá) | 1 kg | $139.20 | $139/kg = **$0.139/g** | [ML Parafinas Tonalá](https://www.mercadolibre.com.mx/pagina/paravelas) (resultado de búsqueda) | 09-oct-2026 | v1 $0.139/g → **v2 usa el real $0.150/g** | **$150/kg soya alto punto de fusión** (17-oct). Confirmar si es la misma de contenedor |
+| Cera de soya (Parafinas Tonalá) | 1 kg | $139.20 | $139/kg = **$0.139/g** | [ML Parafinas Tonalá](https://www.mercadolibre.com.mx/pagina/paravelas) (resultado de búsqueda) | 09-oct-2026 | v3: $0.111/g (pizarrón 27-nov; confirmar que es la de contenedor) | **$150/kg soya alto punto de fusión** (17-oct). Confirmar si es la misma de contenedor |
 | Cera de soya a granel | caja 25 kg | sin precio 2026 (ref. 2021: USD 10.80/kg + IVA) | **verificar** | [Cosmos, cotización Ceras Universales 2021](https://www.cosmos.com.mx/foros/pregunta/buena-tarde-necesito-la-cotizacion-de-cera-de-soy-129646.html) | 09-oct-2026 | escenario optimista $0.110/g (**verificar**) | |
 | Aceite de fragancia para velas (granel) | 1 kg | sin precio publicado; pedir cotización (Bell Flavors, Century Labs, Novaroma, Petrowax) | **verificar** | [Cosmos, fragancias para velas](https://www.cosmos.com.mx/producto/fragancias-para-velas-d1rq/) | 09-oct-2026 | v1 $0.90/g estimado → **v2 usa el real $1.667/g** (granel queda como escenario) | **$50 por 30 ml = $1.667/ml** (17-oct). Proveedor: preguntar |
 | Esencia concentrada para veladora | 60 ml | $131.50 | ~$2.19/ml | [ML esencias](https://www.mercadolibre.com.mx/pagina/distribucionaromatica) (resultado de búsqueda) | 09-oct-2026 | escenario pesimista | |
 | Esencia concentrada para veladora | 30 ml | $90.50 | ~$3.02/ml | ídem | 09-oct-2026 | — | |
 | Fragancia liposoluble para velas | 50 g | $148 | $2.96/g | ídem (precio con descuento poco claro: **verificar**) | 09-oct-2026 | — | |
-| Pabilo pre-encerado 15 cm | 100 pzs | $168 | **$1.68/pza** | [ML pabilos](https://listado.mercadolibre.com.mx/pabilos-para-velas) | 09-oct-2026 | **v2: $0.083/cm real** (figura = alto + 2 cm; contenedor + base $0.57 estimada) | **Rollo 3 m $25 = $0.083/cm** (17-oct) |
+| Pabilo pre-encerado 15 cm | 100 pzs | $168 | **$1.68/pza** | [ML pabilos](https://listado.mercadolibre.com.mx/pabilos-para-velas) | 09-oct-2026 | **v2: $0.083/cm real** (figura = alto + 2 cm; contenedor + porta pabilo $1 real) | **Rollo 3 m $25 = $0.083/cm** (17-oct) |
 | Porta-pabilo (ficha metálica) | 100 pzs | $55–59 | $0.55–0.59/pza | [ML porta pabilos](https://listado.mercadolibre.com.mx/porta-pabilos-para-velas) | 09-oct-2026 | incluido en $1.70 | |
 | Lata aluminio redonda para vela 4 oz | 24 pzs | $338.10 | $14.09/pza | [ML envases metálicos](https://listado.mercadolibre.com.mx/envases-metalicos-latas) | 09-oct-2026 | — | |
 | Lata aluminio 6 cm **plateada** (Lume Mini) | — | no encontrada en esa medida | **verificar** | — | 09-oct-2026 | **$12 ESTIMADO** | |
@@ -30,10 +30,49 @@
 | Vinil PP adhesivo imprimible blanco brillante, carta | 20 hojas | $169 | $8.45/hoja ≈ $0.56/etiqueta (15 por hoja) | [ML vinil imprimible](https://listado.mercadolibre.com.mx/vinil-imprimible-brillante) | 09-oct-2026 | **v2: $6 ÷ 12 por hoja + tinta $0.30 = $0.80** (12/hoja y tinta estimados) | **Papel adhesivo $6/hoja** (17-oct); etiquetas por hoja según diseño |
 | Opalina 225 g carta (blanca y de color) | hoja | — | — | — | 17-oct-2026 | tags y tarjetas: $3 ÷ tags por hoja (12 estimado) + tinta | **$3.00/hoja** (17-oct) |
 | Vinil PP adhesivo imprimible, carta | 60 hojas | $465 | $7.75/hoja | ídem | 09-oct-2026 | — | |
-| Colorante para velas SUNHUI (líquido) | 20 × 10 ml | $154.09 (promo) | ~$7.70/frasco; rinde ~0.5 kg de cera (**verificar dosis**) | [ML Para Velas](https://www.mercadolibre.com.mx/pagina/paravelas) | 09-oct-2026 | **v2: $0.0118/g de cera** (tope real) | **Sobre $5; ¼ de sobre por vela de 106 g como tope** (17-oct) |
+| Colorante para velas SUNHUI (líquido) | 20 × 10 ml | $154.09 (promo) | ~$7.70/frasco; rinde ~0.5 kg de cera (**verificar dosis**) | [ML Para Velas](https://www.mercadolibre.com.mx/pagina/paravelas) | 09-oct-2026 | **v3: $1.25 por vela** (dosis real 0.5–1 g; precio por g por confirmar) | **Sobre $5; ¼ de sobre por vela de 106 g como tope** (17-oct) |
 | Colorante para velas SUNHUI | 30 pzs | $248 | ~$8.27/pza | ídem | 09-oct-2026 | — | |
 | Base jabón de glicerina (Abreiko Yeko) | 1 kg | precio no visible | **verificar** | [ML tienda Abreiko](https://www.mercadolibre.com.mx/tienda/abreiko) | 09-oct-2026 | **$150/kg ESTIMADO** | |
 | Pintura acrílica + barniz (figuras pintadas) | — | no investigado | **verificar** | — | — | $1.50 por figura ESTIMADO | |
+
+## Pizarrón del proveedor (foto de Noemi, tienda de insumos, 27-nov-2026)
+
+Precios **REALES** leídos de una foto; varios renglones salen cortados. No se sabe si incluyen IVA.
+
+| Insumo | Precio en pizarrón | Uso en el costeo v3 | Estatus |
+|---|---|---|---|
+| Parafina (genérica) | $67–65/kg | No se usa en figuras (referencia; antes la parafina china era $80/kg) | REAL |
+| Parafina Malasia | $106/kg (también aparece "-97") | **$106/kg**, 80% de la mezcla de figuras; $97 como escenario de volumen | REAL; confirmar a partir de qué cantidad aplica el $97 |
+| Soya A F (alta fusión) | $111/kg | **$111/kg**, 15% de la mezcla de figuras ("soya de fusión") | REAL |
+| Soya B F (baja fusión) | $111/kg | Soya de latas y frascos, también **$111/kg** (antes $150) | REAL; **confirmar** que es la soya de contenedor |
+| Estearina | "$25…" (cortado) | **No se usa** (Noemi corrigió: el 5% de la fórmula es cera ámbar, no estearina) | verificar unidad solo si se llega a usar |
+| Jabón (base de glicerina) | $105/kg | **$105/kg** (EV-PRE, 2 jabones de 25 g) | REAL |
+| Pabilo | $25 | $25 por rollo de 3 m = $0.083/cm (igual que el 17-oct) | REAL; confirmar que la presentación sigue siendo 3 m |
+| Porta pabilo | $1/pza | **$1.00** por contenedor (antes $0.57 estimado) | REAL |
+| Color para velas | "$1…" (cortado) | No se usa todavía; se queda el tope de $1.25/vela (¼ de sobre de $5) con dosis real de 0.5–1 g por vela | **verificar** precio y gramos por sobre |
+| Color para jabón | "$3…" (cortado) | — | verificar |
+| Gel | $120 | — (no se usa) | REAL |
+| Cera ámbar | $120/kg | **$120/kg**, 5% de la mezcla de figuras | REAL |
+| Cera de abeja | $38 (unidad no visible) | — | verificar unidad |
+| Cera granulada | $110 | — | REAL |
+| Olimpia | $50 | — | REAL |
+| Moldeable | "$15…" (cortado) | — | verificar |
+
+**Fórmula real de figuras (Noemi, 27-nov; corregida):** 80% Malasia $106/kg + 15% soya de fusión $111/kg + 5% **cera ámbar** $120/kg = **$107.45/kg de mezcla** (con Malasia a $97: $100.25/kg). Aroma 8% del peso de cera, colorante 0.5–1 g por vela (se usa 1 g como tope: **confirmar** que es "0.5 a 1 g").
+
+## Pesos reales de vela terminada (báscula, 1 pieza, 27-nov-2026)
+
+Cera = peso ÷ 1.08 (el peso incluye 8% de aroma; pabilo despreciable).
+
+| Pieza | Peso terminado | Cera (g) | SKU asignado | Antes (estimado) | Nota |
+|---|---|---|---|---|---|
+| Borrego | 72 g | 66.7 | NV-BOR (y NV-B12 = 12 × 66.7 g) | 46 g | REAL |
+| Venado | 66 g | 61.1 | NV-VEN | 103 g | display tapado en la foto: **verificar** |
+| Árbol de hojas grandes | 114 g | 105.6 | NV-PIN | 98 g | **mapeo por confirmar** |
+| Árbol delgado, textura de hojitas | 58 g | 53.7 | NV-ARB | 50 g | **mapeo por confirmar** |
+| Piña de pino café | 45 g | 41.7 | **producto sin SKU (piña café)** | — | No está en el catálogo. Costo v3 $21.60 (pabilo 8 cm, 12 velas/h y empaque de figura estimados). Sin precio de venta |
+
+Pesar 2 piezas más de cada una para promediar.
 
 ## Precio por volumen (cuándo conviene comprar por mayoreo)
 
