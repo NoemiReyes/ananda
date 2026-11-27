@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Cálculo reproducible de costos unitarios y márgenes por canal — Ananda Velas.
 
-TODO ES ESTIMADO hasta que Noemi capture costos reales (ver costos/insumos-referencia.md).
-Para recalcular: cambia los supuestos de las secciones 1-4 y ejecuta
+v2 (27-nov-2026). Precios de insumos REALES donde Noemi ya los dio (17-oct, ver costos/dia-de-muertos-2026.md):
+parafina, soya, aroma, pabilo, colorante, papel adhesivo y opalina. Siguen ESTIMADOS: gramos por vela
+(nadie ha pesado las piezas), % de aroma en figuras, velas por hora, latas/frascos, celofán, organza,
+cajas kraft, jabón, pintura y tinta. Ningún SKU es 100% real todavía.
+
+Para recalcular: cambia los valores de las secciones 1-2 (y su estatus en ESTATUS) y ejecuta
     python3 costos/calculo_costos.py
 Genera: costos/plantilla-costeo.csv y costos/margenes-por-canal.md
 """
@@ -13,34 +17,45 @@ import os
 AQUI = os.path.dirname(os.path.abspath(__file__))
 
 # ---------------------------------------------------------------------------
-# 1. PRECIOS DE INSUMOS (MXN, estimados; fuente en insumos-referencia.md)
+# 1. PRECIOS DE INSUMOS (MXN por unidad útil)
+#    ESTATUS: "REAL" = precio que pagó Noemi · "ESTIMADO" = referencia de internet o supuesto
 # ---------------------------------------------------------------------------
 INS = {
-    "parafina_g": 105 / 1000,     # Parafina Malasia 10 kg $1,049 (ML) -> $105/kg
-    "soya_g": 139.20 / 1000,      # Cera de soya 1 kg $139.20 (ML Parafinas Tonalá)
-    "fragancia_g": 900 / 1000,    # ESTIMADO $900/kg a granel (verificar; en frasco 60 ml sale ~$2,190/kg)
-    "colorante_g_cera": 0.015,    # 20 frascos 10 ml $154 -> ~$7.7 por frasco, rinde ~0.5 kg cera
-    "mecha": 1.70,                # 100 pabilos pre-encerados $168 (ML)
-    "lata_plateada": 12.00,       # ESTIMADO (ref. 24 latas 4 oz $338 = $14.09)
-    "lata_dorada": 14.00,         # ESTIMADO (ref. idem)
-    "frasco_tapa_dorada": 18.00,  # ESTIMADO (ref. 12 frascos 250 ml tapa dorada $255 = $21.25; GLO es más chico)
-    "celofan": 0.90,              # 100 bolsas $90 precio regular ($44.50 en promo)
-    "organza": 2.00,              # ESTIMADO, sin precio MX verificado
-    "etiqueta": 0.75,             # hoja vinil carta $8.45 / ~15 etiquetas + tinta
-    "liston_cierre": 0.50,        # rafia/listón para cerrar celofán (estimado)
-    "caja_kraft_kit": 10.00,      # ESTIMADO (ref. 50 cajas kraft 22x16.5x5.5 $365 = $7.30) + relleno
-    "jabon_base_g": 150 / 1000,   # ESTIMADO $150/kg base glicerina (verificar)
-    "pintura_figura": 1.50,       # acrílico + barniz por figura pintada (estimado)
-    "tarjeta_oracion": 0.50,      # tarjetita impresa (B12: 12 pzs)
+    "parafina_g": 80 / 1000,       # REAL $80/kg parafina china (Noemi, 17-oct). Confirmar que es la de figuras
+    "soya_g": 150 / 1000,          # REAL $150/kg soya alto punto de fusión (Noemi, 17-oct). Confirmar que es la de contenedor
+    "fragancia_g": 50 / 30,        # REAL $50 por 30 ml = $1.667/ml; densidad 1 g/ml supuesta (verificar pesando 10 ml)
+    "colorante_g_cera": 1.25 / 106,  # REAL-tope: 1/4 de sobre de $5 por vela de 106 g (cempasúchil) -> $0.0118/g
+    "pabilo_cm": 25 / 300,         # REAL rollo 3 m $25 -> $0.083/cm
+    "base_mecha": 0.57,            # ESTIMADO porta-pabilo metálico (ML 100 pzs $55-59) — solo contenedores
+    "lata_plateada": 12.00,        # ESTIMADO (ref. 24 latas 4 oz $338 = $14.09)
+    "lata_dorada": 14.00,          # ESTIMADO
+    "frasco_tapa_dorada": 18.00,   # ESTIMADO (ref. 12 frascos 250 ml tapa dorada $255 = $21.25; GLO es más chico)
+    "celofan": 0.90,               # ESTIMADO 100 bolsas $90 precio regular ML
+    "organza": 2.00,               # ESTIMADO, sin precio MX verificado
+    "liston_cierre": 0.50,         # ESTIMADO rafia/listón para cerrar celofán
+    "tag_opalina": 3.00 / 12 + 0.30,   # opalina $3/hoja REAL ÷ 12 tags por hoja (ESTIMADO) + tinta $0.30 (ESTIMADO) = $0.55
+    "etiqueta_adh": 6.00 / 12 + 0.30,  # papel adhesivo $6/hoja REAL ÷ 12 etiquetas por hoja (ESTIMADO) + tinta $0.30 (ESTIMADO) = $0.80
+    "tarjeta_oracion": 3.00 / 8 + 0.30,  # opalina $3/hoja REAL ÷ 8 tarjetas (ESTIMADO) + tinta (ESTIMADO) = $0.68
+    "caja_kraft_kit": 10.00,       # ESTIMADO (ref. 50 cajas kraft 22x16.5x5.5 $365 = $7.30) + relleno
+    "jabon_base_g": 150 / 1000,    # ESTIMADO $150/kg base glicerina
+    "pintura_figura": 1.50,        # ESTIMADO acrílico + barniz por figura pintada completa
+}
+ESTATUS = {
+    "parafina_g": "REAL", "soya_g": "REAL", "fragancia_g": "REAL", "colorante_g_cera": "REAL",
+    "pabilo_cm": "REAL", "base_mecha": "ESTIMADO", "lata_plateada": "ESTIMADO", "lata_dorada": "ESTIMADO",
+    "frasco_tapa_dorada": "ESTIMADO", "celofan": "ESTIMADO", "organza": "ESTIMADO", "liston_cierre": "ESTIMADO",
+    "tag_opalina": "MIXTO", "etiqueta_adh": "MIXTO", "tarjeta_oracion": "MIXTO", "caja_kraft_kit": "ESTIMADO",
+    "jabon_base_g": "ESTIMADO", "pintura_figura": "ESTIMADO",
 }
 
-FRAG_PCT = 0.08     # fragancia = 8% del peso de cera
+FRAG_PCT = 0.08     # ESTIMADO: aroma = 8% del peso de cera (fórmula de partida; en cempasúchil Noemi usa 6 g/106 g = 5.7%)
 MERMA = 0.05        # merma 5% sobre (materiales + mano de obra)
-MO_HORA = 80.0      # $/hora que se paga Noemi
+MO_HORA = 80.0      # SUPUESTO $80/h (el mismo que Noemi aceptó en Día de Muertos; confirmar)
 
 # ---------------------------------------------------------------------------
-# 2. PRODUCTOS: gramos de cera estimados + extras + velas/hora
+# 2. PRODUCTOS: gramos de cera ESTIMADOS (nadie ha pesado las piezas) + extras + velas/hora ESTIMADAS
 #    gramos = alto x ancho x fondo(supuesto) x factor_llenado x densidad 0.9 g/cm3
+#    pabilo: figura = alto + 2 cm; contenedor = alto + 1 cm + base metálica
 # ---------------------------------------------------------------------------
 DENS = 0.9
 
@@ -53,48 +68,54 @@ def cilindro(alto_llenado, diam_int, llenado=1.0):
 def cono(alto, diam, llenado):
     return round(math.pi * (diam / 2) ** 2 * alto / 3 * llenado * DENS)
 
+FIG = {"celofan": 1, "tag_opalina": 1, "liston_cierre": 1}
+
 # (sku, nombre, cera, gramos, supuesto_gramos, extras{insumo:cant}, velas_por_hora, precios[men,11-50,51-99,100-150])
 P = [
     ("EV-OSO", "Oso de Ternura", "parafina", caja(10, 9.5, 5.5, .40), "10x9.5 cm, fondo 5.5, llenado 40%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 10, [87, 78, 75, 71]),
+        {**FIG, "pabilo_cm": 12}, 10, [87, 78, 75, 71]),
     ("EV-JIR", "Jirafa Africana", "parafina", caja(9, 4, 3, .40), "9x4 cm, fondo 3, llenado 40%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 12, [45, 40, 38, 36]),
+        {**FIG, "pabilo_cm": 11}, 12, [45, 40, 38, 36]),
     ("EV-ELE", "Elefante Safari", "parafina", caja(7, 9.5, 4.5, .40), "7x9.5 cm, fondo 4.5, llenado 40%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 12, [57, 51, 49.5, 46]),
+        {**FIG, "pabilo_cm": 9}, 12, [57, 51, 49.5, 46]),
     ("EV-DIN", "Dino T-Rex", "parafina", caja(9.3, 8, 4, .35), "9.3x8 cm, fondo 4, llenado 35%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 12, [57, 51, 49.5, 46]),
+        {**FIG, "pabilo_cm": 11.3}, 12, [57, 51, 49.5, 46]),
     ("EV-ANG", "Ángeles Divinos", "parafina", caja(6, 7, 3.5, .45), "6x7 cm, fondo 3.5, llenado 45%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 12, [57, 51, 49.5, 46]),
+        {**FIG, "pabilo_cm": 8}, 12, [57, 51, 49.5, 46]),
     ("EV-FLO", "Flowers On", "parafina", cilindro(3.5, 8, .60), "peonía Ø8 x 3.5 cm, llenado 60%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 10, [77, 69.5, 67, 63]),
+        {**FIG, "pabilo_cm": 5.5}, 10, [77, 69.5, 67, 63]),
     ("EV-BUN", "Bunny Happy", "parafina", caja(10, 7, 5, .40), "10x7 cm, fondo 5, llenado 40%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 10, [87, 78, 75.5, 71]),
+        {**FIG, "pabilo_cm": 12}, 10, [87, 78, 75.5, 71]),
     ("EV-GLO", "Glowing Glass", "soya", cilindro(4.8, 6.1), "frasco Ø int 6.1, llenado a 4.8 cm",
-        {"frasco_tapa_dorada": 1, "etiqueta": 2}, 15, [74, 66.5, 64, 60]),
+        {"frasco_tapa_dorada": 1, "etiqueta_adh": 2, "pabilo_cm": 6.8, "base_mecha": 1}, 15, [74, 66.5, 64, 60]),
     ("EV-LMM", "Lume Soja Mini", "soya", cilindro(1.8, 5.8), "lata Ø int 5.8, llenado a 1.8 cm",
-        {"lata_plateada": 1, "etiqueta": 2}, 15, [52, 46.5, 45, 42]),
+        {"lata_plateada": 1, "etiqueta_adh": 2, "pabilo_cm": 3.3, "base_mecha": 1}, 15, [52, 46.5, 45, 42]),
     ("EV-LMS", "Lume Soja", "soya", cilindro(4.0, 5.8), "lata Ø int 5.8, llenado a 4.0 cm",
-        {"lata_dorada": 1, "etiqueta": 2}, 15, [88, 79, 76.5, 72]),
+        {"lata_dorada": 1, "etiqueta_adh": 2, "pabilo_cm": 5.6, "base_mecha": 1}, 15, [88, 79, 76.5, 72]),
     ("EV-PRE", "Paquete Recuerdos", "soya", cilindro(1.8, 5.8), "vela = Lume Mini (43 g) + 2 jabones 25 g",
-        {"lata_plateada": 1, "etiqueta": 2, "organza": 1, "jabon_base_g": 50, "fragancia_g": 1.5}, 8, [115, 86, 83, 78]),
+        {"lata_plateada": 1, "etiqueta_adh": 2, "pabilo_cm": 3.3, "base_mecha": 1, "organza": 1,
+         "jabon_base_g": 50, "fragancia_g": 1.5}, 8, [115, 86, 83, 78]),
     ("NV-VEN", "Venado", "parafina", caja(9.5, 7.5, 4, .40), "9.5x7.5 cm, fondo 4, llenado 40%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 2}, 10, [78, 70, 67, 62]),
+        {**FIG, "liston_cierre": 2, "pabilo_cm": 11.5}, 10, [78, 70, 67, 62]),
     ("NV-NAC", "Nacimiento", "parafina", caja(6.2, 4.5, 3, .50), "6.2x4.5 cm, fondo 3, llenado 50%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1}, 12, [65, 58, 55, 50]),
+        {**FIG, "pabilo_cm": 8.2}, 12, [65, 58, 55, 50]),
     ("NV-PIN", "Pino", "parafina", cono(10, 7.2, .80), "cono 10 x Ø7.2, llenado 80%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1, "pintura_figura": .3}, 10, [87, 78, 75, 69]),
+        {**FIG, "pabilo_cm": 12, "pintura_figura": .3}, 10, [87, 78, 75, 69]),
     ("NV-ARB", "Árbol Navideño", "parafina", cono(10, 5, .85), "cono 10 x Ø5, llenado 85%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1, "pintura_figura": .3}, 12, [85, 76, 73, 68]),
+        {**FIG, "pabilo_cm": 12, "pintura_figura": .3}, 12, [85, 76, 73, 68]),
     ("NV-BOR", "Borrego", "parafina", caja(6.5, 4.5, 3.5, .50), "6.5x4.5 cm, fondo 3.5, llenado 50%",
-        {"celofan": 1, "etiqueta": 1, "liston_cierre": 1, "pintura_figura": 1}, 8, [57, 51, 49, 45]),
+        {**FIG, "pabilo_cm": 8.5, "pintura_figura": 1}, 8, [57, 51, 49, 45]),
     ("NV-B12", "Borregos de la Abundancia 12 pzs", "parafina", 12 * caja(6.5, 4.5, 3.5, .50), "12 borregos x 46 g",
-        {"caja_kraft_kit": 1, "etiqueta": 1, "tarjeta_oracion": 12, "pintura_figura": 12, "mecha_extra": 11}, 8 / 12 / 1.15, [385]),
+        {"caja_kraft_kit": 1, "etiqueta_adh": 1, "tag_opalina": 1, "tarjeta_oracion": 12, "pintura_figura": 12,
+         "pabilo_cm": 12 * 8.5}, 8 / 12 / 1.15, [385]),
     ("NV-ROM", "Rompecabezas Navideño", "parafina", cilindro(22, 6.5, .55), "4 piezas, Ø6.5 x 22 cm, llenado 55%",
-        {"caja_kraft_kit": 1, "etiqueta": 1, "pintura_figura": 4, "mecha_extra": 0}, 2, [375]),
+        {"caja_kraft_kit": 1, "etiqueta_adh": 1, "tag_opalina": 1, "pintura_figura": 4,
+         "pabilo_cm": 4 * (22 / 4 + 2)}, 2, [375]),
 ]
-# Notas velas/hora: incluye colado, desmolde, acabado, etiquetado y empaque (por lote).
-# NV-B12: 12 borregos a 8/h + 15% de tiempo de armado de caja = 0.57 kits/h.
-# NV-ROM: 2 juegos/h (4 piezas pintadas por juego).
+# Notas velas/hora (ESTIMADAS): incluye colado, desmolde, acabado, etiquetado y empaque (por lote).
+# Dato real de referencia: cempasúchil (106 g) = 3 velas/h por persona (Noemi, 17-oct) — ver escenario en sección 6.
+# NV-B12: 12 borregos a 8/h + 15% de tiempo de armado de caja = 0.58 kits/h.
+# NV-ROM: 2 juegos/h (4 piezas pintadas por juego). Pabilo: 1 por pieza (verificar si solo la de arriba lleva).
 
 # ---------------------------------------------------------------------------
 # 3. CANALES (verificar en fuente oficial)
@@ -151,46 +172,52 @@ def precio_minimo(canal, costo, margen_obj, forzar_envio=False):
 # ---------------------------------------------------------------------------
 # 4. CÁLCULO DE COSTO UNITARIO
 # ---------------------------------------------------------------------------
-def costear(prod):
+def costear(prod, vph_factor=1.0):
     sku, nom, cera, g, sup, ext, vph, precios = prod
+    vph = vph * vph_factor
     costo_cera = g * INS[cera + "_g"]
     frag_g = g * FRAG_PCT
     costo_frag = frag_g * INS["fragancia_g"]
     colorante = g * INS["colorante_g_cera"] if cera == "parafina" else 0.0
-    n_mechas = 1 + ext.get("mecha_extra", 0)
-    if sku == "NV-ROM":
-        n_mechas = 1  # solo la pieza superior lleva pabilo (verificar)
-    mecha = n_mechas * INS["mecha"]
-    contenedor = sum(INS[k] * ext.get(k, 0) for k in ("lata_plateada", "lata_dorada", "frasco_tapa_dorada", "jabon_base_g"))
-    contenedor += ext.get("fragancia_g", 0) * INS["fragancia_g"]  # fragancia del jabón
-    contenedor += INS["pintura_figura"] * ext.get("pintura_figura", 0)
-    etiqueta = INS["etiqueta"] * ext.get("etiqueta", 0) + INS["tarjeta_oracion"] * ext.get("tarjeta_oracion", 0)
+    pabilo = ext.get("pabilo_cm", 0) * INS["pabilo_cm"]
+    mecha = pabilo + ext.get("base_mecha", 0) * INS["base_mecha"]
+    envase = sum(INS[k] * ext.get(k, 0) for k in ("lata_plateada", "lata_dorada", "frasco_tapa_dorada"))
+    jabon = INS["jabon_base_g"] * ext.get("jabon_base_g", 0) + ext.get("fragancia_g", 0) * INS["fragancia_g"]
+    pintura = INS["pintura_figura"] * ext.get("pintura_figura", 0)
+    contenedor = envase + jabon + pintura
+    etiqueta = sum(INS[k] * ext.get(k, 0) for k in ("tag_opalina", "etiqueta_adh", "tarjeta_oracion"))
     empaque = sum(INS[k] * ext.get(k, 0) for k in ("celofan", "organza", "caja_kraft_kit", "liston_cierre"))
     mo = MO_HORA / vph
-    sub = costo_cera + costo_frag + colorante + mecha + contenedor + etiqueta + empaque + mo
+    materiales = costo_cera + costo_frag + colorante + mecha + contenedor + etiqueta + empaque
+    sub = materiales + mo
     merma = sub * MERMA
     total = sub + merma
+    # parte de los materiales cuyo PRECIO ya es real (los gramos siguen siendo estimados)
+    precio_real = costo_cera + costo_frag + colorante + pabilo + ext.get("fragancia_g", 0) * INS["fragancia_g"]
     r = dict(sku=sku, producto=nom, cera_g=g, costo_cera=costo_cera, fragancia_g=frag_g, costo_fragancia=costo_frag,
              colorante=colorante, mecha=mecha, contenedor_o_base=contenedor, etiqueta=etiqueta, empaque=empaque,
              mano_obra=mo, merma_5pct=merma, costo_unitario=total, precio_menudeo=precios[0],
-             margen_menudeo_pct=(precios[0] - total) / precios[0] * 100, supuesto=sup, vph=vph, precios=precios)
+             margen_menudeo_pct=(precios[0] - total) / precios[0] * 100, supuesto=sup, vph=vph, velas_hora=vph, precios=precios,
+             materiales=materiales, pct_materiales_precio_real=precio_real / materiales * 100)
+    pend = ["gramos", "%aroma", "velas/h"]
+    if envase:
+        pend.append("envase")
+    if ext.get("organza") or ext.get("caja_kraft_kit") or ext.get("celofan"):
+        pend.append("empaque")
+    if jabon:
+        pend.append("jabón")
+    if pintura:
+        pend.append("pintura")
+    r["estatus"] = "ESTIMADO (precio real: cera, aroma, pabilo, colorante; falta: " + ", ".join(pend) + ")"
     return r
 
 R = [costear(p) for p in P]
 
-RECOMENDACIONES = """## Hallazgos y recomendaciones (resumen)
+RECOMENDACIONES = """## Hallazgos (v2, 27-nov-2026)
 
-> Basado en costos ESTIMADOS. Repetir en cuanto Noemi capture precios reales de compra, gramos reales (pesar 3 piezas de cada molde) y velas/hora.
-
-1. **Mercado Libre, pieza suelta: no es viable a precio de catálogo.** Cargo fijo de $25–37 + 17.4% de comisión deja margen negativo o < 30% en todas las piezas. Para 45% la pieza suelta tendría que costar entre ~$130 (Nacimiento, Jirafa) y ~$250 (Glowing Glass): ver columna "Precio mín. 45%" de la sección 2. **No publicar piezas sueltas a precio de catálogo en ML.**
-2. **Kits en ML (≥ $299) tampoco llegan a 45% al precio de catálogo × N**, porque al pasar de $299 el vendedor absorbe envío (supuesto $80) además de la comisión. Para 45% el kit necesita ~2.6 × (costo del kit + envío). Los que mejor salen son los de mayor margen unitario: **Nacimiento x6, Árbol x4, Pino x4, Paquete Recuerdos x4** (30–40% en TikTok, 20–30% en ML). Propuesta para el agente `mercadolibre`: armar kits navideños mixtos y publicarlos al precio mínimo de la sección 3, o tomar ML como canal de visibilidad con margen menor **solo con aprobación de Dirección** (regla README = 45%). Verificar el costo real de envío del vendedor en el simulador de ML: es la variable que más mueve el resultado.
-3. **TikTok Shop y tienda propia (cliente paga envío) funcionan** para la mayoría de piezas. Ajustes mínimos de menudeo sugeridos para llegar a 45%: **Oso $87 → $108**, **Elefante $57 → $72**, **Dino $57 → $66**, **Lume Soja $88 → $96**, **Lume Mini $52 → $69**, **Glowing Glass $74 → $119** (o cambiar frasco). Si se ofrece envío gratis, el ticket mínimo sube mucho (sección 2, ver Rompecabezas).
-4. **EV-GLO Glowing Glass es el producto más débil** (margen directo 25%; mayoreo 7–16%). El frasco con tapa dorada (~$18 estimado) + 126 g de soya + fragancia ya suman ~$50. Opciones: (a) cotizar frasco ≤ $10 por caja de 100+, (b) llenar menos (≈100 g), (c) subir mayoreo a **≥ $86** y menudeo a ≥ $102 (venta directa).
-5. **NV-B12 Borregos de la Abundancia ($385) pierde dinero en todos los canales de marketplace** y deja solo ~18% en venta directa: 12 borregos pintados cuestan ~$314 (mano de obra ~$138 + 12 × fragancia/pintura/mecha). Opciones: (a) subir a **≥ $572** en venta directa; (b) **versión de 6 borregos a ≥ $296** directo (≈ $299); (c) borregos más chicos o sin pintar a mano por pieza (pintar más rápido: con 12/h el costo baja a ~$266 y el mínimo directo a $484). **Rechazado al precio actual.**
-6. **NV-ROM Rompecabezas ($375)** deja 64% en venta directa, pero con envío gratis cae a 25–35%. Venderlo con envío pagado por el cliente, o subir a **≥ $456 en TikTok / $507 en tienda propia** si se incluye envío; en ML Clásica ≥ $570.
-7. **Mayoreo bajo 35%:** Oso (51–99 y 100–150 → **$78**), Elefante (51–99 y 100–150 → **$51**), Dino (100–150 → **$47**), Lume Mini (todos los niveles → **$48**), Glowing Glass (todos → **$86**). El resto del mayoreo pasa (Navidad y Jirafa/Ángel/Flowers/Bunny con 45–70%).
-8. **La fragancia es el insumo que más pesa** (8% del peso a ~$0.90/g): comprar fragancia en frascos de 30–60 ml la sube a ~$2.19/g y hunde los márgenes (escenario pesimista, sección 6). Prioridad de compra: fragancia a granel (1 kg o más) con proveedor de velas, y parafina en presentación de 10–25 kg.
-9. **Impuestos no incluidos.** Si Noemi factura con IVA trasladado, todos los márgenes bajan ~13.8 puntos sobre el precio. Revisar con `finanzas-fiscal` antes de fijar precios finales.
+> Los costos v2 usan los **precios reales** que Noemi dio el 17-oct (parafina $80/kg, soya $150/kg, aroma $50/30 ml, pabilo $25/3 m, colorante, papel adhesivo y opalina). **Siguen estimados** los gramos por vela, el % de aroma, las velas por hora, latas/frascos y empaques. Las alertas de las secciones 5 y 6 se generan solas con estos costos; las recomendaciones de texto de la v1 (9-oct) quedaron en el historial de git y **ya no aplican** porque el aroma real ($1.67/g) cuesta casi el doble de lo estimado ($0.90/g).
+>
+> Comisiones y envíos siguen siendo los del 9-oct (fuentes de terceros): **verificar** en el simulador de Mercado Libre y en TikTok Seller Center antes de publicar.
 """
 
 # ---------------------------------------------------------------------------
@@ -198,7 +225,7 @@ RECOMENDACIONES = """## Hallazgos y recomendaciones (resumen)
 # ---------------------------------------------------------------------------
 CAMPOS = ["sku", "producto", "cera_g", "costo_cera", "fragancia_g", "costo_fragancia", "colorante", "mecha",
           "contenedor_o_base", "etiqueta", "empaque", "mano_obra", "merma_5pct", "costo_unitario",
-          "precio_menudeo", "margen_menudeo_pct", "estatus"]
+          "precio_menudeo", "margen_menudeo_pct", "velas_hora", "pct_materiales_precio_real", "estatus"]
 
 def fmt(v):
     if isinstance(v, float):
@@ -209,7 +236,7 @@ with open(os.path.join(AQUI, "plantilla-costeo.csv"), "w", newline="", encoding=
     w = csv.writer(f)
     w.writerow(CAMPOS)
     for r in R:
-        w.writerow([fmt(r[c]) if c != "estatus" else "ESTIMADO" for c in CAMPOS[:-1]] + ["ESTIMADO"])
+        w.writerow([fmt(r[c]) for c in CAMPOS])
 
 def m(x):
     return f"${x:,.2f}"
@@ -220,8 +247,8 @@ def flag(pct, minimo):
 out = []
 A = out.append
 A("# Márgenes por canal — Ananda Velas\n")
-A("> **TODO ES ESTIMADO.** Costos calculados con precios de referencia de internet (oct-2026) y supuestos de gramaje y "
-  "productividad, NO con compras reales de Noemi. Comisiones de ML/TikTok tomadas de fuentes de terceros: **verificar** "
+A("> **Costos v2 (27-nov-2026): ESTIMADOS con precios parcialmente reales.** Cera, aroma, pabilo, colorante, papel adhesivo y "
+  "opalina con precio real de Noemi (17-oct); gramos por vela, % de aroma, velas por hora, envases y empaques siguen estimados. Comisiones de ML/TikTok tomadas de fuentes de terceros: **verificar** "
   "en el simulador de costos de Mercado Libre y en TikTok Seller Center antes de publicar. "
   "Se regenera con `python3 costos/calculo_costos.py`.\n")
 A("## Supuestos\n")
@@ -236,11 +263,13 @@ A("| Impuestos | Margen ANTES de ISR/IVA. Retenciones de plataforma (ISR 2.5% co
 A("| Margen | margen $ = precio − comisión − cargo fijo − envío − costo unitario; margen % = margen $ ÷ precio. Mínimos: 45% menudeo, 35% mayoreo | regla README |")
 A("")
 A("Fuentes de comisiones (terceros, no oficiales; consultadas 09-oct-2026): [Tiendanube ML México (act. 19-mar-2026)](https://www.tiendanube.com/mx/blog/comision-mercado-libre-mexico/), [calcforlife calculadora ML](https://calcforlife.com/es/calculadora-mercado-libre-comisiones/), [Tiendanube TikTok Shop (act. 10-abr-2026)](https://www.tiendanube.com/blog/tiktok-shop), [ecomcalctools TikTok LATAM 2026](https://ecomcalctools.com/es/blog/tiktok-shop-fees-latam-2026/). La ayuda oficial de ML no se pudo consultar (bloqueo 403): **verificar en el simulador de la publicación**.\n")
-A("EV-PRE se evalúa a $115; con la promo de octubre ($95) el margen directo baja a ~50% y en ML Clásica a ~6%.\n")
-A(f"Costo unitario: cera + fragancia (8% del peso) + colorante + mecha + contenedor/base/pintura + etiqueta + empaque + mano de obra (${MO_HORA:.0f}/h) + merma 5%. Detalle en `costos/plantilla-costeo.csv`.\n")
+_pre = next(r for r in R if r["sku"] == "EV-PRE")
+A(f"EV-PRE se evalúa a $115; con la promo de octubre ($95) el margen directo sería {(95 - _pre['costo_unitario']) / 95 * 100:.0f}% "
+  f"y en ML Clásica {(neto('ML Clásica', 95)[0] - _pre['costo_unitario']) / 95 * 100:.0f}%.\n")
+A(f"Costo unitario: cera + fragancia ({FRAG_PCT*100:.0f}% del peso, ${INS['fragancia_g']:.3f}/g) + colorante + mecha + contenedor/base/pintura + etiqueta + empaque + mano de obra (${MO_HORA:.0f}/h) + merma 5%. Detalle en `costos/plantilla-costeo.csv`.\n")
 
 OUT_SPLIT = len(out)
-A("## 1. Costo unitario estimado y margen en venta directa\n")
+A("## 1. Costo unitario (v2) y margen en venta directa\n")
 A("| SKU | Producto | Cera g (supuesto) | Velas/h | Costo unitario | Menudeo | Margen directo |\n|---|---|---|---|---|---|---|")
 for r in R:
     A(f"| {r['sku']} | {r['producto']} | {r['cera_g']} g ({r['supuesto']}) | {r['vph']:.2f} | {m(r['costo_unitario'])} | {m(r['precio_menudeo'])} | {flag(r['margen_menudeo_pct'], 45)} |")
@@ -313,21 +342,27 @@ A("")
 
 # --- Sensibilidad ---
 A("## 6. Sensibilidad del costo unitario (qué tanto cambia si los insumos reales son distintos)\n")
-A("- **Base**: supuestos de arriba.\n- **Optimista (compra por volumen)**: parafina 25 kg ~$85/kg, soya 25 kg ~$110/kg (verificar), fragancia $550/kg al 6%, latas/frascos −30%.\n"
-  "- **Pesimista (compra al menudeo)**: parafina 1 kg $143/kg, fragancia en frasco chico ~$2,190/kg (60 ml $131.50) al 8%.\n")
-A("| SKU | Base | Optimista | Pesimista | Margen directo base / opt / pes |\n|---|---|---|---|---|")
+A("- **Base**: supuestos de arriba (aroma real $1.667/g al 8%, velas/h estimadas).\n"
+  "- **Aroma 6%**: la dosis que Noemi usa en cempasúchil (~5.7%); baja costo pero puede oler poco (ver `produccion/formulas/`).\n"
+  "- **Aroma granel**: $0.90/g comprando 1 kg (ESTIMADO, pedir cotización), al 8%.\n"
+  "- **Mitad de velas/h**: si cada pieza tarda el doble de lo estimado (referencia real: cempasúchil 3 velas/h).\n"
+  "- **Figuras 50/50**: figuras con 50% parafina + 50% soya ($0.115/g), si esa es la fórmula que usa Noemi.\n")
+A("| SKU | Base | Aroma 6% | Aroma granel | Mitad velas/h | Figuras 50/50 | Margen directo base / mitad velas/h |\n|---|---|---|---|---|---|---|")
 base_ins = dict(INS)
-def escenario(cambios, frag_pct):
+def escenario(cambios, frag_pct, vph_factor=1.0):
     global FRAG_PCT
     INS.update(base_ins); INS.update(cambios); viejo = FRAG_PCT; FRAG_PCT = frag_pct
-    res = {p[0]: costear(p)["costo_unitario"] for p in P}
+    res = {p[0]: costear(p, vph_factor)["costo_unitario"] for p in P}
     FRAG_PCT = viejo; INS.update(base_ins)
     return res
-opt = escenario({"parafina_g": .085, "soya_g": .110, "fragancia_g": .55, "lata_plateada": 12*.7, "lata_dorada": 14*.7, "frasco_tapa_dorada": 18*.7}, 0.06)
-pes = escenario({"parafina_g": .143, "fragancia_g": 2.19}, 0.08)
+e6 = escenario({}, 0.06)
+egr = escenario({"fragancia_g": .90}, 0.08)
+emo = escenario({}, 0.08, 0.5)
+e50 = escenario({"parafina_g": (INS["parafina_g"] + INS["soya_g"]) / 2}, 0.08)
+ESCEN = dict(aroma6=e6, granel=egr, mitad_vph=emo, fig5050=e50)
 for r in R:
     pr = r["precio_menudeo"]; s_ = r["sku"]
-    A(f"| {s_} | {m(r['costo_unitario'])} | {m(opt[s_])} | {m(pes[s_])} | {(pr-r['costo_unitario'])/pr*100:.0f}% / {(pr-opt[s_])/pr*100:.0f}% / {(pr-pes[s_])/pr*100:.0f}% |")
+    A(f"| {s_} | {m(r['costo_unitario'])} | {m(e6[s_])} | {m(egr[s_])} | {m(emo[s_])} | {m(e50[s_])} | {(pr-r['costo_unitario'])/pr*100:.0f}% / {(pr-emo[s_])/pr*100:.0f}% |")
 A("")
 
 recomendaciones = RECOMENDACIONES
@@ -336,7 +371,7 @@ with open(os.path.join(AQUI, "margenes-por-canal.md"), "w", encoding="utf-8") as
 
 # Resumen en consola
 for r in R:
-    print(f"{r['sku']:7s} {r['cera_g']:4d} g  costo {r['costo_unitario']:7.2f}  menudeo {r['precio_menudeo']:6.1f}  margen {r['margen_menudeo_pct']:5.1f}%")
+    print(f"{r['sku']:7s} {r['cera_g']:4d} g  costo {r['costo_unitario']:7.2f}  menudeo {r['precio_menudeo']:6.1f}  margen {r['margen_menudeo_pct']:5.1f}%  mitad_vph {ESCEN['mitad_vph'][r['sku']]:7.2f}  granel {ESCEN['granel'][r['sku']]:7.2f}")
 print("flags menudeo:", len(flags_menudeo), " flags mayoreo:", len(flags_may))
 for x in flags_may:
     print("  MAY", x)
