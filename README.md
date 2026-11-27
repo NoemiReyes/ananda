@@ -27,6 +27,13 @@ Velas artesanales para eventos y Navidad. Meta: **$50,000 MXN/mes mínimo → $2
 | `diseno-empaque-cricut` | Etiquetas personalizadas, Cricut, empaque de envío |
 | `servicio-cliente` | Respuestas, reclamos, reseñas |
 | `finanzas-fiscal` | Corte semanal, flujo de caja, SAT/RESICO, retenciones |
+| `marketing-digital` | Líder de marketing: estrategia, campañas, presupuesto de ads, KPIs. Coordina a su equipo ↓ |
+| ↳ `marketing-ads` | Meta, TikTok y Google Ads |
+| ↳ `marketing-creativos` | Anuncios: ángulos, ganchos, imágenes, guiones |
+| ↳ `marketing-seo` | Palabras clave, web, Google Business, Pinterest |
+| ↳ `marketing-crm` | Base de clientes, WhatsApp/correo masivo, recompra |
+| ↳ `marketing-influencers` | Microinfluencers, UGC, alianzas |
+| ↳ `marketing-analitica` | Píxeles, UTMs, tablero, ROAS |
 
 ### Accesos directos (escribe `/` en el chat)
 | Comando | Agente |
@@ -46,6 +53,13 @@ Velas artesanales para eventos y Navidad. Meta: **$50,000 MXN/mes mínimo → $2
 | `/maestro` | `maestro-velas` |
 | `/procesos` | `documentador-procesos` |
 | `/mercado` | `estudio-mercado` |
+| `/marketing` | `marketing-digital` + su equipo |
+| `/ads` | `marketing-ads` |
+| `/creativos` | `marketing-creativos` |
+| `/seo` | `marketing-seo` |
+| `/crm` | `marketing-crm` |
+| `/influencers` | `marketing-influencers` |
+| `/analitica` | `marketing-analitica` |
 
 Ejemplo: `/maestro mi vela de soya no huele prendida, ¿qué hago?`
 
@@ -65,6 +79,7 @@ negocio/plan-90-dias.md      Metas, mezcla por canal, plan semanal
 mercadolibre/                Publicaciones listas y registro
 costos/                      Fórmula de precios y plantilla de costeo
 procesos/                    Manual de procesos (SOPs)
+marketing/                   Campañas, ads, creativos, SEO, CRM, influencers, analítica
 equipo/impresoras.md         Recomendación de impresoras
 .claude/agents/              El equipo de agentes
 ```

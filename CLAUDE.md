@@ -38,6 +38,7 @@ Todos trabajan en la rama `claude/determined-fermat-0nfy34`. Cada chat solo edit
 | Mayoreo y eventos | `ventas-eventos-mayoreo`, `diseno-empaque-cricut`, `tecnico-cricut` | `ventas/`, `diseno/` (guías técnicas en `diseno/tecnico/`) |
 | Producción y costos | `produccion-inventario`, `costos-precios`, `documentador-procesos`, `maestro-velas` | `produccion/` (fórmulas en `produccion/formulas/`), `costos/`, `procesos/`, `negocio/catalogo.md` |
 | Estudio de mercado | `estudio-mercado` | `mercado/` |
+| Marketing digital | `marketing-digital` (líder), `marketing-ads`, `marketing-creativos`, `marketing-seo`, `marketing-crm`, `marketing-influencers`, `marketing-analitica` | `marketing/` (cada especialista en su subcarpeta) |
 
 Antes de hacer push: `git pull --rebase origin claude/determined-fermat-0nfy34`. Al terminar cada sesión: commit y push, para que los otros chats vean los cambios.
 
