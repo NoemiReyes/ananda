@@ -64,13 +64,14 @@ Precios **REALES** leídos de una foto; varios renglones salen cortados. No se s
 
 Cera = peso ÷ 1.08 (el peso incluye 8% de aroma; pabilo despreciable).
 
-| Pieza | Peso terminado | Cera (g) | SKU asignado | Antes (estimado) | Nota |
+| Pieza | Peso terminado | Cera (g) | SKU | Antes (estimado) | Nota |
 |---|---|---|---|---|---|
 | Borrego | 72 g | 66.7 | NV-BOR (y NV-B12 = 12 × 66.7 g) | 46 g | REAL |
-| Venado | 66 g | 61.1 | NV-VEN | 103 g | display tapado en la foto: **verificar** |
-| Árbol de hojas grandes | 114 g | 105.6 | NV-PIN | 98 g | **mapeo por confirmar** |
-| Árbol delgado, textura de hojitas | 58 g | 53.7 | NV-ARB | 50 g | **mapeo por confirmar** |
-| Piña de pino café | 45 g | 41.7 | **producto sin SKU (piña café)** | — | No está en el catálogo. Costo v3 $21.60 (pabilo 8 cm, 12 velas/h y empaque de figura estimados). Sin precio de venta |
+| Venado | 66 g | 61.1 | NV-VEN | 103 g | REAL (confirmado por Noemi) |
+| Árbol grande de hojas | 114 g | 105.6 | NV-ARB | 50 g | REAL (confirmado por Noemi) |
+| Árbol versión delgada | 58 g | 53.7 | **NV-ARB2** (SKU provisional) | — | REAL. Producto aparte; precio **propuesto** $69 / $62 / $59 / $55, no está en catálogo |
+| Piña de pino café | 45 g | 41.7 | **NV-PIN2** (SKU provisional) | — | REAL. Precio **propuesto** $55 / $49 / $47 / $44, no está en catálogo |
+| Pino | — | 98 (estimado) | NV-PIN | 98 g | **Pesar** |
 
 Pesar 2 piezas más de cada una para promediar.
 

@@ -23,7 +23,7 @@ Costo unitario: cera + fragancia (8% del peso, $1.667/g) + colorante + mecha + c
 
 ## Hallazgos (v3, 27-nov-2026)
 
-> **v3:** figuras de parafina con la fórmula real de Noemi (80% Malasia $106/kg + 15% soya de fusión $111/kg + 5% cera ámbar $120/kg) = **$107.45/kg de mezcla**; aroma 8%; colorante 1 g por vela (tope, $1.25). Pesos reales (1 pieza): Borrego 72 g, Venado 66 g (verificar), Pino 114 g y Árbol 58 g (**mapeo por confirmar**). Soya de contenedor a $111/kg (confirmar que es la misma). Base de jabón $105/kg y porta pabilo $1 (pizarrón del proveedor, 27-nov).
+> **v3:** figuras de parafina con la fórmula real de Noemi (80% Malasia $106/kg + 15% soya de fusión $111/kg + 5% cera ámbar $120/kg) = **$107.45/kg de mezcla**; aroma 8%; colorante 1 g por vela (tope, $1.25). Pesos reales (1 pieza, confirmados por Noemi): Borrego 72 g, Venado 66 g, Árbol NV-ARB 114 g, Árbol delgado NV-ARB2 58 g y Piña NV-PIN2 45 g (los dos últimos son SKUs provisionales con precio **propuesto**). Pino NV-PIN sigue estimado: **pesar**. Soya de contenedor a $111/kg (confirmar que es la misma). Base de jabón $105/kg y porta pabilo $1 (pizarrón del proveedor, 27-nov).
 >
 > **Siguen estimados:** gramos de las figuras no pesadas, velas por hora, precio del aroma por kg (hoy frasco de 30 ml a $50), precio del colorante por gramo, latas/frascos y empaques. Las recomendaciones de texto de la v1 (9-oct) ya no aplican; las alertas de las secciones 5 y 6 se generan solas.
 >
@@ -44,15 +44,16 @@ Costo unitario: cera + fragancia (8% del peso, $1.667/g) + colorante + mecha + c
 | EV-LMM | Lume Soja Mini | 43 g (lata Ø int 5.8, llenado a 1.8 cm) | 15.00 | $32.25 | $52.00 | ⚠️ 38.0% |
 | EV-LMS | Lume Soja | 95 g (lata Ø int 5.8, llenado a 4.0 cm) | 15.00 | $47.89 | $88.00 | 45.6% |
 | EV-PRE | Paquete Recuerdos | 43 g (vela = Lume Mini (43 g) + 2 jabones 25 g) | 8.00 | $47.39 | $115.00 | 58.8% |
-| NV-VEN | Venado | 61.1 g (REAL 66 g terminado (display tapado: VERIFICAR) ÷ 1.08) | 10.00 | $28.74 | $78.00 | 63.2% |
+| NV-VEN | Venado | 61.1 g (REAL 66 g terminado ÷ 1.08) | 10.00 | $28.74 | $78.00 | 63.2% |
 | NV-NAC | Nacimiento | 38 g (6.2x4.5 cm, fondo 3, llenado 50%) | 12.00 | $20.68 | $65.00 | 68.2% |
-| NV-PIN | Pino | 105.6 g (REAL 114 g terminado (árbol hojas grandes; MAPEO POR CONFIRMAR) ÷ 1.08) | 10.00 | $39.98 | $87.00 | 54.0% |
-| NV-ARB | Árbol Navideño | 53.7 g (REAL 58 g terminado (árbol delgado hojitas; MAPEO POR CONFIRMAR) ÷ 1.08) | 12.00 | $25.46 | $85.00 | 70.0% |
+| NV-PIN | Pino | 98 g (ESTIMADO cono 10 x Ø7.2, llenado 80% (PESAR)) | 10.00 | $38.06 | $87.00 | 56.3% |
+| NV-ARB | Árbol Navideño | 105.6 g (REAL 114 g terminado (árbol grande de hojas) ÷ 1.08) | 12.00 | $38.58 | $85.00 | 54.6% |
+| NV-ARB2 | Árbol Navideño versión delgada (58 g) | 53.7 g (REAL 58 g terminado ÷ 1.08) | 12.00 | $25.46 | $69.00 | 63.1% |
 | NV-BOR | Borrego | 66.7 g (REAL 72 g terminado ÷ 1.08) | 8.00 | $33.04 | $57.00 | ⚠️ 42.0% |
 | NV-B12 | Borregos de la Abundancia 12 pzs | 800.4 g (12 borregos x 72 g REAL ÷ 1.08) | 0.58 | $411.26 | $385.00 | ⚠️ -6.8% |
 | NV-ROM | Rompecabezas Navideño | 361 g (4 piezas, Ø6.5 x 22 cm, llenado 55%) | 2.00 | $159.36 | $375.00 | 57.5% |
+| NV-PIN2 | Piña de pino café | 41.7 g (REAL 45 g terminado ÷ 1.08) | 12.00 | $21.60 | $55.00 | 60.7% |
 
-| — | Producto sin SKU (piña de pino café) | 41.7 g (REAL 45 g terminado ÷ 1.08) | 12.00 | $21.60 | sin precio | — |
 
 ## 2. Pieza suelta por canal (precio menudeo)
 
@@ -110,14 +111,18 @@ Costo unitario: cera + fragancia (8% del peso, $1.667/g) + colorante + mecha + c
 | NV-NAC | ML Premium | $65.00 | 22.6% | $25.00 | $0.00 | $25.30 | $4.61 | ⚠️ 7.1% | $179.00 |
 | NV-NAC | TikTok Shop | $65.00 | 8.0% | $0.00 | $0.00 | $59.80 | $39.12 | 60.2% | $45.00 |
 | NV-NAC | Tienda propia | $65.00 | 4.2% | $3.48 | $0.00 | $58.81 | $38.12 | 58.6% | $48.00 |
-| NV-PIN | ML Clásica | $87.00 | 17.4% | $25.00 | $0.00 | $46.86 | $6.88 | ⚠️ 7.9% | $205.00 |
-| NV-PIN | ML Premium | $87.00 | 22.6% | $25.00 | $0.00 | $42.32 | $2.34 | ⚠️ 2.7% | $238.00 |
-| NV-PIN | TikTok Shop | $87.00 | 8.0% | $0.00 | $0.00 | $80.04 | $40.06 | 46.0% | $86.00 |
-| NV-PIN | Tienda propia | $87.00 | 4.2% | $3.48 | $0.00 | $79.89 | $39.91 | 45.9% | $86.00 |
-| NV-ARB | ML Clásica | $85.00 | 17.4% | $25.00 | $0.00 | $45.21 | $19.75 | ⚠️ 23.2% | $148.00 |
-| NV-ARB | ML Premium | $85.00 | 22.6% | $25.00 | $0.00 | $40.77 | $15.31 | ⚠️ 18.0% | $193.00 |
-| NV-ARB | TikTok Shop | $85.00 | 8.0% | $0.00 | $0.00 | $78.20 | $52.74 | 62.0% | $55.00 |
-| NV-ARB | Tienda propia | $85.00 | 4.2% | $3.48 | $0.00 | $77.97 | $52.51 | 61.8% | $57.00 |
+| NV-PIN | ML Clásica | $87.00 | 17.4% | $25.00 | $0.00 | $46.86 | $8.80 | ⚠️ 10.1% | $200.00 |
+| NV-PIN | ML Premium | $87.00 | 22.6% | $25.00 | $0.00 | $42.32 | $4.26 | ⚠️ 4.9% | $232.00 |
+| NV-PIN | TikTok Shop | $87.00 | 8.0% | $0.00 | $0.00 | $80.04 | $41.98 | 48.3% | $81.00 |
+| NV-PIN | Tienda propia | $87.00 | 4.2% | $3.48 | $0.00 | $79.89 | $41.83 | 48.1% | $82.00 |
+| NV-ARB | ML Clásica | $85.00 | 17.4% | $25.00 | $0.00 | $45.21 | $6.63 | ⚠️ 7.8% | $202.00 |
+| NV-ARB | ML Premium | $85.00 | 22.6% | $25.00 | $0.00 | $40.77 | $2.19 | ⚠️ 2.6% | $234.00 |
+| NV-ARB | TikTok Shop | $85.00 | 8.0% | $0.00 | $0.00 | $78.20 | $39.62 | 46.6% | $83.00 |
+| NV-ARB | Tienda propia | $85.00 | 4.2% | $3.48 | $0.00 | $77.97 | $39.39 | 46.3% | $83.00 |
+| NV-ARB2 | ML Clásica | $69.00 | 17.4% | $25.00 | $0.00 | $31.99 | $6.53 | ⚠️ 9.5% | $148.00 |
+| NV-ARB2 | ML Premium | $69.00 | 22.6% | $25.00 | $0.00 | $28.39 | $2.93 | ⚠️ 4.3% | $193.00 |
+| NV-ARB2 | TikTok Shop | $69.00 | 8.0% | $0.00 | $0.00 | $63.48 | $38.02 | 55.1% | $55.00 |
+| NV-ARB2 | Tienda propia | $69.00 | 4.2% | $3.48 | $0.00 | $62.64 | $37.18 | 53.9% | $57.00 |
 | NV-BOR | ML Clásica | $57.00 | 17.4% | $25.00 | $0.00 | $22.08 | $-10.96 | ⚠️ -19.2% | $187.00 |
 | NV-BOR | ML Premium | $57.00 | 22.6% | $25.00 | $0.00 | $19.11 | $-13.94 | ⚠️ -24.4% | $217.00 |
 | NV-BOR | TikTok Shop | $57.00 | 8.0% | $0.00 | $0.00 | $52.44 | $19.40 | ⚠️ 34.0% | $71.00 |
@@ -130,6 +135,10 @@ Costo unitario: cera + fragancia (8% del peso, $1.667/g) + colorante + mecha + c
 | NV-ROM | ML Premium | $375.00 | 22.6% | $0.00 | $80.00 | $210.18 | $50.81 | ⚠️ 13.6% | $740.00 |
 | NV-ROM | TikTok Shop | $375.00 | 8.0% | $0.00 | $80.00 | $265.00 | $105.64 | ⚠️ 28.2% | $510.00 |
 | NV-ROM | Tienda propia | $375.00 | 4.2% | $3.48 | $120.00 | $235.86 | $76.50 | ⚠️ 20.4% | $557.00 |
+| NV-PIN2 | ML Clásica | $55.00 | 17.4% | $25.00 | $0.00 | $20.43 | $-1.17 | ⚠️ -2.1% | $138.00 |
+| NV-PIN2 | ML Premium | $55.00 | 22.6% | $25.00 | $0.00 | $17.56 | $-4.04 | ⚠️ -7.4% | $181.00 |
+| NV-PIN2 | TikTok Shop | $55.00 | 8.0% | $0.00 | $0.00 | $50.60 | $29.00 | 52.7% | $46.00 |
+| NV-PIN2 | Tienda propia | $55.00 | 4.2% | $3.48 | $0.00 | $49.22 | $27.62 | 50.2% | $50.00 |
 
 ## 3. Kits para marketplace (ticket ≥ $299, sin cargo fijo de ML)
 
@@ -176,15 +185,21 @@ Kit = N piezas del mismo modelo a precio menudeo × N, en caja kraft (+$10 de ca
 | NV-NAC x6 | $390.00 | $134.11 | ML Clásica | 17.4% | $80.00 | $242.14 | $108.03 | ⚠️ 27.7% | $570.00 ($95.00) |
 | NV-NAC x6 | $390.00 | $134.11 | ML Premium | 22.6% | $80.00 | $221.78 | $87.67 | ⚠️ 22.5% | $662.00 ($110.33) |
 | NV-NAC x6 | $390.00 | $134.11 | TikTok Shop | 8.0% | $80.00 | $278.80 | $144.69 | ⚠️ 37.1% | $299.00 ($49.83) |
-| NV-PIN x4 | $348.00 | $169.92 | ML Clásica | 17.4% | $80.00 | $207.45 | $37.53 | ⚠️ 10.8% | $665.00 ($166.25) |
-| NV-PIN x4 | $348.00 | $169.92 | ML Premium | 22.6% | $80.00 | $189.28 | $19.36 | ⚠️ 5.6% | $772.00 ($193.00) |
-| NV-PIN x4 | $348.00 | $169.92 | TikTok Shop | 8.0% | $80.00 | $240.16 | $70.24 | ⚠️ 20.2% | $532.00 ($133.00) |
-| NV-ARB x4 | $340.00 | $111.84 | ML Clásica | 17.4% | $80.00 | $200.84 | $89.00 | ⚠️ 26.2% | $511.00 ($127.75) |
-| NV-ARB x4 | $340.00 | $111.84 | ML Premium | 22.6% | $80.00 | $183.09 | $71.26 | ⚠️ 21.0% | $593.00 ($148.25) |
-| NV-ARB x4 | $340.00 | $111.84 | TikTok Shop | 8.0% | $80.00 | $232.80 | $120.96 | ⚠️ 35.6% | $299.00 ($74.75) |
+| NV-PIN x4 | $348.00 | $162.24 | ML Clásica | 17.4% | $80.00 | $207.45 | $45.21 | ⚠️ 13.0% | $645.00 ($161.25) |
+| NV-PIN x4 | $348.00 | $162.24 | ML Premium | 22.6% | $80.00 | $189.28 | $27.05 | ⚠️ 7.8% | $749.00 ($187.25) |
+| NV-PIN x4 | $348.00 | $162.24 | TikTok Shop | 8.0% | $80.00 | $240.16 | $77.92 | ⚠️ 22.4% | $516.00 ($129.00) |
+| NV-ARB x4 | $340.00 | $164.32 | ML Clásica | 17.4% | $80.00 | $200.84 | $36.52 | ⚠️ 10.7% | $650.00 ($162.50) |
+| NV-ARB x4 | $340.00 | $164.32 | ML Premium | 22.6% | $80.00 | $183.09 | $18.77 | ⚠️ 5.5% | $755.00 ($188.75) |
+| NV-ARB x4 | $340.00 | $164.32 | TikTok Shop | 8.0% | $80.00 | $232.80 | $68.48 | ⚠️ 20.1% | $520.00 ($130.00) |
+| NV-ARB2 x6 | $414.00 | $162.75 | ML Clásica | 17.4% | $80.00 | $261.96 | $99.21 | ⚠️ 24.0% | $646.00 ($107.67) |
+| NV-ARB2 x6 | $414.00 | $162.75 | ML Premium | 22.6% | $80.00 | $240.35 | $77.60 | ⚠️ 18.7% | $750.00 ($125.00) |
+| NV-ARB2 x6 | $414.00 | $162.75 | TikTok Shop | 8.0% | $80.00 | $300.88 | $138.13 | ⚠️ 33.4% | $517.00 ($86.17) |
 | NV-BOR x6 | $342.00 | $208.25 | ML Clásica | 17.4% | $80.00 | $202.49 | $-5.76 | ⚠️ -1.7% | $767.00 ($127.83) |
 | NV-BOR x6 | $342.00 | $208.25 | ML Premium | 22.6% | $80.00 | $184.64 | $-23.61 | ⚠️ -6.9% | $891.00 ($148.50) |
 | NV-BOR x6 | $342.00 | $208.25 | TikTok Shop | 8.0% | $80.00 | $234.64 | $26.39 | ⚠️ 7.7% | $614.00 ($102.33) |
+| NV-PIN2 x6 | $330.00 | $139.62 | ML Clásica | 17.4% | $80.00 | $192.58 | $52.96 | ⚠️ 16.0% | $585.00 ($97.50) |
+| NV-PIN2 x6 | $330.00 | $139.62 | ML Premium | 22.6% | $80.00 | $175.35 | $35.74 | ⚠️ 10.8% | $679.00 ($113.17) |
+| NV-PIN2 x6 | $330.00 | $139.62 | TikTok Shop | 8.0% | $80.00 | $223.60 | $83.98 | ⚠️ 25.4% | $299.00 ($49.83) |
 
 ## 4. Mayoreo directo (WhatsApp/Instagram, 0% comisión, envío por cuenta del cliente)
 
@@ -203,9 +218,11 @@ Kit = N piezas del mismo modelo a precio menudeo × N, en caja kraft (+$10 de ca
 | EV-PRE | $47.39 | $86.00 | 44.9% | $83.00 | 42.9% | $78.00 | 39.2% |
 | NV-VEN | $28.74 | $70.00 | 58.9% | $67.00 | 57.1% | $62.00 | 53.6% |
 | NV-NAC | $20.68 | $58.00 | 64.3% | $55.00 | 62.4% | $50.00 | 58.6% |
-| NV-PIN | $39.98 | $78.00 | 48.7% | $75.00 | 46.7% | $69.00 | 42.1% |
-| NV-ARB | $25.46 | $76.00 | 66.5% | $73.00 | 65.1% | $68.00 | 62.6% |
+| NV-PIN | $38.06 | $78.00 | 51.2% | $75.00 | 49.3% | $69.00 | 44.8% |
+| NV-ARB | $38.58 | $76.00 | 49.2% | $73.00 | 47.1% | $68.00 | 43.3% |
+| NV-ARB2 | $25.46 | $62.00 | 58.9% | $59.00 | 56.8% | $55.00 | 53.7% |
 | NV-BOR | $33.04 | $51.00 | 35.2% | $49.00 | ⚠️ 32.6% | $45.00 | ⚠️ 26.6% |
+| NV-PIN2 | $21.60 | $49.00 | 55.9% | $47.00 | 54.0% | $44.00 | 50.9% |
 
 ## 5. Alertas ⚠️ y precio mínimo recomendado
 
@@ -260,10 +277,12 @@ Fórmula (README): `Precio = (costo + envío + cargo fijo + margen$) ÷ (1 − %
 | NV-VEN | ML Premium | $78.00 | ⚠️ 8.5% | $204.00 |
 | NV-NAC | ML Clásica | $65.00 | ⚠️ 12.3% | $135.00 |
 | NV-NAC | ML Premium | $65.00 | ⚠️ 7.1% | $179.00 |
-| NV-PIN | ML Clásica | $87.00 | ⚠️ 7.9% | $205.00 |
-| NV-PIN | ML Premium | $87.00 | ⚠️ 2.7% | $238.00 |
-| NV-ARB | ML Clásica | $85.00 | ⚠️ 23.2% | $148.00 |
-| NV-ARB | ML Premium | $85.00 | ⚠️ 18.0% | $193.00 |
+| NV-PIN | ML Clásica | $87.00 | ⚠️ 10.1% | $200.00 |
+| NV-PIN | ML Premium | $87.00 | ⚠️ 4.9% | $232.00 |
+| NV-ARB | ML Clásica | $85.00 | ⚠️ 7.8% | $202.00 |
+| NV-ARB | ML Premium | $85.00 | ⚠️ 2.6% | $234.00 |
+| NV-ARB2 | ML Clásica | $69.00 | ⚠️ 9.5% | $148.00 |
+| NV-ARB2 | ML Premium | $69.00 | ⚠️ 4.3% | $193.00 |
 | NV-BOR | ML Clásica | $57.00 | ⚠️ -19.2% | $187.00 |
 | NV-BOR | ML Premium | $57.00 | ⚠️ -24.4% | $217.00 |
 | NV-BOR | TikTok Shop | $57.00 | ⚠️ 34.0% | $71.00 |
@@ -276,6 +295,8 @@ Fórmula (README): `Precio = (costo + envío + cargo fijo + margen$) ÷ (1 − %
 | NV-ROM | ML Premium | $375.00 | ⚠️ 13.6% | $740.00 |
 | NV-ROM | TikTok Shop | $375.00 | ⚠️ 28.2% | $510.00 |
 | NV-ROM | Tienda propia | $375.00 | ⚠️ 20.4% | $557.00 |
+| NV-PIN2 | ML Clásica | $55.00 | ⚠️ -2.1% | $138.00 |
+| NV-PIN2 | ML Premium | $55.00 | ⚠️ -7.4% | $181.00 |
 
 ### Mayoreo con margen < 35%
 
@@ -307,26 +328,27 @@ Fórmula (README): `Precio = (costo + envío + cargo fijo + margen$) ÷ (1 − %
 - **Aroma granel**: $0.90/g comprando 1 kg (ESTIMADO, pedir cotización), al 8%.
 - **Mitad de velas/h**: si cada pieza tarda el doble de lo estimado (referencia real: cempasúchil 3 velas/h).
 - **Malasia $97**: precio por volumen que aparece en el pizarrón ("-97").
-- **Mapeo invertido**: si el árbol de 114 g es NV-ARB y el de 58 g es NV-PIN.
 
-| SKU | Base | Aroma 6% | Aroma granel | Mitad velas/h | Malasia $97 | Mapeo invertido | Margen directo base / mitad velas/h |
-|---|---|---|---|---|---|---|---|
-| EV-OSO | $60.34 | $53.76 | $48.23 | $68.74 | $58.92 | $60.34 | 31% / 21% |
-| EV-JIR | $21.18 | $19.82 | $18.67 | $28.18 | $20.89 | $21.18 | 53% / 37% |
-| EV-ELE | $38.45 | $34.67 | $31.50 | $45.45 | $37.64 | $38.45 | 33% / 20% |
-| EV-DIN | $35.11 | $31.82 | $29.06 | $42.11 | $34.40 | $35.11 | 38% / 26% |
-| EV-ANG | $26.23 | $24.13 | $22.37 | $33.23 | $25.78 | $26.23 | 54% / 42% |
-| EV-FLO | $36.26 | $32.93 | $30.14 | $44.66 | $35.54 | $36.26 | 53% / 42% |
-| EV-BUN | $44.67 | $40.26 | $36.55 | $53.07 | $43.71 | $44.67 | 49% / 39% |
-| EV-GLO | $60.15 | $55.74 | $52.04 | $65.75 | $60.15 | $60.15 | 19% / 11% |
-| EV-LMM | $32.25 | $30.75 | $29.48 | $37.85 | $32.25 | $32.25 | 38% / 27% |
-| EV-LMS | $47.89 | $44.57 | $41.77 | $53.49 | $47.89 | $47.89 | 46% / 39% |
-| EV-PRE | $47.39 | $45.88 | $43.41 | $57.89 | $47.39 | $47.39 | 59% / 50% |
-| NV-VEN | $28.74 | $26.60 | $24.80 | $37.14 | $28.28 | $28.74 | 63% / 52% |
-| NV-NAC | $20.68 | $19.35 | $18.24 | $27.68 | $20.40 | $20.68 | 68% / 57% |
-| NV-PIN | $39.98 | $36.28 | $33.18 | $48.38 | $39.18 | $26.86 | 54% / 44% |
-| NV-ARB | $25.46 | $23.58 | $22.00 | $32.46 | $25.05 | $38.58 | 70% / 62% |
-| NV-BOR | $33.04 | $30.71 | $28.75 | $43.54 | $32.54 | $33.04 | 42% / 24% |
-| NV-B12 | $411.26 | $383.24 | $359.71 | $556.16 | $405.21 | $411.26 | -7% / -44% |
-| NV-ROM | $159.36 | $146.73 | $136.11 | $201.36 | $156.63 | $159.36 | 58% / 46% |
+| SKU | Base | Aroma 6% | Aroma granel | Mitad velas/h | Malasia $97 | Margen directo base / mitad velas/h |
+|---|---|---|---|---|---|---|
+| EV-OSO | $60.34 | $53.76 | $48.23 | $68.74 | $58.92 | 31% / 21% |
+| EV-JIR | $21.18 | $19.82 | $18.67 | $28.18 | $20.89 | 53% / 37% |
+| EV-ELE | $38.45 | $34.67 | $31.50 | $45.45 | $37.64 | 33% / 20% |
+| EV-DIN | $35.11 | $31.82 | $29.06 | $42.11 | $34.40 | 38% / 26% |
+| EV-ANG | $26.23 | $24.13 | $22.37 | $33.23 | $25.78 | 54% / 42% |
+| EV-FLO | $36.26 | $32.93 | $30.14 | $44.66 | $35.54 | 53% / 42% |
+| EV-BUN | $44.67 | $40.26 | $36.55 | $53.07 | $43.71 | 49% / 39% |
+| EV-GLO | $60.15 | $55.74 | $52.04 | $65.75 | $60.15 | 19% / 11% |
+| EV-LMM | $32.25 | $30.75 | $29.48 | $37.85 | $32.25 | 38% / 27% |
+| EV-LMS | $47.89 | $44.57 | $41.77 | $53.49 | $47.89 | 46% / 39% |
+| EV-PRE | $47.39 | $45.88 | $43.41 | $57.89 | $47.39 | 59% / 50% |
+| NV-VEN | $28.74 | $26.60 | $24.80 | $37.14 | $28.28 | 63% / 52% |
+| NV-NAC | $20.68 | $19.35 | $18.24 | $27.68 | $20.40 | 68% / 57% |
+| NV-PIN | $38.06 | $34.63 | $31.75 | $46.46 | $37.32 | 56% / 47% |
+| NV-ARB | $38.58 | $34.88 | $31.78 | $45.58 | $37.78 | 55% / 46% |
+| NV-ARB2 | $25.46 | $23.58 | $22.00 | $32.46 | $25.05 | 63% / 53% |
+| NV-BOR | $33.04 | $30.71 | $28.75 | $43.54 | $32.54 | 42% / 24% |
+| NV-B12 | $411.26 | $383.24 | $359.71 | $556.16 | $405.21 | -7% / -44% |
+| NV-ROM | $159.36 | $146.73 | $136.11 | $201.36 | $156.63 | 58% / 46% |
+| NV-PIN2 | $21.60 | $20.14 | $18.92 | $28.60 | $21.29 | 61% / 48% |
 

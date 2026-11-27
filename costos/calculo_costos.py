@@ -5,9 +5,9 @@ v3 (27-nov-2026, tarde). Cambios vs v2:
 - Figuras de parafina con la FÓRMULA REAL de Noemi: 80% parafina Malasia + 15% soya de fusión + 5% cera ámbar
   (corrección de Noemi 27-nov: el 5% NO es estearina),
   aroma 8% del peso de cera, colorante 0.5-1 g por vela (se usa 1 g como tope: confirmar).
-- PESOS REALES (1 pieza en báscula, 27-nov): Borrego 72 g, Venado 66 g (display tapado: verificar),
-  árbol hojas grandes 114 g (-> NV-PIN, mapeo por confirmar), árbol delgado 58 g (-> NV-ARB, mapeo por confirmar),
-  piña de pino café 45 g (producto sin SKU). Cera = peso terminado ÷ 1.08 (el peso incluye 8% de aroma).
+- PESOS REALES (1 pieza en báscula, 27-nov; confirmados por Noemi): Borrego 72 g, Venado 66 g,
+  NV-ARB árbol grande de hojas 114 g; NV-ARB2 árbol versión delgada 58 g (SKU provisional, precio PROPUESTO);
+  NV-PIN2 piña de pino café 45 g (SKU provisional, precio PROPUESTO). NV-PIN (Pino) sigue ESTIMADO: pesar. Cera = peso terminado ÷ 1.08 (el peso incluye 8% de aroma).
 - Precios del pizarrón del proveedor (27-nov): Malasia $106/kg (escenario $97), soya A F/B F $111/kg,
   base de jabón $105/kg, porta pabilo $1, pabilo $25. Cera ámbar $120/kg.
 Siguen ESTIMADOS: gramos de las figuras no pesadas, velas por hora, precio del colorante por gramo, latas/frascos,
@@ -115,14 +115,17 @@ P = [
     ("EV-PRE", "Paquete Recuerdos", "soya", cilindro(1.8, 5.8), "vela = Lume Mini (43 g) + 2 jabones 25 g",
         {"lata_plateada": 1, "etiqueta_adh": 2, "pabilo_cm": 3.3, "base_mecha": 1, "organza": 1,
          "jabon_base_g": 50, "fragancia_g": 1.5}, 8, [115, 86, 83, 78]),
-    ("NV-VEN", "Venado", "figura", cera_de_peso(66), "REAL 66 g terminado (display tapado: VERIFICAR) ÷ 1.08",
+    ("NV-VEN", "Venado", "figura", cera_de_peso(66), "REAL 66 g terminado ÷ 1.08",
         {**FIG, "liston_cierre": 2, "pabilo_cm": 11.5}, 10, [78, 70, 67, 62]),
     ("NV-NAC", "Nacimiento", "figura", caja(6.2, 4.5, 3, .50), "6.2x4.5 cm, fondo 3, llenado 50%",
         {**FIG, "pabilo_cm": 8.2}, 12, [65, 58, 55, 50]),
-    ("NV-PIN", "Pino", "figura", cera_de_peso(114), "REAL 114 g terminado (árbol hojas grandes; MAPEO POR CONFIRMAR) ÷ 1.08",
+    ("NV-PIN", "Pino", "figura", cono(10, 7.2, .80), "ESTIMADO cono 10 x Ø7.2, llenado 80% (PESAR)",
         {**FIG, "pabilo_cm": 12, "pintura_figura": .3}, 10, [87, 78, 75, 69]),
-    ("NV-ARB", "Árbol Navideño", "figura", cera_de_peso(58), "REAL 58 g terminado (árbol delgado hojitas; MAPEO POR CONFIRMAR) ÷ 1.08",
+    ("NV-ARB", "Árbol Navideño", "figura", cera_de_peso(114), "REAL 114 g terminado (árbol grande de hojas) ÷ 1.08",
         {**FIG, "pabilo_cm": 12, "pintura_figura": .3}, 12, [85, 76, 73, 68]),
+    # SKU provisional; precios PROPUESTOS por costos-precios (no están en negocio/catalogo.md)
+    ("NV-ARB2", "Árbol Navideño versión delgada (58 g)", "figura", cera_de_peso(58), "REAL 58 g terminado ÷ 1.08",
+        {**FIG, "pabilo_cm": 12, "pintura_figura": .3}, 12, [69, 62, 59, 55]),
     ("NV-BOR", "Borrego", "figura", cera_de_peso(72), "REAL 72 g terminado ÷ 1.08",
         {**FIG, "pabilo_cm": 8.5, "pintura_figura": 1}, 8, [57, 51, 49, 45]),
     ("NV-B12", "Borregos de la Abundancia 12 pzs", "figura", round(12 * cera_de_peso(72), 1), "12 borregos x 72 g REAL ÷ 1.08",
@@ -131,12 +134,15 @@ P = [
     ("NV-ROM", "Rompecabezas Navideño", "figura", cilindro(22, 6.5, .55), "4 piezas, Ø6.5 x 22 cm, llenado 55%",
         {"caja_kraft_kit": 1, "etiqueta_adh": 1, "tag_opalina": 1, "pintura_figura": 4,
          "pabilo_cm": 4 * (22 / 4 + 2), "piezas": 4}, 2, [375]),
+    # SKU provisional; precios PROPUESTOS. Pabilo 8 cm y 12 velas/h ESTIMADOS; sin pintura a mano (café de colorante)
+    ("NV-PIN2", "Piña de pino café", "figura", cera_de_peso(45), "REAL 45 g terminado ÷ 1.08",
+        {**FIG, "pabilo_cm": 8}, 12, [55, 49, 47, 44]),
 ]
-REALES = {"NV-VEN", "NV-PIN", "NV-ARB", "NV-BOR", "NV-B12"}   # SKUs con peso pesado en báscula (27-nov)
+REALES = {"NV-VEN", "NV-ARB", "NV-ARB2", "NV-PIN2", "NV-BOR", "NV-B12"}
+PROPUESTOS = {"NV-ARB2", "NV-PIN2"}   # precio propuesto, no de catálogo   # SKUs con peso pesado en báscula (27-nov)
 
 # Producto sin SKU (no está en catálogo): se costea, sin precio de venta
-SIN_SKU = [("SIN-SKU-PINA", "Producto sin SKU (piña de pino café)", "figura", cera_de_peso(45),
-            "REAL 45 g terminado ÷ 1.08", {**FIG, "pabilo_cm": 8}, 12, [0])]   # pabilo 8 cm y 12 velas/h ESTIMADOS
+SIN_SKU = []   # la piña ya tiene SKU provisional NV-PIN2
 
 # Notas velas/hora (ESTIMADAS): incluye colado, desmolde, acabado, etiquetado y empaque (por lote).
 # Dato real de referencia: cempasúchil (106 g) = 3 velas/h por persona (Noemi, 17-oct) — ver escenario en sección 6.
@@ -229,10 +235,10 @@ def costear(prod, vph_factor=1.0):
              materiales=materiales, pct_materiales_precio_real=precio_real / materiales * 100)
     pend = ([] if sku in REALES or sku.startswith("SIN-SKU") else ["gramos"]) + ([] if cera == "figura" else ["%aroma"]) \
         + ["velas/h", "precio aroma por kg"] + (["colorante $/g"] if cera == "figura" else [])
-    if sku in ("NV-PIN", "NV-ARB"):
-        pend.append("mapeo Pino/Árbol")
-    if sku == "NV-VEN":
-        pend.append("re-pesar (display tapado)")
+    if sku == "NV-PIN":
+        pend.insert(0, "PESAR")
+    if sku in PROPUESTOS:
+        pend.append("precio PROPUESTO (aprobar)")
     if envase:
         pend.append("envase")
     if ext.get("organza") or ext.get("caja_kraft_kit") or ext.get("celofan"):
@@ -248,7 +254,7 @@ R_SIN = [costear(p) for p in SIN_SKU]
 
 RECOMENDACIONES = f"""## Hallazgos (v3, 27-nov-2026)
 
-> **v3:** figuras de parafina con la fórmula real de Noemi (80% Malasia ${INS['malasia_g']*1000:.0f}/kg + 15% soya de fusión ${INS['soya_fusion_g']*1000:.0f}/kg + 5% cera ámbar ${INS['ambar_g']*1000:.0f}/kg) = **${precio_mezcla_fig()*1000:.2f}/kg de mezcla**; aroma 8%; colorante 1 g por vela (tope, $1.25). Pesos reales (1 pieza): Borrego 72 g, Venado 66 g (verificar), Pino 114 g y Árbol 58 g (**mapeo por confirmar**). Soya de contenedor a $111/kg (confirmar que es la misma). Base de jabón $105/kg y porta pabilo $1 (pizarrón del proveedor, 27-nov).
+> **v3:** figuras de parafina con la fórmula real de Noemi (80% Malasia ${INS['malasia_g']*1000:.0f}/kg + 15% soya de fusión ${INS['soya_fusion_g']*1000:.0f}/kg + 5% cera ámbar ${INS['ambar_g']*1000:.0f}/kg) = **${precio_mezcla_fig()*1000:.2f}/kg de mezcla**; aroma 8%; colorante 1 g por vela (tope, $1.25). Pesos reales (1 pieza, confirmados por Noemi): Borrego 72 g, Venado 66 g, Árbol NV-ARB 114 g, Árbol delgado NV-ARB2 58 g y Piña NV-PIN2 45 g (los dos últimos son SKUs provisionales con precio **propuesto**). Pino NV-PIN sigue estimado: **pesar**. Soya de contenedor a $111/kg (confirmar que es la misma). Base de jabón $105/kg y porta pabilo $1 (pizarrón del proveedor, 27-nov).
 >
 > **Siguen estimados:** gramos de las figuras no pesadas, velas por hora, precio del aroma por kg (hoy frasco de 30 ml a $50), precio del colorante por gramo, latas/frascos y empaques. Las recomendaciones de texto de la v1 (9-oct) ya no aplican; las alertas de las secciones 5 y 6 se generan solas.
 >
@@ -386,9 +392,8 @@ A("- **Base**: supuestos de arriba (aroma real $1.667/g al 8%, velas/h estimadas
   "- **Aroma 6%**: la dosis que Noemi usa en cempasúchil (~5.7%); baja costo pero puede oler poco (ver `produccion/formulas/`).\n"
   "- **Aroma granel**: $0.90/g comprando 1 kg (ESTIMADO, pedir cotización), al 8%.\n"
   "- **Mitad de velas/h**: si cada pieza tarda el doble de lo estimado (referencia real: cempasúchil 3 velas/h).\n"
-  "- **Malasia $97**: precio por volumen que aparece en el pizarrón (\"-97\").\n"
-  "- **Mapeo invertido**: si el árbol de 114 g es NV-ARB y el de 58 g es NV-PIN.\n")
-A("| SKU | Base | Aroma 6% | Aroma granel | Mitad velas/h | Malasia $97 | Mapeo invertido | Margen directo base / mitad velas/h |\n|---|---|---|---|---|---|---|---|")
+  "- **Malasia $97**: precio por volumen que aparece en el pizarrón (\"-97\").\n")
+A("| SKU | Base | Aroma 6% | Aroma granel | Mitad velas/h | Malasia $97 | Margen directo base / mitad velas/h |\n|---|---|---|---|---|---|---|")
 base_ins = dict(INS)
 def escenario(cambios, frag_pct, vph_factor=1.0):
     global FRAG_PCT
@@ -400,17 +405,10 @@ e6 = escenario({}, 0.06)
 egr = escenario({"fragancia_g": .90}, 0.08)
 emo = escenario({}, 0.08, 0.5)
 e97 = escenario({"malasia_g": .097}, 0.08)
-_g = {p[0]: p[3] for p in P}
-def _swap(p):
-    if p[0] in ("NV-PIN", "NV-ARB"):
-        otro = "NV-ARB" if p[0] == "NV-PIN" else "NV-PIN"
-        p = (p[0], p[1], p[2], _g[otro]) + tuple(p[4:])
-    return p
-einv = {p[0]: costear(_swap(p))["costo_unitario"] for p in P}
-ESCEN = dict(aroma6=e6, granel=egr, mitad_vph=emo, malasia97=e97, invertido=einv)
+ESCEN = dict(aroma6=e6, granel=egr, mitad_vph=emo, malasia97=e97)
 for r in R:
     pr = r["precio_menudeo"]; s_ = r["sku"]
-    A(f"| {s_} | {m(r['costo_unitario'])} | {m(e6[s_])} | {m(egr[s_])} | {m(emo[s_])} | {m(e97[s_])} | {m(einv[s_])} | {(pr-r['costo_unitario'])/pr*100:.0f}% / {(pr-emo[s_])/pr*100:.0f}% |")
+    A(f"| {s_} | {m(r['costo_unitario'])} | {m(e6[s_])} | {m(egr[s_])} | {m(emo[s_])} | {m(e97[s_])} | {(pr-r['costo_unitario'])/pr*100:.0f}% / {(pr-emo[s_])/pr*100:.0f}% |")
 A("")
 
 recomendaciones = RECOMENDACIONES
