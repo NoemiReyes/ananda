@@ -41,7 +41,16 @@ Las 3 piezas por separado suman $202 en menudeo.
 
 **Mínimo para 45% por canal:** TikTok $193, tienda propia $186. En ML Clásica el mínimo es $454, así que **no se publica en Mercado Libre** a menos que sea un kit más grande.
 
-Recomendación: **$189** en venta directa (WhatsApp/Instagram), **$199** en TikTok Shop y en la tienda propia, y **$145 por paquete desde 12**.
+**DECISIÓN DE NOEMI (27-nov-2026): el paquete se vende en $175.**
+
+| Canal a $175 | Margen | Estatus |
+|---|---|---|
+| Directo (WhatsApp/Instagram) | 48.2% | ✅ pasa 45% |
+| Tienda propia | 42.1% | ⚠️ abajo de 45%, con ganancia |
+| TikTok Shop | 40.2% | ⚠️ abajo de 45%, con ganancia |
+| ML Clásica | 9.7% | ❌ no publicar |
+
+Mayoreo desde 12 paquetes: $145 (37.5%). Mínimo $140.
 
 Comisiones del 9-oct, tomadas de fuentes de terceros: **verificar** en el simulador de ML y en TikTok Seller Center.
 
